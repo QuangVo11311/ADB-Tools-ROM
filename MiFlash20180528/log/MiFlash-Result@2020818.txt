@@ -1,4 +1,0 @@
-[3:40:25 PM]:4    COM4     20.20998s     write time out,maybe device was disconnected.
-[3:41:08 PM]:4    COM4     19.5856442s     write time out,maybe device was disconnected.
-[3:55:27 PM]:4    COM4     19.5950097s     write time out,maybe device was disconnected.
-[3:58:32 PM]:3    COM3     19.613458s     write time out,maybe device was disconnected.

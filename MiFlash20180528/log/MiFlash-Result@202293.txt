@@ -1,5 +1,0 @@
-[9:29:20 PM]:1    ef7bc4cf     0.5961166s     can not found file flash_all.bat
-[9:36:53 PM]:1    ef7bc4cf     0.5324582s     can not found file flash_all.bat
-[9:37:48 PM]:1    ef7bc4cf     1.1491424s     [9:37:48 PM  ef7bc4cf]:error:FAILED (remote: Flashing is not allowed in Lock State)
-[9:38:18 PM]:1    ef7bc4cf     0.498103s     [9:38:17 PM  ef7bc4cf]:error:FAILED (remote: Flashing is not allowed in Lock State)
-[9:39:41 PM]:1    ef7bc4cf     0.5814719s     [9:39:41 PM  ef7bc4cf]:error:FAILED (remote: Flashing is not allowed in Lock State)

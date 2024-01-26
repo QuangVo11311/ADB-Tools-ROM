@@ -1,3 +1,0 @@
-[7:43:29 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
-[7:43:32 PM]:ls ubs :
-[7:43:33 PM]:GetScriptDevices

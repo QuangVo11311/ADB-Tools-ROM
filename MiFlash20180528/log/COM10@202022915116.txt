@@ -1,7 +1,0 @@
-[3:11:06 PM  COM10]:MiFlash 2018.5.28.0
-[3:11:06 PM  COM10]:flash in thread name:COM10,id:13
-[3:11:06 PM  COM10]:sw in images
-[3:11:06 PM  COM10]:flash in thread name:COM10,id:13
-[3:11:06 PM  COM10]:[COM10]:start flash.
-[3:11:07 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
-[3:11:08 PM  COM10]:try to reset status.
