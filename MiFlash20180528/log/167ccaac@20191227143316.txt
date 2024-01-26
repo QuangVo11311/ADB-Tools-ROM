@@ -1,0 +1,356 @@
+[2:33:16 PM  167ccaac]:MiFlash 2018.5.28.0
+[2:33:16 PM  167ccaac]:Thread id:8 Thread name:167ccaac
+[2:33:16 PM  167ccaac]:image path:E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global
+[2:33:16 PM  167ccaac]:env android path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[2:33:16 PM  167ccaac]:script :E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\flash_all.bat
+[2:33:16 PM  167ccaac]:Physical Memory Usage:4788224 Byte
+[2:33:17 PM  167ccaac]:start process id 4732 name cmd
+[2:33:17 PM  167ccaac]:info:$fastboot -s 167ccaac getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || echo Missmatching image and device 
+[2:33:17 PM  167ccaac]:info:product: ginkgo
+[2:33:17 PM  167ccaac]:info:$fastboot -s 167ccaac getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || exit /B 1 
+[2:33:17 PM  167ccaac]:info:product: ginkgo
+[2:33:17 PM  167ccaac]:info:$set CURRENT_ANTI_VER=1 
+[2:33:17 PM  167ccaac]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s 167ccaac getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[2:33:17 PM  167ccaac]:info:$(set version=1 ) 
+[2:33:17 PM  167ccaac]:info:$if [1] EQU [] set version=0 
+[2:33:17 PM  167ccaac]:info:$if 1 GTR 1 (
+[2:33:17 PM  167ccaac]:info:echo current device antirollback version is greater than this package  
+[2:33:17 PM  167ccaac]:info: exit /B 1 
+[2:33:17 PM  167ccaac]:info:) 
+[2:33:17 PM  167ccaac]:info:$fastboot -s 167ccaac flash xbl E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\xbl.elf   || 
+[2:33:17 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:17 PM  167ccaac]:err:sending 'xbl' (3445 KB)...
+[2:33:17 PM  167ccaac]:err:OKAY [  0.115s]
+[2:33:17 PM  167ccaac]:err:writing 'xbl'...
+[2:33:17 PM  167ccaac]:info:$fastboot -s 167ccaac flash xblbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\xbl.elf   || 
+[2:33:17 PM  167ccaac]:err:OKAY [  0.021s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.137s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash xbl_config E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\xbl_config.elf   || 
+[2:33:18 PM  167ccaac]:err:sending 'xblbak' (3445 KB)...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.117s]
+[2:33:18 PM  167ccaac]:err:writing 'xblbak'...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.029s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.146s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash xbl_configbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\xbl_config.elf   || 
+[2:33:18 PM  167ccaac]:err:sending 'xbl_config' (48 KB)...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.007s]
+[2:33:18 PM  167ccaac]:err:writing 'xbl_config'...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.004s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.011s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash imagefv E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\imagefv.elf   || 
+[2:33:18 PM  167ccaac]:err:sending 'xbl_configbak' (48 KB)...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.009s]
+[2:33:18 PM  167ccaac]:err:writing 'xbl_configbak'...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.005s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.014s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash imagefvbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\imagefv.elf   || 
+[2:33:18 PM  167ccaac]:err:sending 'imagefv' (20 KB)...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.013s]
+[2:33:18 PM  167ccaac]:err:writing 'imagefv'...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.003s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.016s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash uefisecapp E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\uefi_sec.mbn   || 
+[2:33:18 PM  167ccaac]:err:sending 'imagefvbak' (20 KB)...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.003s]
+[2:33:18 PM  167ccaac]:err:writing 'imagefvbak'...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.003s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.006s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash uefisecappbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\uefi_sec.mbn   || 
+[2:33:18 PM  167ccaac]:err:sending 'uefisecapp' (125 KB)...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.010s]
+[2:33:18 PM  167ccaac]:err:writing 'uefisecapp'...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.004s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.014s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash qupfw E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\qupv3fw.elf   || 
+[2:33:18 PM  167ccaac]:err:sending 'uefisecappbak' (125 KB)...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.011s]
+[2:33:18 PM  167ccaac]:err:writing 'uefisecappbak'...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.004s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.015s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash qupfwbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\qupv3fw.elf   || 
+[2:33:18 PM  167ccaac]:err:sending 'qupfw' (48 KB)...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.005s]
+[2:33:18 PM  167ccaac]:err:writing 'qupfw'...
+[2:33:18 PM  167ccaac]:err:OKAY [  0.003s]
+[2:33:18 PM  167ccaac]:err:finished. total time: 0.008s
+[2:33:18 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:18 PM  167ccaac]:info:$fastboot -s 167ccaac flash metadata E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\metadata.img   || 
+[2:33:18 PM  167ccaac]:err:sending 'qupfwbak' (48 KB)...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.008s]
+[2:33:19 PM  167ccaac]:err:writing 'qupfwbak'...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.004s]
+[2:33:19 PM  167ccaac]:info:$fastboot -s 167ccaac flash tz E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\tz.mbn   || 
+[2:33:19 PM  167ccaac]:err:finished. total time: 0.012s
+[2:33:19 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:19 PM  167ccaac]:err:sending 'metadata' (48 KB)...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.011s]
+[2:33:19 PM  167ccaac]:err:writing 'metadata'...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.005s]
+[2:33:19 PM  167ccaac]:err:finished. total time: 0.016s
+[2:33:19 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:19 PM  167ccaac]:info:$fastboot -s 167ccaac flash tzbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\tz.mbn   || 
+[2:33:19 PM  167ccaac]:err:sending 'tz' (1976 KB)...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.069s]
+[2:33:19 PM  167ccaac]:err:writing 'tz'...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.013s]
+[2:33:19 PM  167ccaac]:err:finished. total time: 0.081s
+[2:33:19 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:19 PM  167ccaac]:info:$fastboot -s 167ccaac flash rpm E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\rpm.mbn   || 
+[2:33:19 PM  167ccaac]:err:sending 'tzbak' (1976 KB)...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.071s]
+[2:33:19 PM  167ccaac]:err:writing 'tzbak'...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.011s]
+[2:33:19 PM  167ccaac]:err:finished. total time: 0.081s
+[2:33:19 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:19 PM  167ccaac]:info:$fastboot -s 167ccaac flash rpmbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\rpm.mbn   || 
+[2:33:19 PM  167ccaac]:err:sending 'rpm' (215 KB)...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.010s]
+[2:33:19 PM  167ccaac]:err:writing 'rpm'...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.005s]
+[2:33:19 PM  167ccaac]:err:finished. total time: 0.014s
+[2:33:19 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:19 PM  167ccaac]:info:$fastboot -s 167ccaac flash hyp E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\hyp.mbn   || 
+[2:33:19 PM  167ccaac]:err:sending 'rpmbak' (215 KB)...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.015s]
+[2:33:19 PM  167ccaac]:err:writing 'rpmbak'...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.005s]
+[2:33:19 PM  167ccaac]:err:finished. total time: 0.020s
+[2:33:19 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:19 PM  167ccaac]:info:$fastboot -s 167ccaac flash hypbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\hyp.mbn   || 
+[2:33:19 PM  167ccaac]:err:sending 'hyp' (361 KB)...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.018s]
+[2:33:19 PM  167ccaac]:err:writing 'hyp'...
+[2:33:19 PM  167ccaac]:err:OKAY [  0.006s]
+[2:33:19 PM  167ccaac]:err:finished. total time: 0.024s
+[2:33:20 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:20 PM  167ccaac]:info:$fastboot -s 167ccaac flash keymaster E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\km4.mbn   || 
+[2:33:20 PM  167ccaac]:err:sending 'hypbak' (361 KB)...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.022s]
+[2:33:20 PM  167ccaac]:err:writing 'hypbak'...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.005s]
+[2:33:20 PM  167ccaac]:err:finished. total time: 0.027s
+[2:33:20 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:20 PM  167ccaac]:info:$fastboot -s 167ccaac flash keymasterbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\km4.mbn   || 
+[2:33:20 PM  167ccaac]:err:sending 'keymaster' (232 KB)...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.012s]
+[2:33:20 PM  167ccaac]:err:writing 'keymaster'...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.004s]
+[2:33:20 PM  167ccaac]:err:finished. total time: 0.017s
+[2:33:20 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:20 PM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\cmnlib.mbn   || 
+[2:33:20 PM  167ccaac]:err:sending 'keymasterbak' (232 KB)...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.016s]
+[2:33:20 PM  167ccaac]:err:writing 'keymasterbak'...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.010s]
+[2:33:20 PM  167ccaac]:err:finished. total time: 0.026s
+[2:33:20 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:20 PM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlibbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\cmnlib.mbn   || 
+[2:33:20 PM  167ccaac]:err:sending 'cmnlib' (384 KB)...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.021s]
+[2:33:20 PM  167ccaac]:err:writing 'cmnlib'...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.007s]
+[2:33:20 PM  167ccaac]:err:finished. total time: 0.028s
+[2:33:20 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:20 PM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib64 E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\cmnlib64.mbn   || 
+[2:33:20 PM  167ccaac]:err:sending 'cmnlibbak' (384 KB)...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.020s]
+[2:33:20 PM  167ccaac]:err:writing 'cmnlibbak'...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.006s]
+[2:33:20 PM  167ccaac]:err:finished. total time: 0.026s
+[2:33:20 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:20 PM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib64bak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\cmnlib64.mbn   || 
+[2:33:20 PM  167ccaac]:err:sending 'cmnlib64' (499 KB)...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.020s]
+[2:33:20 PM  167ccaac]:err:writing 'cmnlib64'...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.006s]
+[2:33:20 PM  167ccaac]:err:finished. total time: 0.026s
+[2:33:20 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:20 PM  167ccaac]:info:$fastboot -s 167ccaac flash modem E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\NON-HLOS.bin   || 
+[2:33:20 PM  167ccaac]:err:sending 'cmnlib64bak' (499 KB)...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.021s]
+[2:33:20 PM  167ccaac]:err:writing 'cmnlib64bak'...
+[2:33:20 PM  167ccaac]:err:OKAY [  0.006s]
+[2:33:20 PM  167ccaac]:err:finished. total time: 0.027s
+[2:33:26 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:26 PM  167ccaac]:err:sending 'modem' (117297 KB)...
+[2:33:26 PM  167ccaac]:err:OKAY [  3.805s]
+[2:33:26 PM  167ccaac]:info:$fastboot -s 167ccaac flash dsp E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\dspso.bin   || 
+[2:33:26 PM  167ccaac]:err:writing 'modem'...
+[2:33:26 PM  167ccaac]:err:OKAY [  0.555s]
+[2:33:26 PM  167ccaac]:err:finished. total time: 4.360s
+[2:33:28 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:28 PM  167ccaac]:info:$fastboot -s 167ccaac flash dspbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\dspso.bin   || 
+[2:33:28 PM  167ccaac]:err:sending 'dsp' (32768 KB)...
+[2:33:28 PM  167ccaac]:err:OKAY [  1.061s]
+[2:33:28 PM  167ccaac]:err:writing 'dsp'...
+[2:33:28 PM  167ccaac]:err:OKAY [  0.157s]
+[2:33:28 PM  167ccaac]:err:finished. total time: 1.218s
+[2:33:30 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:30 PM  167ccaac]:err:sending 'dspbak' (32768 KB)...
+[2:33:30 PM  167ccaac]:info:$fastboot -s 167ccaac flash bluetooth E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\BTFM.bin   || 
+[2:33:30 PM  167ccaac]:err:OKAY [  1.066s]
+[2:33:30 PM  167ccaac]:err:writing 'dspbak'...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.153s]
+[2:33:30 PM  167ccaac]:err:finished. total time: 1.219s
+[2:33:30 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:30 PM  167ccaac]:info:$fastboot -s 167ccaac flash bluetoothbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\BTFM.bin   || 
+[2:33:30 PM  167ccaac]:err:sending 'bluetooth' (876 KB)...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.032s]
+[2:33:30 PM  167ccaac]:err:writing 'bluetooth'...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.008s]
+[2:33:30 PM  167ccaac]:err:finished. total time: 0.040s
+[2:33:30 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:30 PM  167ccaac]:info:$fastboot -s 167ccaac flash storsec E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\storsec.mbn   || 
+[2:33:30 PM  167ccaac]:err:sending 'bluetoothbak' (876 KB)...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.039s]
+[2:33:30 PM  167ccaac]:err:writing 'bluetoothbak'...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.006s]
+[2:33:30 PM  167ccaac]:err:finished. total time: 0.045s
+[2:33:30 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:30 PM  167ccaac]:info:$fastboot -s 167ccaac flash devcfg E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\devcfg.mbn   || 
+[2:33:30 PM  167ccaac]:err:sending 'storsec' (19 KB)...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.012s]
+[2:33:30 PM  167ccaac]:err:writing 'storsec'...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.003s]
+[2:33:30 PM  167ccaac]:err:finished. total time: 0.015s
+[2:33:30 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:30 PM  167ccaac]:info:$fastboot -s 167ccaac flash devcfgbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\devcfg.mbn   || 
+[2:33:30 PM  167ccaac]:err:sending 'devcfg' (41 KB)...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.012s]
+[2:33:30 PM  167ccaac]:err:writing 'devcfg'...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.003s]
+[2:33:30 PM  167ccaac]:err:finished. total time: 0.015s
+[2:33:30 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:30 PM  167ccaac]:info:$fastboot -s 167ccaac flash abl E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\abl.elf   || 
+[2:33:30 PM  167ccaac]:err:sending 'devcfgbak' (41 KB)...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.011s]
+[2:33:30 PM  167ccaac]:err:writing 'devcfgbak'...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.004s]
+[2:33:30 PM  167ccaac]:err:finished. total time: 0.015s
+[2:33:30 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:30 PM  167ccaac]:info:$fastboot -s 167ccaac flash ablbak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\abl.elf   || 
+[2:33:30 PM  167ccaac]:err:sending 'abl' (148 KB)...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.007s]
+[2:33:30 PM  167ccaac]:err:writing 'abl'...
+[2:33:30 PM  167ccaac]:err:OKAY [  0.005s]
+[2:33:30 PM  167ccaac]:err:finished. total time: 0.012s
+[2:33:31 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:31 PM  167ccaac]:info:$fastboot -s 167ccaac flash dtbo E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\dtbo.img   || 
+[2:33:31 PM  167ccaac]:err:sending 'ablbak' (148 KB)...
+[2:33:31 PM  167ccaac]:err:OKAY [  0.016s]
+[2:33:31 PM  167ccaac]:err:writing 'ablbak'...
+[2:33:31 PM  167ccaac]:err:OKAY [  0.004s]
+[2:33:31 PM  167ccaac]:err:finished. total time: 0.020s
+[2:33:31 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:31 PM  167ccaac]:info:$fastboot -s 167ccaac flash vbmeta E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\vbmeta.img   || 
+[2:33:31 PM  167ccaac]:err:sending 'dtbo' (8192 KB)...
+[2:33:31 PM  167ccaac]:err:OKAY [  0.267s]
+[2:33:31 PM  167ccaac]:err:writing 'dtbo'...
+[2:33:31 PM  167ccaac]:err:OKAY [  0.036s]
+[2:33:31 PM  167ccaac]:err:finished. total time: 0.303s
+[2:33:31 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:31 PM  167ccaac]:info:$fastboot -s 167ccaac flash vbmetabak E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\vbmeta.img   || 
+[2:33:31 PM  167ccaac]:err:sending 'vbmeta' (4 KB)...
+[2:33:31 PM  167ccaac]:err:OKAY [  0.008s]
+[2:33:31 PM  167ccaac]:err:writing 'vbmeta'...
+[2:33:31 PM  167ccaac]:err:OKAY [  0.003s]
+[2:33:31 PM  167ccaac]:err:finished. total time: 0.011s
+[2:33:31 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:31 PM  167ccaac]:info:$fastboot -s 167ccaac flash boot E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\boot.img   || 
+[2:33:31 PM  167ccaac]:err:sending 'vbmetabak' (4 KB)...
+[2:33:31 PM  167ccaac]:err:OKAY [  0.011s]
+[2:33:31 PM  167ccaac]:err:writing 'vbmetabak'...
+[2:33:31 PM  167ccaac]:err:OKAY [  0.003s]
+[2:33:31 PM  167ccaac]:err:finished. total time: 0.014s
+[2:33:35 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:35 PM  167ccaac]:err:sending 'boot' (65536 KB)...
+[2:33:35 PM  167ccaac]:info:$fastboot -s 167ccaac flash recovery E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\recovery.img   || 
+[2:33:35 PM  167ccaac]:err:OKAY [  2.117s]
+[2:33:35 PM  167ccaac]:err:writing 'boot'...
+[2:33:35 PM  167ccaac]:err:OKAY [  0.308s]
+[2:33:35 PM  167ccaac]:err:finished. total time: 2.425s
+[2:33:38 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:33:38 PM  167ccaac]:err:sending 'recovery' (65536 KB)...
+[2:33:38 PM  167ccaac]:info:$fastboot -s 167ccaac flash system E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\system.img   || 
+[2:33:38 PM  167ccaac]:err:OKAY [  2.123s]
+[2:33:38 PM  167ccaac]:err:writing 'recovery'...
+[2:33:38 PM  167ccaac]:err:OKAY [  0.308s]
+[2:33:38 PM  167ccaac]:err:finished. total time: 2.431s
+[2:42:28 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:42:33 PM  167ccaac]:err:erasing 'system'...
+[2:42:33 PM  167ccaac]:err:OKAY [  1.309s]
+[2:42:33 PM  167ccaac]:err:sending sparse 'system' 1/5 (786428 KB)...
+[2:42:33 PM  167ccaac]:err:OKAY [ 43.070s]
+[2:42:33 PM  167ccaac]:err:writing 'system' 1/5...
+[2:42:33 PM  167ccaac]:err:OKAY [  0.001s]
+[2:42:33 PM  167ccaac]:err:sending sparse 'system' 2/5 (786428 KB)...
+[2:42:33 PM  167ccaac]:err:OKAY [ 40.937s]
+[2:42:33 PM  167ccaac]:err:writing 'system' 2/5...
+[2:42:33 PM  167ccaac]:err:OKAY [  0.001s]
+[2:42:33 PM  167ccaac]:err:sending sparse 'system' 3/5 (786428 KB)...
+[2:42:33 PM  167ccaac]:err:OKAY [ 41.398s]
+[2:42:33 PM  167ccaac]:err:writing 'system' 3/5...
+[2:42:34 PM  167ccaac]:err:OKAY [  0.001s]
+[2:42:34 PM  167ccaac]:err:sending sparse 'system' 4/5 (786428 KB)...
+[2:42:34 PM  167ccaac]:err:OKAY [ 40.318s]
+[2:42:34 PM  167ccaac]:err:writing 'system' 4/5...
+[2:42:34 PM  167ccaac]:err:OKAY [  0.001s]
+[2:42:34 PM  167ccaac]:err:sending sparse 'system' 5/5 (466812 KB)...
+[2:42:34 PM  167ccaac]:err:OKAY [ 25.124s]
+[2:42:34 PM  167ccaac]:err:writing 'system' 5/5...
+[2:42:34 PM  167ccaac]:err:OKAY [  0.001s]
+[2:42:34 PM  167ccaac]:err:finished. total time: 192.516s
+[2:42:34 PM  167ccaac]:info:$fastboot -s 167ccaac flash vendor E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\vendor.img   || 
+[2:43:10 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:43:10 PM  167ccaac]:err:sending 'vendor' (678464 KB)...
+[2:43:10 PM  167ccaac]:info:$fastboot -s 167ccaac flash userdata E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\userdata.img   || 
+[2:43:10 PM  167ccaac]:err:OKAY [ 21.871s]
+[2:43:10 PM  167ccaac]:err:writing 'vendor'...
+[2:43:10 PM  167ccaac]:err:OKAY [  0.009s]
+[2:43:10 PM  167ccaac]:err:finished. total time: 21.880s
+[2:43:32 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:43:33 PM  167ccaac]:info:$fastboot -s 167ccaac flash cache E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\cache.img   || 
+[2:43:33 PM  167ccaac]:err:sending 'userdata' (411636 KB)...
+[2:43:33 PM  167ccaac]:err:OKAY [ 13.202s]
+[2:43:33 PM  167ccaac]:err:writing 'userdata'...
+[2:43:33 PM  167ccaac]:err:OKAY [  0.002s]
+[2:43:33 PM  167ccaac]:err:finished. total time: 13.203s
+[2:43:37 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:43:37 PM  167ccaac]:info:$fastboot -s 167ccaac erase ddr 
+[2:43:37 PM  167ccaac]:err:erasing 'cache'...
+[2:43:37 PM  167ccaac]:info:$fastboot -s 167ccaac erase misc 
+[2:43:37 PM  167ccaac]:err:OKAY [  0.014s]
+[2:43:37 PM  167ccaac]:info:$fastboot -s 167ccaac erase apdp 
+[2:43:37 PM  167ccaac]:err:sending 'cache' (160 KB)...
+[2:43:37 PM  167ccaac]:info:$fastboot -s 167ccaac flash cust E:\xiaomi\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global_a8923e1765\ginkgo_global_images_V11.0.3.0.PCOMIXM_20191119.0000.00_9.0_global\images\cust.img 
+[2:43:37 PM  167ccaac]:err:OKAY [  0.008s]
+[2:43:37 PM  167ccaac]:err:writing 'cache'...
+[2:43:37 PM  167ccaac]:err:OKAY [  0.006s]
+[2:43:37 PM  167ccaac]:err:finished. total time: 0.027s
+[2:43:37 PM  167ccaac]:err:erasing 'ddr'...
+[2:43:37 PM  167ccaac]:err:OKAY [  0.006s]
+[2:43:37 PM  167ccaac]:err:finished. total time: 0.006s
+[2:43:38 PM  167ccaac]:err:erasing 'misc'...
+[2:43:38 PM  167ccaac]:err:OKAY [  0.005s]
+[2:43:38 PM  167ccaac]:err:finished. total time: 0.005s
+[2:43:38 PM  167ccaac]:err:erasing 'apdp'...
+[2:43:38 PM  167ccaac]:err:OKAY [  0.041s]
+[2:43:38 PM  167ccaac]:err:finished. total time: 0.041s
+[2:43:58 PM  167ccaac]:err:target reported max download size of 805306368 bytes
+[2:43:58 PM  167ccaac]:info:$fastboot -s 167ccaac reboot 
+[2:43:58 PM  167ccaac]:err:sending 'cust' (418544 KB)...
+[2:43:58 PM  167ccaac]:err:OKAY [ 13.512s]
+[2:43:58 PM  167ccaac]:err:writing 'cust'...
+[2:43:58 PM  167ccaac]:err:OKAY [  0.003s]
+[2:43:58 PM  167ccaac]:err:finished. total time: 13.515s
+[2:44:00 PM  167ccaac]:err:rebooting...
+[2:44:00 PM  167ccaac]:info:$pause
+[2:44:00 PM  167ccaac]:err:finished. total time: 0.001s

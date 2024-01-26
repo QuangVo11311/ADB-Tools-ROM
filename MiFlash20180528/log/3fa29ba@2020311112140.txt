@@ -1,0 +1,329 @@
+[11:21:40 AM  3fa29ba]:MiFlash 2018.5.28.0
+[11:21:40 AM  3fa29ba]:Thread id:9 Thread name:3fa29ba
+[11:21:40 AM  3fa29ba]:image path:E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global
+[11:21:40 AM  3fa29ba]:env android path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[11:21:40 AM  3fa29ba]:script :E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\flash_all.bat
+[11:21:41 AM  3fa29ba]:Physical Memory Usage:2187264 Byte
+[11:21:41 AM  3fa29ba]:start process id 7672 name cmd
+[11:21:41 AM  3fa29ba]:info:$fastboot -s 3fa29ba getvar product   2>&1  | findstr /r /c:"^product: *whyred"   || echo Missmatching image and device 
+[11:21:41 AM  3fa29ba]:info:product: whyred
+[11:21:41 AM  3fa29ba]:info:$fastboot -s 3fa29ba getvar product   2>&1  | findstr /r /c:"^product: *whyred"   || exit /B 1 
+[11:21:41 AM  3fa29ba]:info:product: whyred
+[11:21:41 AM  3fa29ba]:info:$set CURRENT_ANTI_VER=4 
+[11:21:41 AM  3fa29ba]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s 3fa29ba getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[11:21:41 AM  3fa29ba]:info:$(set version=4 ) 
+[11:21:41 AM  3fa29ba]:info:$if [4] EQU [] set version=0 
+[11:21:42 AM  3fa29ba]:info:$if 4 GTR 4 (
+[11:21:42 AM  3fa29ba]:info:echo current device antirollback version is greater than this package  
+[11:21:42 AM  3fa29ba]:info: exit /B 1 
+[11:21:42 AM  3fa29ba]:info:) 
+[11:21:42 AM  3fa29ba]:info:$if 4 EQU 4 (fastboot -s 3fa29ba flash antirbpass E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\dummy.img   || ) 
+[11:21:42 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:42 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash xbl E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\xbl.elf   || 
+[11:21:42 AM  3fa29ba]:err:sending 'antirbpass' (8 KB)...
+[11:21:42 AM  3fa29ba]:err:OKAY [  0.010s]
+[11:21:42 AM  3fa29ba]:err:writing 'antirbpass'...
+[11:21:42 AM  3fa29ba]:err:OKAY [  0.001s]
+[11:21:42 AM  3fa29ba]:err:finished. total time: 0.011s
+[11:21:42 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:42 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash xblbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\xbl.elf   || 
+[11:21:42 AM  3fa29ba]:err:sending 'xbl' (2504 KB)...
+[11:21:42 AM  3fa29ba]:err:OKAY [  0.088s]
+[11:21:42 AM  3fa29ba]:err:writing 'xbl'...
+[11:21:42 AM  3fa29ba]:err:OKAY [  0.025s]
+[11:21:42 AM  3fa29ba]:err:finished. total time: 0.114s
+[11:21:42 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:42 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash tz E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\tz.mbn   || 
+[11:21:42 AM  3fa29ba]:err:sending 'xblbak' (2504 KB)...
+[11:21:43 AM  3fa29ba]:err:OKAY [  0.085s]
+[11:21:43 AM  3fa29ba]:err:writing 'xblbak'...
+[11:21:43 AM  3fa29ba]:err:OKAY [  0.026s]
+[11:21:43 AM  3fa29ba]:err:finished. total time: 0.110s
+[11:21:43 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:43 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash tzbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\tz.mbn   || 
+[11:21:43 AM  3fa29ba]:err:sending 'tz' (1924 KB)...
+[11:21:43 AM  3fa29ba]:err:OKAY [  0.067s]
+[11:21:43 AM  3fa29ba]:err:writing 'tz'...
+[11:21:43 AM  3fa29ba]:err:OKAY [  0.019s]
+[11:21:43 AM  3fa29ba]:err:finished. total time: 0.086s
+[11:21:43 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:43 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash rpm E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\rpm.mbn   || 
+[11:21:43 AM  3fa29ba]:err:sending 'tzbak' (1924 KB)...
+[11:21:43 AM  3fa29ba]:err:OKAY [  0.065s]
+[11:21:43 AM  3fa29ba]:err:writing 'tzbak'...
+[11:21:43 AM  3fa29ba]:err:OKAY [  0.020s]
+[11:21:43 AM  3fa29ba]:err:finished. total time: 0.086s
+[11:21:43 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:43 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash rpmbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\rpm.mbn   || 
+[11:21:43 AM  3fa29ba]:err:sending 'rpm' (219 KB)...
+[11:21:43 AM  3fa29ba]:err:OKAY [  0.017s]
+[11:21:43 AM  3fa29ba]:err:writing 'rpm'...
+[11:21:43 AM  3fa29ba]:err:OKAY [  0.008s]
+[11:21:43 AM  3fa29ba]:err:finished. total time: 0.026s
+[11:21:43 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:43 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash hyp E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\hyp.mbn   || 
+[11:21:43 AM  3fa29ba]:err:sending 'rpmbak' (219 KB)...
+[11:21:44 AM  3fa29ba]:err:OKAY [  0.014s]
+[11:21:44 AM  3fa29ba]:err:writing 'rpmbak'...
+[11:21:44 AM  3fa29ba]:err:OKAY [  0.009s]
+[11:21:44 AM  3fa29ba]:err:finished. total time: 0.023s
+[11:21:44 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:44 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash hypbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\hyp.mbn   || 
+[11:21:44 AM  3fa29ba]:err:sending 'hyp' (272 KB)...
+[11:21:44 AM  3fa29ba]:err:OKAY [  0.011s]
+[11:21:44 AM  3fa29ba]:err:writing 'hyp'...
+[11:21:44 AM  3fa29ba]:err:OKAY [  0.006s]
+[11:21:44 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash pmic E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\pmic.elf   || 
+[11:21:44 AM  3fa29ba]:err:finished. total time: 0.018s
+[11:21:44 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:44 AM  3fa29ba]:err:sending 'hypbak' (272 KB)...
+[11:21:44 AM  3fa29ba]:err:OKAY [  0.016s]
+[11:21:44 AM  3fa29ba]:err:writing 'hypbak'...
+[11:21:44 AM  3fa29ba]:err:OKAY [  0.006s]
+[11:21:44 AM  3fa29ba]:err:finished. total time: 0.022s
+[11:21:44 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:44 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash pmicbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\pmic.elf   || 
+[11:21:44 AM  3fa29ba]:err:sending 'pmic' (38 KB)...
+[11:21:44 AM  3fa29ba]:err:OKAY [  0.004s]
+[11:21:44 AM  3fa29ba]:err:writing 'pmic'...
+[11:21:44 AM  3fa29ba]:err:OKAY [  0.005s]
+[11:21:44 AM  3fa29ba]:err:finished. total time: 0.010s
+[11:21:44 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:44 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash keymaster E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\keymaster.mbn   || 
+[11:21:44 AM  3fa29ba]:err:sending 'pmicbak' (38 KB)...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.005s]
+[11:21:45 AM  3fa29ba]:err:writing 'pmicbak'...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.005s]
+[11:21:45 AM  3fa29ba]:err:finished. total time: 0.010s
+[11:21:45 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:45 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash keymasterbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\keymaster.mbn   || 
+[11:21:45 AM  3fa29ba]:err:sending 'keymaster' (353 KB)...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.018s]
+[11:21:45 AM  3fa29ba]:err:writing 'keymaster'...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.010s]
+[11:21:45 AM  3fa29ba]:err:finished. total time: 0.028s
+[11:21:45 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:45 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash cmnlib E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\cmnlib.mbn   || 
+[11:21:45 AM  3fa29ba]:err:sending 'keymasterbak' (353 KB)...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.018s]
+[11:21:45 AM  3fa29ba]:err:writing 'keymasterbak'...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.009s]
+[11:21:45 AM  3fa29ba]:err:finished. total time: 0.027s
+[11:21:45 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:45 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash cmnlibbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\cmnlib.mbn   || 
+[11:21:45 AM  3fa29ba]:err:sending 'cmnlib' (216 KB)...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.016s]
+[11:21:45 AM  3fa29ba]:err:writing 'cmnlib'...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.010s]
+[11:21:45 AM  3fa29ba]:err:finished. total time: 0.026s
+[11:21:45 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash cmnlib64 E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\cmnlib64.mbn   || 
+[11:21:45 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:45 AM  3fa29ba]:err:sending 'cmnlibbak' (216 KB)...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.011s]
+[11:21:45 AM  3fa29ba]:err:writing 'cmnlibbak'...
+[11:21:45 AM  3fa29ba]:err:OKAY [  0.009s]
+[11:21:45 AM  3fa29ba]:err:finished. total time: 0.020s
+[11:21:45 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:45 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash cmnlib64bak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\cmnlib64.mbn   || 
+[11:21:45 AM  3fa29ba]:err:sending 'cmnlib64' (267 KB)...
+[11:21:46 AM  3fa29ba]:err:OKAY [  0.013s]
+[11:21:46 AM  3fa29ba]:err:writing 'cmnlib64'...
+[11:21:46 AM  3fa29ba]:err:OKAY [  0.008s]
+[11:21:46 AM  3fa29ba]:err:finished. total time: 0.021s
+[11:21:46 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:46 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash mdtpsecapp E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\mdtpsecapp.mbn   || 
+[11:21:46 AM  3fa29ba]:err:sending 'cmnlib64bak' (267 KB)...
+[11:21:46 AM  3fa29ba]:err:OKAY [  0.010s]
+[11:21:46 AM  3fa29ba]:err:writing 'cmnlib64bak'...
+[11:21:46 AM  3fa29ba]:err:OKAY [  0.010s]
+[11:21:46 AM  3fa29ba]:err:finished. total time: 0.020s
+[11:21:46 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:46 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash mdtpsecappbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\mdtpsecapp.mbn   || 
+[11:21:46 AM  3fa29ba]:err:sending 'mdtpsecapp' (1057 KB)...
+[11:21:46 AM  3fa29ba]:err:OKAY [  0.044s]
+[11:21:46 AM  3fa29ba]:err:writing 'mdtpsecapp'...
+[11:21:46 AM  3fa29ba]:err:OKAY [  0.015s]
+[11:21:46 AM  3fa29ba]:err:finished. total time: 0.059s
+[11:21:46 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:46 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash modem E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\NON-HLOS.bin   || 
+[11:21:46 AM  3fa29ba]:err:sending 'mdtpsecappbak' (1057 KB)...
+[11:21:46 AM  3fa29ba]:err:OKAY [  0.043s]
+[11:21:46 AM  3fa29ba]:err:writing 'mdtpsecappbak'...
+[11:21:46 AM  3fa29ba]:err:OKAY [  0.014s]
+[11:21:46 AM  3fa29ba]:err:finished. total time: 0.057s
+[11:21:52 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:52 AM  3fa29ba]:err:sending 'modem' (108209 KB)...
+[11:21:52 AM  3fa29ba]:err:OKAY [  3.511s]
+[11:21:52 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash dsp E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\dspso.bin   || 
+[11:21:52 AM  3fa29ba]:err:writing 'modem'...
+[11:21:52 AM  3fa29ba]:err:OKAY [  0.906s]
+[11:21:52 AM  3fa29ba]:err:finished. total time: 4.417s
+[11:21:53 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:53 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash bluetooth E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\BTFM.bin   || 
+[11:21:53 AM  3fa29ba]:err:sending 'dsp' (16384 KB)...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.533s]
+[11:21:54 AM  3fa29ba]:err:writing 'dsp'...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.133s]
+[11:21:54 AM  3fa29ba]:err:finished. total time: 0.666s
+[11:21:54 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:54 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash storsec E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\storsec.mbn   || 
+[11:21:54 AM  3fa29ba]:err:sending 'bluetooth' (556 KB)...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.027s]
+[11:21:54 AM  3fa29ba]:err:writing 'bluetooth'...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.010s]
+[11:21:54 AM  3fa29ba]:err:finished. total time: 0.038s
+[11:21:54 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:54 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash storsecbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\storsec.mbn   || 
+[11:21:54 AM  3fa29ba]:err:sending 'storsec' (48 KB)...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.006s]
+[11:21:54 AM  3fa29ba]:err:writing 'storsec'...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.005s]
+[11:21:54 AM  3fa29ba]:err:finished. total time: 0.011s
+[11:21:54 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:54 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash devcfg E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\devcfg.mbn   || 
+[11:21:54 AM  3fa29ba]:err:sending 'storsecbak' (48 KB)...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.006s]
+[11:21:54 AM  3fa29ba]:err:writing 'storsecbak'...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.005s]
+[11:21:54 AM  3fa29ba]:err:finished. total time: 0.011s
+[11:21:54 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:54 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash devcfgbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\devcfg.mbn   || 
+[11:21:54 AM  3fa29ba]:err:sending 'devcfg' (47 KB)...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.007s]
+[11:21:54 AM  3fa29ba]:err:writing 'devcfg'...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.005s]
+[11:21:54 AM  3fa29ba]:err:finished. total time: 0.012s
+[11:21:54 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:54 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash abl E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\abl.elf   || 
+[11:21:54 AM  3fa29ba]:err:sending 'devcfgbak' (47 KB)...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.008s]
+[11:21:54 AM  3fa29ba]:err:writing 'devcfgbak'...
+[11:21:54 AM  3fa29ba]:err:OKAY [  0.005s]
+[11:21:55 AM  3fa29ba]:err:finished. total time: 0.013s
+[11:21:55 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:55 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash ablbak E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\abl.elf   || 
+[11:21:55 AM  3fa29ba]:err:sending 'abl' (148 KB)...
+[11:21:55 AM  3fa29ba]:err:OKAY [  0.012s]
+[11:21:55 AM  3fa29ba]:err:writing 'abl'...
+[11:21:55 AM  3fa29ba]:err:OKAY [  0.008s]
+[11:21:55 AM  3fa29ba]:err:finished. total time: 0.020s
+[11:21:55 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:55 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash boot E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\boot.img   || 
+[11:21:55 AM  3fa29ba]:err:sending 'ablbak' (148 KB)...
+[11:21:55 AM  3fa29ba]:err:OKAY [  0.009s]
+[11:21:55 AM  3fa29ba]:err:writing 'ablbak'...
+[11:21:55 AM  3fa29ba]:err:OKAY [  0.008s]
+[11:21:55 AM  3fa29ba]:err:finished. total time: 0.017s
+[11:21:57 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:57 AM  3fa29ba]:err:sending 'boot' (27089 KB)...
+[11:21:57 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash recovery E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\recovery.img   || 
+[11:21:57 AM  3fa29ba]:err:OKAY [  0.887s]
+[11:21:57 AM  3fa29ba]:err:writing 'boot'...
+[11:21:57 AM  3fa29ba]:err:OKAY [  0.252s]
+[11:21:57 AM  3fa29ba]:err:finished. total time: 1.139s
+[11:21:58 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:21:59 AM  3fa29ba]:err:sending 'recovery' (33101 KB)...
+[11:21:59 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash system E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\system.img   || 
+[11:21:59 AM  3fa29ba]:err:OKAY [  1.075s]
+[11:21:59 AM  3fa29ba]:err:writing 'recovery'...
+[11:21:59 AM  3fa29ba]:err:OKAY [  0.270s]
+[11:21:59 AM  3fa29ba]:err:finished. total time: 1.346s
+[11:26:41 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:26:41 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash vendor E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\vendor.img   || 
+[11:26:41 AM  3fa29ba]:err:erasing 'system'...
+[11:26:41 AM  3fa29ba]:err:OKAY [  1.013s]
+[11:26:41 AM  3fa29ba]:err:sending sparse 'system' 1/6 (524284 KB)...
+[11:26:41 AM  3fa29ba]:err:OKAY [ 25.058s]
+[11:26:41 AM  3fa29ba]:err:writing 'system' 1/6...
+[11:26:41 AM  3fa29ba]:err:OKAY [  0.001s]
+[11:26:41 AM  3fa29ba]:err:sending sparse 'system' 2/6 (524284 KB)...
+[11:26:41 AM  3fa29ba]:err:OKAY [ 25.249s]
+[11:26:41 AM  3fa29ba]:err:writing 'system' 2/6...
+[11:26:41 AM  3fa29ba]:err:OKAY [  0.001s]
+[11:26:41 AM  3fa29ba]:err:sending sparse 'system' 3/6 (524284 KB)...
+[11:26:41 AM  3fa29ba]:err:OKAY [ 25.049s]
+[11:26:41 AM  3fa29ba]:err:writing 'system' 3/6...
+[11:26:41 AM  3fa29ba]:err:OKAY [  0.001s]
+[11:26:41 AM  3fa29ba]:err:sending sparse 'system' 4/6 (489512 KB)...
+[11:26:41 AM  3fa29ba]:err:OKAY [ 23.629s]
+[11:26:41 AM  3fa29ba]:err:writing 'system' 4/6...
+[11:26:41 AM  3fa29ba]:err:OKAY [  0.001s]
+[11:26:41 AM  3fa29ba]:err:sending sparse 'system' 5/6 (524284 KB)...
+[11:26:41 AM  3fa29ba]:err:OKAY [ 25.149s]
+[11:26:41 AM  3fa29ba]:err:writing 'system' 5/6...
+[11:26:41 AM  3fa29ba]:err:OKAY [ -0.000s]
+[11:26:41 AM  3fa29ba]:err:sending sparse 'system' 6/6 (419876 KB)...
+[11:26:41 AM  3fa29ba]:err:OKAY [ 20.230s]
+[11:26:41 AM  3fa29ba]:err:writing 'system' 6/6...
+[11:26:41 AM  3fa29ba]:err:OKAY [  0.000s]
+[11:26:41 AM  3fa29ba]:err:finished. total time: 145.402s
+[11:27:29 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:27:29 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash userdata E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\userdata.img   || 
+[11:27:29 AM  3fa29ba]:err:sending sparse 'vendor' 1/2 (524284 KB)...
+[11:27:29 AM  3fa29ba]:err:OKAY [ 18.242s]
+[11:27:29 AM  3fa29ba]:err:writing 'vendor' 1/2...
+[11:27:29 AM  3fa29ba]:err:OKAY [  0.000s]
+[11:27:29 AM  3fa29ba]:err:sending sparse 'vendor' 2/2 (338860 KB)...
+[11:27:29 AM  3fa29ba]:err:OKAY [ 12.020s]
+[11:27:29 AM  3fa29ba]:err:writing 'vendor' 2/2...
+[11:27:29 AM  3fa29ba]:err:OKAY [ -0.000s]
+[11:27:29 AM  3fa29ba]:err:finished. total time: 30.262s
+[11:27:42 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:27:42 AM  3fa29ba]:err:erasing 'userdata'...
+[11:27:42 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash mdtp E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\mdtp.img   || 
+[11:27:42 AM  3fa29ba]:err:OKAY [  7.104s]
+[11:27:42 AM  3fa29ba]:err:sending 'userdata' (62252 KB)...
+[11:27:42 AM  3fa29ba]:err:OKAY [  2.027s]
+[11:27:42 AM  3fa29ba]:err:writing 'userdata'...
+[11:27:42 AM  3fa29ba]:err:OKAY [  0.001s]
+[11:27:42 AM  3fa29ba]:err:finished. total time: 9.132s
+[11:27:43 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:27:43 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash cache E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\cache.img   || 
+[11:27:43 AM  3fa29ba]:err:sending 'mdtp' (17390 KB)...
+[11:27:43 AM  3fa29ba]:err:OKAY [  0.568s]
+[11:27:44 AM  3fa29ba]:err:writing 'mdtp'...
+[11:27:44 AM  3fa29ba]:err:OKAY [  0.142s]
+[11:27:44 AM  3fa29ba]:err:finished. total time: 0.710s
+[11:27:44 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:27:44 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash splash E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\splash.img   || 
+[11:27:44 AM  3fa29ba]:err:erasing 'cache'...
+[11:27:44 AM  3fa29ba]:err:OKAY [  0.061s]
+[11:27:44 AM  3fa29ba]:err:sending 'cache' (128 KB)...
+[11:27:44 AM  3fa29ba]:err:OKAY [  0.006s]
+[11:27:44 AM  3fa29ba]:err:writing 'cache'...
+[11:27:44 AM  3fa29ba]:err:OKAY [  0.004s]
+[11:27:44 AM  3fa29ba]:err:finished. total time: 0.072s
+[11:27:46 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:27:46 AM  3fa29ba]:info:$fastboot -s 3fa29ba erase ddr 
+[11:27:46 AM  3fa29ba]:err:sending 'splash' (26594 KB)...
+[11:27:46 AM  3fa29ba]:err:OKAY [  0.863s]
+[11:27:46 AM  3fa29ba]:err:writing 'splash'...
+[11:27:46 AM  3fa29ba]:err:OKAY [  0.230s]
+[11:27:46 AM  3fa29ba]:err:finished. total time: 1.093s
+[11:27:46 AM  3fa29ba]:err:erasing 'ddr'...
+[11:27:46 AM  3fa29ba]:info:$fastboot -s 3fa29ba erase misc 
+[11:27:46 AM  3fa29ba]:err:OKAY [  0.004s]
+[11:27:46 AM  3fa29ba]:err:finished. total time: 0.004s
+[11:27:46 AM  3fa29ba]:err:erasing 'misc'...
+[11:27:46 AM  3fa29ba]:info:$fastboot -s 3fa29ba erase apdp 
+[11:27:46 AM  3fa29ba]:err:OKAY [  0.005s]
+[11:27:46 AM  3fa29ba]:err:finished. total time: 0.005s
+[11:27:46 AM  3fa29ba]:err:erasing 'apdp'...
+[11:27:46 AM  3fa29ba]:info:$fastboot -s 3fa29ba erase msadp 
+[11:27:46 AM  3fa29ba]:err:OKAY [  0.014s]
+[11:27:46 AM  3fa29ba]:err:finished. total time: 0.014s
+[11:27:46 AM  3fa29ba]:err:erasing 'msadp'...
+[11:27:46 AM  3fa29ba]:info:$fastboot -s 3fa29ba flash cust E:\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03\whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global\images\cust.img 
+[11:27:46 AM  3fa29ba]:err:OKAY [  0.008s]
+[11:27:46 AM  3fa29ba]:err:finished. total time: 0.008s
+[11:28:04 AM  3fa29ba]:err:target reported max download size of 536870912 bytes
+[11:28:04 AM  3fa29ba]:info:$rem fastboot -s 3fa29ba erase config 
+[11:28:04 AM  3fa29ba]:err:sending 'cust' (386712 KB)...
+[11:28:04 AM  3fa29ba]:info:$fastboot -s 3fa29ba reboot 
+[11:28:04 AM  3fa29ba]:err:OKAY [ 12.570s]
+[11:28:04 AM  3fa29ba]:err:writing 'cust'...
+[11:28:04 AM  3fa29ba]:err:OKAY [  0.001s]
+[11:28:04 AM  3fa29ba]:err:finished. total time: 12.571s
+[11:28:07 AM  3fa29ba]:err:rebooting...
+[11:28:07 AM  3fa29ba]:info:$pause
+[11:28:07 AM  3fa29ba]:err:finished. total time: 0.001s

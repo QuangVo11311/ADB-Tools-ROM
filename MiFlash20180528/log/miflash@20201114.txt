@@ -1,0 +1,18 @@
+[11:40:05 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:40:05 PM]:create RegistryKey Software\XiaoMi\MiFlash\
+[11:40:06 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\WINDOWS\INF\oem0.inf,result True,GetLastWin32Error 
+[11:40:06 PM]:set RegistryKey value:android_winusb.inf--oem0.inf
+[11:40:06 PM]:mkdir "C:\Users\htien\.android"
+[11:40:06 PM]:output:A subdirectory or file C:\Users\htien\.android already exists.
+
+[11:40:06 PM]: echo 0x2717 >>"C:\Users\htien\.android\adb_usb.ini"
+[11:40:06 PM]:output:
+[11:40:06 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:40:06 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[11:40:06 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:40:07 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[11:40:07 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:40:09 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[11:40:09 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:40:10 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\WINDOWS\INF\oem27.inf,result True,GetLastWin32Error 
+[11:40:10 PM]:set RegistryKey value:qcser.inf--oem27.inf

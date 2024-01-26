@@ -1,0 +1,7 @@
+[8:44:00 PM  265d48ac]:MiFlash 2018.5.28.0
+[8:44:00 PM  265d48ac]:Thread id:11 Thread name:265d48ac
+[8:44:00 PM  265d48ac]:can not found file flash_all.bat
+[8:44:01 PM  265d48ac]:flashSuccess False
+[8:44:01 PM  265d48ac]:isFactory False CheckCPUID False
+[8:44:01 PM  265d48ac]:before:flashSuccess is False set IsUpdate:True set IsDone True
+[8:44:01 PM  265d48ac]:after:flashSuccess is False set IsUpdate:false set IsDone true

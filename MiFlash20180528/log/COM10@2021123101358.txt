@@ -1,0 +1,273 @@
+[10:13:58 AM  COM10]:MiFlash 2018.5.28.0
+[10:13:58 AM  COM10]:flash in thread name:COM10,id:11
+[10:13:58 AM  COM10]:sw in images
+[10:13:58 AM  COM10]:flash in thread name:COM10,id:11
+[10:13:58 AM  COM10]:[COM10]:start flash.
+[10:13:58 AM  COM10]:received hello packet
+[10:13:58 AM  COM10]:download programmer D:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\prog_emmc_firehose_Sm6125_ddr.elf
+[10:13:58 AM  COM10]:sahara read 64b data:imgID 13,offset 0,length 64
+[10:13:58 AM  COM10]:sahara read 64b data:imgID 13,offset 64,length 952
+[10:13:58 AM  COM10]:sahara read 64b data:imgID 13,offset 4096,length 4096
+[10:13:58 AM  COM10]:sahara read 64b data:imgID 13,offset 8192,length 3288
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 371568,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 375664,length 3820
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 12288,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 16384,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 20480,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 24576,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 28672,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 32768,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 36864,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 40960,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 45056,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 49152,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 53248,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 57344,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 61440,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 65536,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 69632,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 73728,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 77824,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 81920,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 86016,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 90112,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 94208,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 98304,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 102400,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 106496,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 110592,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 114688,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 118784,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 122880,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 126976,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 131072,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 135168,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 139264,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 143360,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 147456,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 151552,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 155648,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 159744,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 163840,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 167936,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 172032,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 176128,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 180224,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 184320,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 188416,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 192512,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 196608,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 200704,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 204800,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 208896,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 212992,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 217088,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 221184,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 225280,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 229376,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 233472,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 237568,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 241664,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 245760,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 249856,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 253952,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 258048,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 262144,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 266240,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 270336,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 274432,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 278528,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 282624,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 286720,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 290816,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 294912,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 299008,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 303104,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 307200,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 311296,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 315392,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 319488,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 323584,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 327680,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 331776,length 2620
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 334400,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 338496,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 342592,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 346688,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 350784,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 354880,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 358976,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 363072,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 367168,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 371264,length 296
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 379488,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 383584,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 387680,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 391776,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 395872,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 399968,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 404064,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 408160,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 412256,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 416352,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 420448,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 424544,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 428640,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 432736,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 436832,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 440928,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 445024,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 449120,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 453216,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 457312,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 461408,length 3088
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 464496,length 84
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 464580,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 468676,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 472772,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 476868,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 480964,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 485060,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 489156,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 493252,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 497348,length 2592
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 499940,length 1496
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 501436,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 505532,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 509628,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 513724,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 517820,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 521916,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 526012,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 530108,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 534204,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 538300,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 542396,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 546492,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 550588,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 554684,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 558780,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 562876,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 566972,length 4096
+[10:13:59 AM  COM10]:sahara read 64b data:imgID 13,offset 571068,length 4096
+[10:14:00 AM  COM10]:sahara read 64b data:imgID 13,offset 575164,length 4096
+[10:14:00 AM  COM10]:sahara read 64b data:imgID 13,offset 579260,length 4096
+[10:14:00 AM  COM10]:sahara read 64b data:imgID 13,offset 583356,length 4096
+[10:14:00 AM  COM10]:sahara read 64b data:imgID 13,offset 587452,length 4096
+[10:14:00 AM  COM10]:sahara read 64b data:imgID 13,offset 591548,length 4096
+[10:14:00 AM  COM10]:sahara read end  imgID:13 status:0
+[10:14:00 AM  COM10]:Send done packet
+[10:14:00 AM  COM10]:file D:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\prog_emmc_firehose_Sm6125_ddr.elf transferred successfully
+[10:14:02 AM  COM10]:send nop command
+[10:14:02 AM  COM10]:send command:<?xml version="1.0" ?><data><nop verbose="0"  value="ping"/></data>
+[10:14:02 AM  COM10]:get response from target
+[10:14:02 AM  COM10]:dump:<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Binary build date: Jul  3 2019 @ 22:23:56" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Binary build date: Jul  3 2019 @ 22:23:56
+" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Chip serial num: 3430730559 (0xcc7ccb3f)" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Supported Functions (14):" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: program" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: read" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: nop" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: patch" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: configure" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: setbootablestoragedrive" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: erase" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: power" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: firmwarewrite" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: getstorageinfo" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: benchmark" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: emmc" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: ufs" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: fixgpt" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: End of supported functions 14" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Calling handler for nop" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Binary build date: Jul  3 2019 @ 22:23:56
+" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Chip serial num: 3430730559 (0xcc7ccb3f)" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Supported Functions (14):" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: program" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: read" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: nop" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: patch" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: configure" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: setbootablestoragedrive" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: erase" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: power" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: firmwarewrite" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: getstorageinfo" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: benchmark" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: emmc" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: ufs" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: fixgpt" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: End of supported functions 14" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" rawmode="false" /></data>
+
+
+[10:14:02 AM  COM10]:send configure command
+[10:14:02 AM  COM10]:send command:<?xml version="1.0" ?><data><configure verbose="0" AlwaysValidate="0"  ZlpAwareHost="1"  MaxPayloadSizeToTargetInBytes="131072" MemoryName="emmc" SkipStorageInit="0"/></data>
+[10:14:02 AM  COM10]:get response from target
+[10:14:02 AM  COM10]:dump:<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Calling handler for configure" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Storage type set to value eMMC" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 131072 larger than supported 16384" /></data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="NAK" MemoryName="eMMC" MinVersionSupported="1" Version="1" MaxPayloadSizeToTargetInBytes="16384" MaxPayloadSizeToTargetInBytesSupported="16384" MaxXMLSizeInBytes="4096" DateTime="Jul  3 2019 - 22:23:56" /></data>
+
+
+[10:14:02 AM  COM10]:no Binary dump
+[10:14:03 AM  COM10]:no Binary dump
+[10:14:04 AM  COM10]:no Binary dump
+[10:14:04 AM  COM10]:configure failed!!!
+[10:14:04 AM  COM10]:System.Exception: configure failed!!!
+   at XiaoMiFlash.code.bl.SerialPortDevice.ConfigureDDR(Int32 intSectorSize, Int32 buffer_sectors, String ddrType, Int32 m_iSkipStorageInit)
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()     at XiaoMiFlash.code.bl.SerialPortDevice.ConfigureDDR(Int32 intSectorSize, Int32 buffer_sectors, String ddrType, Int32 m_iSkipStorageInit)
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()
+[10:14:04 AM  COM10]:no provision exit:COM10
+[10:14:04 AM  COM10]:flashSuccess False
+[10:14:04 AM  COM10]:isFactory False CheckCPUID False
+[10:14:04 AM  COM10]:before:flashSuccess is False set IsUpdate:True set IsDone True
+[10:14:04 AM  COM10]:after:flashSuccess is False set IsUpdate:false set IsDone true

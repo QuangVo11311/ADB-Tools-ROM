@@ -1,0 +1,310 @@
+[6:10:38 PM  799c25ae]:MiFlash 2018.5.28.0
+[6:10:38 PM  799c25ae]:Thread id:9 Thread name:799c25ae
+[6:10:38 PM  799c25ae]:image path:D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn
+[6:10:38 PM  799c25ae]:env android path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[6:10:38 PM  799c25ae]:script :D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\flash_all.bat
+[6:10:38 PM  799c25ae]:Physical Memory Usage:3309568 Byte
+[6:10:38 PM  799c25ae]:start process id 1888 name cmd
+[6:10:38 PM  799c25ae]:info:$fastboot -s 799c25ae getvar product   2>&1  | findstr /r /c:"^product: *umi"   || echo Missmatching image and device 
+[6:10:38 PM  799c25ae]:info:product: umi
+[6:10:38 PM  799c25ae]:info:$fastboot -s 799c25ae getvar product   2>&1  | findstr /r /c:"^product: *umi"   || exit /B 1 
+[6:10:38 PM  799c25ae]:info:product: umi
+[6:10:38 PM  799c25ae]:info:$if exist D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\anti_version.txt (for /F "delims==" %a in (D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\anti_version.txt) do (set CURRENT_ANTI_VER=%a ) ) 
+[6:10:38 PM  799c25ae]:info:$(set CURRENT_ANTI_VER=1 ) 
+[6:10:38 PM  799c25ae]:info:$if [1] EQU [] set CURRENT_ANTI_VER=0 
+[6:10:38 PM  799c25ae]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s 799c25ae getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[6:10:38 PM  799c25ae]:info:$(set version=1 ) 
+[6:10:38 PM  799c25ae]:info:$if [1] EQU [] set version=0 
+[6:10:38 PM  799c25ae]:info:$set anticheck="antirollback check pass" 
+[6:10:38 PM  799c25ae]:info:$if 1 GTR 1 set anticheck="Current device antirollback version is greater than this pakcage" 
+[6:10:38 PM  799c25ae]:info:$echo "antirollback check pass"   | findstr /r /c:"pass"   || 
+[6:10:38 PM  799c25ae]:info:"antirollback check pass" 
+[6:10:38 PM  799c25ae]:info:$fastboot -s 799c25ae erase boot   || 
+[6:10:38 PM  799c25ae]:err:erasing 'boot'...
+[6:10:38 PM  799c25ae]:info:$fastboot -s 799c25ae flash crclist D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\crclist.txt   || 
+[6:10:38 PM  799c25ae]:err:OKAY [  0.014s]
+[6:10:38 PM  799c25ae]:err:finished. total time: 0.014s
+[6:10:38 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:38 PM  799c25ae]:info:$fastboot -s 799c25ae flash sparsecrclist D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\sparsecrclist.txt   || 
+[6:10:38 PM  799c25ae]:err:sending 'crclist' (0 KB)...
+[6:10:38 PM  799c25ae]:err:OKAY [  0.006s]
+[6:10:38 PM  799c25ae]:err:writing 'crclist'...
+[6:10:38 PM  799c25ae]:err:OKAY [  0.007s]
+[6:10:38 PM  799c25ae]:err:finished. total time: 0.013s
+[6:10:38 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:38 PM  799c25ae]:info:$fastboot -s 799c25ae flash xbl_4 D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\xbl_4.elf   || 
+[6:10:38 PM  799c25ae]:err:sending 'sparsecrclist' (0 KB)...
+[6:10:38 PM  799c25ae]:err:OKAY [  0.004s]
+[6:10:38 PM  799c25ae]:err:writing 'sparsecrclist'...
+[6:10:38 PM  799c25ae]:err:OKAY [  0.005s]
+[6:10:38 PM  799c25ae]:err:finished. total time: 0.009s
+[6:10:39 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:39 PM  799c25ae]:info:$fastboot -s 799c25ae flash xbl_config_4 D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\xbl_config_4.elf   || 
+[6:10:39 PM  799c25ae]:err:sending 'xbl_4' (3350 KB)...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.110s]
+[6:10:39 PM  799c25ae]:err:writing 'xbl_4'...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.127s]
+[6:10:39 PM  799c25ae]:err:finished. total time: 0.238s
+[6:10:39 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:39 PM  799c25ae]:info:$fastboot -s 799c25ae flash xbl_5 D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\xbl_5.elf   || 
+[6:10:39 PM  799c25ae]:err:sending 'xbl_config_4' (95 KB)...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.010s]
+[6:10:39 PM  799c25ae]:err:writing 'xbl_config_4'...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.006s]
+[6:10:39 PM  799c25ae]:err:finished. total time: 0.016s
+[6:10:39 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:39 PM  799c25ae]:info:$fastboot -s 799c25ae flash xbl_config_5 D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\xbl_config_5.elf   || 
+[6:10:39 PM  799c25ae]:err:sending 'xbl_5' (3373 KB)...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.113s]
+[6:10:39 PM  799c25ae]:err:writing 'xbl_5'...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.127s]
+[6:10:39 PM  799c25ae]:err:finished. total time: 0.240s
+[6:10:39 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:39 PM  799c25ae]:info:$fastboot -s 799c25ae flash abl D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\abl.elf   || 
+[6:10:39 PM  799c25ae]:err:sending 'xbl_config_5' (95 KB)...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.011s]
+[6:10:39 PM  799c25ae]:err:writing 'xbl_config_5'...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.006s]
+[6:10:39 PM  799c25ae]:err:finished. total time: 0.018s
+[6:10:39 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:39 PM  799c25ae]:info:$fastboot -s 799c25ae flash tz D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\tz.mbn   || 
+[6:10:39 PM  799c25ae]:err:sending 'abl' (204 KB)...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.010s]
+[6:10:39 PM  799c25ae]:err:writing 'abl'...
+[6:10:39 PM  799c25ae]:err:OKAY [  0.010s]
+[6:10:39 PM  799c25ae]:err:finished. total time: 0.020s
+[6:10:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash hyp D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\hyp.mbn   || 
+[6:10:40 PM  799c25ae]:err:sending 'tz' (3228 KB)...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.112s]
+[6:10:40 PM  799c25ae]:err:writing 'tz'...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.123s]
+[6:10:40 PM  799c25ae]:err:finished. total time: 0.235s
+[6:10:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash devcfg D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\devcfg.mbn   || 
+[6:10:40 PM  799c25ae]:err:sending 'hyp' (434 KB)...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.026s]
+[6:10:40 PM  799c25ae]:err:writing 'hyp'...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.019s]
+[6:10:40 PM  799c25ae]:err:finished. total time: 0.044s
+[6:10:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash storsec D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\storsec.mbn   || 
+[6:10:40 PM  799c25ae]:err:sending 'devcfg' (47 KB)...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.009s]
+[6:10:40 PM  799c25ae]:err:writing 'devcfg'...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.005s]
+[6:10:40 PM  799c25ae]:err:finished. total time: 0.014s
+[6:10:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash bluetooth D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\BTFM.bin   || 
+[6:10:40 PM  799c25ae]:err:sending 'storsec' (19 KB)...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.004s]
+[6:10:40 PM  799c25ae]:err:writing 'storsec'...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.003s]
+[6:10:40 PM  799c25ae]:err:finished. total time: 0.007s
+[6:10:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash cmnlib D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\cmnlib.mbn   || 
+[6:10:40 PM  799c25ae]:err:sending 'bluetooth' (412 KB)...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.022s]
+[6:10:40 PM  799c25ae]:err:writing 'bluetooth'...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.017s]
+[6:10:40 PM  799c25ae]:err:finished. total time: 0.040s
+[6:10:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash cmnlib64 D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\cmnlib64.mbn   || 
+[6:10:40 PM  799c25ae]:err:sending 'cmnlib' (382 KB)...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.019s]
+[6:10:40 PM  799c25ae]:err:writing 'cmnlib'...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.017s]
+[6:10:40 PM  799c25ae]:err:finished. total time: 0.036s
+[6:10:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash modem D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\NON-HLOS.bin   || 
+[6:10:40 PM  799c25ae]:err:sending 'cmnlib64' (496 KB)...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.027s]
+[6:10:40 PM  799c25ae]:err:writing 'cmnlib64'...
+[6:10:40 PM  799c25ae]:err:OKAY [  0.021s]
+[6:10:40 PM  799c25ae]:err:finished. total time: 0.049s
+[6:10:56 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:10:56 PM  799c25ae]:err:sending 'modem' (219980 KB)...
+[6:10:56 PM  799c25ae]:err:OKAY [  7.171s]
+[6:10:56 PM  799c25ae]:info:$fastboot -s 799c25ae flash dsp D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\dspso.bin   || 
+[6:10:56 PM  799c25ae]:err:writing 'modem'...
+[6:10:56 PM  799c25ae]:err:OKAY [  8.079s]
+[6:10:56 PM  799c25ae]:err:finished. total time: 15.250s
+[6:11:01 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:01 PM  799c25ae]:err:sending 'dsp' (65536 KB)...
+[6:11:01 PM  799c25ae]:info:$fastboot -s 799c25ae flash keymaster D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\km4.mbn   || 
+[6:11:01 PM  799c25ae]:err:OKAY [  2.113s]
+[6:11:01 PM  799c25ae]:err:writing 'dsp'...
+[6:11:01 PM  799c25ae]:err:OKAY [  2.408s]
+[6:11:01 PM  799c25ae]:err:finished. total time: 4.521s
+[6:11:01 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:01 PM  799c25ae]:info:$fastboot -s 799c25ae flash logo D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\logo.img   || 
+[6:11:01 PM  799c25ae]:err:sending 'keymaster' (244 KB)...
+[6:11:01 PM  799c25ae]:err:OKAY [  0.018s]
+[6:11:01 PM  799c25ae]:err:writing 'keymaster'...
+[6:11:01 PM  799c25ae]:err:OKAY [  0.012s]
+[6:11:01 PM  799c25ae]:err:finished. total time: 0.030s
+[6:11:03 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:03 PM  799c25ae]:info:$fastboot -s 799c25ae flash featenabler D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\featenabler.mbn   || 
+[6:11:03 PM  799c25ae]:err:sending 'logo' (24704 KB)...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.807s]
+[6:11:03 PM  799c25ae]:err:writing 'logo'...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.910s]
+[6:11:03 PM  799c25ae]:err:finished. total time: 1.717s
+[6:11:03 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:03 PM  799c25ae]:info:$fastboot -s 799c25ae flash misc D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\misc.img   || 
+[6:11:03 PM  799c25ae]:err:sending 'featenabler' (84 KB)...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.010s]
+[6:11:03 PM  799c25ae]:err:writing 'featenabler'...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.004s]
+[6:11:03 PM  799c25ae]:err:finished. total time: 0.015s
+[6:11:03 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:03 PM  799c25ae]:info:$fastboot -s 799c25ae flash aop D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\aop.mbn   || 
+[6:11:03 PM  799c25ae]:err:sending 'misc' (8 KB)...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.006s]
+[6:11:03 PM  799c25ae]:err:writing 'misc'...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.003s]
+[6:11:03 PM  799c25ae]:err:finished. total time: 0.009s
+[6:11:03 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:03 PM  799c25ae]:info:$fastboot -s 799c25ae flash qupfw D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\qupv3fw.elf   || 
+[6:11:03 PM  799c25ae]:err:sending 'aop' (197 KB)...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.017s]
+[6:11:03 PM  799c25ae]:err:writing 'aop'...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.014s]
+[6:11:03 PM  799c25ae]:err:finished. total time: 0.032s
+[6:11:03 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:03 PM  799c25ae]:info:$fastboot -s 799c25ae flash uefisecapp D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\uefi_sec.mbn   || 
+[6:11:03 PM  799c25ae]:err:sending 'qupfw' (52 KB)...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.006s]
+[6:11:03 PM  799c25ae]:err:writing 'qupfw'...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.006s]
+[6:11:03 PM  799c25ae]:err:finished. total time: 0.012s
+[6:11:03 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:03 PM  799c25ae]:info:$fastboot -s 799c25ae flash multiimgoem D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\multi_image.mbn   || 
+[6:11:03 PM  799c25ae]:err:sending 'uefisecapp' (120 KB)...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.013s]
+[6:11:03 PM  799c25ae]:err:writing 'uefisecapp'...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.012s]
+[6:11:03 PM  799c25ae]:err:finished. total time: 0.025s
+[6:11:03 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:03 PM  799c25ae]:info:$fastboot -s 799c25ae flash super D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\super.img   || 
+[6:11:03 PM  799c25ae]:err:sending 'multiimgoem' (32 KB)...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.009s]
+[6:11:03 PM  799c25ae]:err:writing 'multiimgoem'...
+[6:11:03 PM  799c25ae]:err:OKAY [  0.004s]
+[6:11:03 PM  799c25ae]:err:finished. total time: 0.013s
+[6:17:27 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:17:27 PM  799c25ae]:info:$fastboot -s 799c25ae flash vbmeta D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\vbmeta.img   || 
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 1/9 (745429 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 27.485s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 1/9...
+[6:17:27 PM  799c25ae]:err:OKAY [  0.002s]
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 2/9 (696643 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 37.113s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 2/9...
+[6:17:27 PM  799c25ae]:err:OKAY [  0.001s]
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 3/9 (786426 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 36.335s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 3/9...
+[6:17:27 PM  799c25ae]:err:OKAY [  0.001s]
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 4/9 (786429 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 48.246s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 4/9...
+[6:17:27 PM  799c25ae]:err:OKAY [ -0.000s]
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 5/9 (776858 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 28.994s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 5/9...
+[6:17:27 PM  799c25ae]:err:OKAY [  0.001s]
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 6/9 (780415 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 41.355s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 6/9...
+[6:17:27 PM  799c25ae]:err:OKAY [  0.000s]
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 7/9 (777623 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 39.885s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 7/9...
+[6:17:27 PM  799c25ae]:err:OKAY [  0.001s]
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 8/9 (785177 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 38.395s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 8/9...
+[6:17:27 PM  799c25ae]:err:OKAY [  0.000s]
+[6:17:27 PM  799c25ae]:err:sending sparse 'super' 9/9 (221244 KB)...
+[6:17:27 PM  799c25ae]:err:OKAY [ 32.364s]
+[6:17:27 PM  799c25ae]:err:writing 'super' 9/9...
+[6:17:27 PM  799c25ae]:err:OKAY [  0.001s]
+[6:17:27 PM  799c25ae]:err:finished. total time: 330.180s
+[6:17:38 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:17:38 PM  799c25ae]:info:$fastboot -s 799c25ae flash dtbo D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\dtbo.img   || 
+[6:17:38 PM  799c25ae]:err:sending 'vbmeta' (8 KB)...
+[6:17:38 PM  799c25ae]:err:OKAY [  0.007s]
+[6:17:38 PM  799c25ae]:err:writing 'vbmeta'...
+[6:17:38 PM  799c25ae]:err:OKAY [  0.002s]
+[6:17:38 PM  799c25ae]:err:finished. total time: 0.009s
+[6:17:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:17:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash vbmeta_system D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\vbmeta_system.img   || 
+[6:17:40 PM  799c25ae]:err:sending 'dtbo' (32768 KB)...
+[6:17:40 PM  799c25ae]:err:OKAY [  1.063s]
+[6:17:40 PM  799c25ae]:err:writing 'dtbo'...
+[6:17:40 PM  799c25ae]:err:OKAY [  1.206s]
+[6:17:40 PM  799c25ae]:err:finished. total time: 2.269s
+[6:17:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:17:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash cache D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\cache.img   || 
+[6:17:40 PM  799c25ae]:err:sending 'vbmeta_system' (4 KB)...
+[6:17:40 PM  799c25ae]:err:OKAY [  0.003s]
+[6:17:40 PM  799c25ae]:err:writing 'vbmeta_system'...
+[6:17:40 PM  799c25ae]:err:OKAY [  0.003s]
+[6:17:40 PM  799c25ae]:err:finished. total time: 0.006s
+[6:17:40 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:17:40 PM  799c25ae]:info:$fastboot -s 799c25ae erase metadata   || 
+[6:17:40 PM  799c25ae]:err:erasing 'cache'...
+[6:17:40 PM  799c25ae]:err:OKAY [  0.009s]
+[6:17:40 PM  799c25ae]:err:sending 'cache' (152 KB)...
+[6:17:40 PM  799c25ae]:err:OKAY [  0.009s]
+[6:17:40 PM  799c25ae]:err:writing 'cache'...
+[6:17:40 PM  799c25ae]:info:$fastboot -s 799c25ae flash userdata D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\userdata.img   || 
+[6:17:40 PM  799c25ae]:err:OKAY [  0.014s]
+[6:17:40 PM  799c25ae]:err:finished. total time: 0.031s
+[6:17:40 PM  799c25ae]:err:erasing 'metadata'...
+[6:17:40 PM  799c25ae]:err:OKAY [  0.002s]
+[6:17:40 PM  799c25ae]:err:finished. total time: 0.002s
+[6:17:42 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:17:42 PM  799c25ae]:info:$fastboot -s 799c25ae flash recovery D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\recovery.img   || 
+[6:17:42 PM  799c25ae]:err:sending 'userdata' (25356 KB)...
+[6:17:42 PM  799c25ae]:err:OKAY [  0.827s]
+[6:17:42 PM  799c25ae]:err:writing 'userdata'...
+[6:17:42 PM  799c25ae]:err:OKAY [  0.901s]
+[6:17:42 PM  799c25ae]:err:finished. total time: 1.728s
+[6:17:52 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:17:52 PM  799c25ae]:err:sending 'recovery' (131072 KB)...
+[6:17:52 PM  799c25ae]:err:OKAY [  4.242s]
+[6:17:52 PM  799c25ae]:info:$if exist D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\exaid.img (fastboot -s 799c25ae flash exaid D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\exaid.img   || )  else (fastboot -s 799c25ae erase exaid   || ) 
+[6:17:52 PM  799c25ae]:err:writing 'recovery'...
+[6:17:52 PM  799c25ae]:err:OKAY [  4.823s]
+[6:17:52 PM  799c25ae]:err:finished. total time: 9.065s
+[6:18:21 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:18:21 PM  799c25ae]:err:sending 'exaid' (393216 KB)...
+[6:18:21 PM  799c25ae]:err:OKAY [ 12.677s]
+[6:18:21 PM  799c25ae]:err:writing 'exaid'...
+[6:18:21 PM  799c25ae]:err:OKAY [ 14.446s]
+[6:18:21 PM  799c25ae]:err:finished. total time: 27.123s
+[6:18:21 PM  799c25ae]:info:$fastboot -s 799c25ae flash cust D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\cust.img   || 
+[6:19:12 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:19:12 PM  799c25ae]:err:sending 'cust' (720324 KB)...
+[6:19:12 PM  799c25ae]:err:OKAY [ 23.368s]
+[6:19:12 PM  799c25ae]:err:writing 'cust'...
+[6:19:12 PM  799c25ae]:err:OKAY [ 25.540s]
+[6:19:12 PM  799c25ae]:err:finished. total time: 48.909s
+[6:19:12 PM  799c25ae]:info:$fastboot -s 799c25ae flash boot D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\boot.img   || 
+[6:19:48 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:19:48 PM  799c25ae]:err:sending 'boot' (131072 KB)...
+[6:19:48 PM  799c25ae]:err:OKAY [  4.243s]
+[6:19:48 PM  799c25ae]:info:$fastboot -s 799c25ae reboot   || 
+[6:19:48 PM  799c25ae]:err:writing 'boot'...
+[6:19:48 PM  799c25ae]:err:OKAY [  4.816s]
+[6:19:48 PM  799c25ae]:err:finished. total time: 9.059s
+[6:19:48 PM  799c25ae]:err:rebooting...
+[6:19:48 PM  799c25ae]:err:finished. total time: 0.008s
+[6:19:48 PM  799c25ae]:flash done
+[6:19:48 PM  799c25ae]:process exit.
+[6:19:48 PM  799c25ae]:flashSuccess True
+[6:19:48 PM  799c25ae]:isFactory False CheckCPUID False
+[6:19:48 PM  799c25ae]:before:flashSuccess is True set IsUpdate:True set IsDone True
+[6:19:48 PM  799c25ae]:after:flashSuccess is True set IsUpdate:false set IsDone true

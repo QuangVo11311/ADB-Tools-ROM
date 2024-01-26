@@ -1,0 +1,7 @@
+[8:14:55 PM  6fb2c4aa]:MiFlash 2018.5.28.0
+[8:14:55 PM  6fb2c4aa]:Thread id:9 Thread name:6fb2c4aa
+[8:14:55 PM  6fb2c4aa]:Could not find a part of the path 'D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global_044c052090\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global'.
+[8:14:56 PM  6fb2c4aa]:flashSuccess False
+[8:14:56 PM  6fb2c4aa]:isFactory False CheckCPUID False
+[8:14:56 PM  6fb2c4aa]:before:flashSuccess is False set IsUpdate:True set IsDone True
+[8:14:56 PM  6fb2c4aa]:after:flashSuccess is False set IsUpdate:false set IsDone true

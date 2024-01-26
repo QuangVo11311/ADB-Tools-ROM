@@ -1,0 +1,6 @@
+[12:46:43 PM]:lsusb path:"E:\ADB-Tools-ROM\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[12:46:43 PM]:ls ubs :Standard Serial over Bluetooth link (COM4)
+Standard Serial over Bluetooth link (COM3)
+
+[12:46:43 PM]:GetScriptDevices
+[12:46:44 PM]:add device ONJVJJXWVGS8CQBM

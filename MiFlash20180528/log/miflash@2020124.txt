@@ -1,0 +1,29 @@
+[10:41:39 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[10:41:39 AM]:create RegistryKey Software\XiaoMi\MiFlash\
+[10:41:44 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\WINDOWS\INF\oem19.inf,result True,GetLastWin32Error 
+[10:41:44 AM]:set RegistryKey value:android_winusb.inf--oem19.inf
+[10:41:44 AM]:mkdir "C:\Users\NguyenTienPC\.android"
+[10:41:45 AM]:output:A subdirectory or file C:\Users\NguyenTienPC\.android already exists.
+
+[10:41:45 AM]: echo 0x2717 >>"C:\Users\NguyenTienPC\.android\adb_usb.ini"
+[10:41:45 AM]:output:
+[10:41:45 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[10:41:46 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[10:41:46 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[10:41:47 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[10:41:47 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[10:41:48 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[10:41:48 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[10:41:51 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\WINDOWS\INF\oem21.inf,result True,GetLastWin32Error 
+[10:41:51 AM]:set RegistryKey value:qcser.inf--oem21.inf
+[10:42:33 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[10:42:33 AM]:ls ubs :
+[10:42:35 AM]:GetScriptDevices
+[10:42:37 AM]:add device 167ccaac
+[10:42:41 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[10:42:41 AM]:ls ubs :
+[10:42:41 AM]:GetScriptDevices
+[10:42:41 AM]:FlashingDevice.flashDeviceList.Remove 167ccaac
+[10:42:42 AM]:add device 167ccaac
+[10:42:42 AM]:Thread start,thread id 13,thread name 167ccaac
+[10:42:42 AM]:start process id 11496 name cmd

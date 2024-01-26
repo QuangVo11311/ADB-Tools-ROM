@@ -1,0 +1,195 @@
+[2:53:13 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[2:53:13 PM]:create RegistryKey Software\XiaoMi\MiFlash\
+[2:53:17 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\WINDOWS\INF\oem7.inf,result True,GetLastWin32Error 
+[2:53:17 PM]:set RegistryKey value:android_winusb.inf--oem7.inf
+[2:53:18 PM]:mkdir "C:\Users\NguyenTien\.android"
+[2:53:18 PM]:output:A subdirectory or file C:\Users\NguyenTien\.android already exists.
+
+[2:53:18 PM]: echo 0x2717 >>"C:\Users\NguyenTien\.android\adb_usb.ini"
+[2:53:18 PM]:output:
+[2:53:18 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[2:53:18 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[2:53:19 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[2:53:19 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[2:53:19 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[2:53:21 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[2:53:21 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[2:53:22 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\WINDOWS\INF\oem8.inf,result True,GetLastWin32Error 
+[2:53:22 PM]:set RegistryKey value:qcser.inf--oem8.inf
+[2:53:45 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:53:45 PM]:ls ubs :
+[2:53:46 PM]:GetScriptDevices
+[2:53:48 PM]:add device ba6b07537d23
+[2:54:15 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:54:15 PM]:ls ubs :
+[2:54:15 PM]:GetScriptDevices
+[2:54:15 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[2:54:15 PM]:add device ba6b07537d23
+[2:54:19 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:54:19 PM]:ls ubs :
+[2:54:19 PM]:GetScriptDevices
+[2:54:19 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[2:54:19 PM]:add device ba6b07537d23
+[2:54:19 PM]:Thread start,thread id 13,thread name ba6b07537d23
+[2:54:19 PM]:start process id 8980 name cmd
+[2:55:07 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:55:07 PM]:ls ubs :
+[2:55:07 PM]:GetScriptDevices
+[2:55:07 PM]:add device ba6b07537d23
+[2:55:08 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:55:08 PM]:ls ubs :
+[2:55:08 PM]:GetScriptDevices
+[2:55:08 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[2:55:08 PM]:add device ba6b07537d23
+[2:55:08 PM]:Thread start,thread id 13,thread name ba6b07537d23
+[2:55:08 PM]:start process id 2204 name cmd
+[3:06:23 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:06:23 PM]:ls ubs :
+[3:06:23 PM]:GetScriptDevices
+[3:06:24 PM]:add device ba6b07537d23
+[3:06:27 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:06:27 PM]:ls ubs :
+[3:06:27 PM]:GetScriptDevices
+[3:06:27 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:06:27 PM]:add device ba6b07537d23
+[3:06:27 PM]:Thread start,thread id 9,thread name ba6b07537d23
+[3:06:27 PM]:start process id 8416 name cmd
+[3:09:38 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:09:38 PM]:ls ubs :
+[3:09:38 PM]:GetScriptDevices
+[3:09:38 PM]:add device ba6b07537d23
+[3:09:41 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:09:41 PM]:ls ubs :
+[3:09:41 PM]:GetScriptDevices
+[3:09:42 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:09:42 PM]:add device ba6b07537d23
+[3:09:42 PM]:Thread start,thread id 9,thread name ba6b07537d23
+[3:09:42 PM]:start process id 5916 name cmd
+[3:10:00 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:10:00 PM]:ls ubs :
+[3:10:00 PM]:GetScriptDevices
+[3:10:00 PM]:Dulicate device ba6b07537d23
+[3:10:02 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:10:02 PM]:ls ubs :
+[3:10:02 PM]:GetScriptDevices
+[3:10:02 PM]:Dulicate device ba6b07537d23
+[3:10:02 PM]:ba6b07537d23 already in flashing
+[3:10:31 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:10:31 PM]:ls ubs :
+[3:10:31 PM]:GetScriptDevices
+[3:10:31 PM]:add device ba6b07537d23
+[3:10:33 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:10:33 PM]:ls ubs :
+[3:10:33 PM]:GetScriptDevices
+[3:10:33 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:10:33 PM]:add device ba6b07537d23
+[3:10:33 PM]:Thread start,thread id 9,thread name ba6b07537d23
+[3:10:33 PM]:start process id 7900 name cmd
+[3:11:45 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:11:46 PM]:ls ubs :
+[3:11:46 PM]:GetScriptDevices
+[3:11:46 PM]:add device ba6b07537d23
+[3:11:47 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:11:47 PM]:ls ubs :
+[3:11:47 PM]:GetScriptDevices
+[3:11:48 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:11:48 PM]:add device ba6b07537d23
+[3:11:48 PM]:Thread start,thread id 13,thread name ba6b07537d23
+[3:11:48 PM]:start process id 7432 name cmd
+[3:12:52 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:12:52 PM]:ls ubs :
+[3:12:52 PM]:GetScriptDevices
+[3:12:52 PM]:add device ba6b07537d23
+[3:12:54 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:12:54 PM]:ls ubs :
+[3:12:54 PM]:GetScriptDevices
+[3:12:54 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:12:54 PM]:add device ba6b07537d23
+[3:12:54 PM]:Thread start,thread id 9,thread name ba6b07537d23
+[3:12:54 PM]:start process id 7936 name cmd
+[3:19:45 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:19:46 PM]:ls ubs :
+[3:19:46 PM]:GetScriptDevices
+[3:19:48 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:19:48 PM]:ls ubs :
+[3:19:48 PM]:GetScriptDevices
+[3:19:49 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:19:49 PM]:ls ubs :
+[3:19:49 PM]:GetScriptDevices
+[3:19:50 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:19:50 PM]:ls ubs :
+[3:19:50 PM]:GetScriptDevices
+[3:19:52 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:19:52 PM]:ls ubs :
+[3:19:52 PM]:GetScriptDevices
+[3:20:02 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:20:02 PM]:ls ubs :
+[3:20:02 PM]:GetScriptDevices
+[3:20:03 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:20:03 PM]:ls ubs :
+[3:20:03 PM]:GetScriptDevices
+[3:20:06 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:20:06 PM]:ls ubs :
+[3:20:06 PM]:GetScriptDevices
+[3:20:09 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:20:09 PM]:ls ubs :
+[3:20:09 PM]:GetScriptDevices
+[3:20:10 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:20:10 PM]:ls ubs :
+[3:20:10 PM]:GetScriptDevices
+[3:20:11 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:20:11 PM]:ls ubs :
+[3:20:11 PM]:GetScriptDevices
+[3:30:57 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:30:58 PM]:ls ubs :
+[3:30:58 PM]:GetScriptDevices
+[3:30:59 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:30:59 PM]:ls ubs :
+[3:30:59 PM]:GetScriptDevices
+[3:31:00 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:31:00 PM]:ls ubs :
+[3:31:00 PM]:GetScriptDevices
+[3:31:01 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:31:01 PM]:ls ubs :
+[3:31:01 PM]:GetScriptDevices
+[3:31:02 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:31:02 PM]:ls ubs :
+[3:31:02 PM]:GetScriptDevices
+[3:31:06 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:31:06 PM]:ls ubs :
+[3:31:06 PM]:GetScriptDevices
+[3:31:07 PM]:add device ba6b07537d23
+[3:31:09 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:31:09 PM]:ls ubs :
+[3:31:09 PM]:GetScriptDevices
+[3:31:09 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:31:09 PM]:add device ba6b07537d23
+[3:31:09 PM]:Thread start,thread id 29,thread name ba6b07537d23
+[3:31:09 PM]:start process id 664 name cmd
+[3:37:47 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:37:47 PM]:ls ubs :
+[3:37:47 PM]:GetScriptDevices
+[3:37:47 PM]:add device ba6b07537d23
+[3:37:51 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:37:51 PM]:ls ubs :
+[3:37:51 PM]:GetScriptDevices
+[3:37:52 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:37:52 PM]:add device ba6b07537d23
+[3:37:52 PM]:Thread start,thread id 9,thread name ba6b07537d23
+[3:37:52 PM]:start process id 3508 name cmd
+[3:37:59 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:37:59 PM]:ls ubs :
+[3:37:59 PM]:GetScriptDevices
+[3:37:59 PM]:add device ba6b07537d23
+[3:38:43 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:38:43 PM]:ls ubs :
+[3:38:43 PM]:GetScriptDevices
+[3:38:44 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:38:44 PM]:add device ba6b07537d23
+[3:38:45 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:38:45 PM]:ls ubs :
+[3:38:45 PM]:GetScriptDevices
+[3:38:45 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[3:38:45 PM]:add device ba6b07537d23
+[3:38:45 PM]:Thread start,thread id 13,thread name ba6b07537d23
+[3:38:45 PM]:start process id 9708 name cmd

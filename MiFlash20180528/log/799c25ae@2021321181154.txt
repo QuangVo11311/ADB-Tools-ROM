@@ -1,0 +1,46 @@
+[6:11:54 PM  799c25ae]:MiFlash 2018.5.28.0
+[6:11:54 PM  799c25ae]:Thread id:9 Thread name:799c25ae
+[6:11:54 PM  799c25ae]:image path:D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn
+[6:11:54 PM  799c25ae]:env android path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[6:11:54 PM  799c25ae]:script :D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\flash_all.bat
+[6:11:54 PM  799c25ae]:Physical Memory Usage:2895872 Byte
+[6:11:54 PM  799c25ae]:start process id 8780 name cmd
+[6:11:54 PM  799c25ae]:info:$fastboot -s 799c25ae getvar product   2>&1  | findstr /r /c:"^product: *umi"   || echo Missmatching image and device 
+[6:11:54 PM  799c25ae]:info:product: umi
+[6:11:54 PM  799c25ae]:info:$fastboot -s 799c25ae getvar product   2>&1  | findstr /r /c:"^product: *umi"   || exit /B 1 
+[6:11:54 PM  799c25ae]:info:product: umi
+[6:11:54 PM  799c25ae]:info:$if exist D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\anti_version.txt (for /F "delims==" %a in (D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\anti_version.txt) do (set CURRENT_ANTI_VER=%a ) ) 
+[6:11:54 PM  799c25ae]:info:$(set CURRENT_ANTI_VER=1 ) 
+[6:11:54 PM  799c25ae]:info:$if [1] EQU [] set CURRENT_ANTI_VER=0 
+[6:11:54 PM  799c25ae]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s 799c25ae getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[6:11:54 PM  799c25ae]:info:$(set version=1 ) 
+[6:11:54 PM  799c25ae]:info:$if [1] EQU [] set version=0 
+[6:11:54 PM  799c25ae]:info:$set anticheck="antirollback check pass" 
+[6:11:54 PM  799c25ae]:info:$if 1 GTR 1 set anticheck="Current device antirollback version is greater than this pakcage" 
+[6:11:54 PM  799c25ae]:info:$echo "antirollback check pass"   | findstr /r /c:"pass"   || 
+[6:11:54 PM  799c25ae]:info:"antirollback check pass" 
+[6:11:54 PM  799c25ae]:info:$fastboot -s 799c25ae erase boot   || 
+[6:11:54 PM  799c25ae]:err:erasing 'boot'...
+[6:11:54 PM  799c25ae]:info:$fastboot -s 799c25ae flash crclist D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\crclist.txt   || 
+[6:11:54 PM  799c25ae]:err:OKAY [  0.000s]
+[6:11:54 PM  799c25ae]:err:finished. total time: 0.000s
+[6:11:54 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:54 PM  799c25ae]:info:$fastboot -s 799c25ae flash sparsecrclist D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\sparsecrclist.txt   || 
+[6:11:54 PM  799c25ae]:err:sending 'crclist' (0 KB)...
+[6:11:54 PM  799c25ae]:err:OKAY [ -0.000s]
+[6:11:54 PM  799c25ae]:err:writing 'crclist'...
+[6:11:54 PM  799c25ae]:err:OKAY [ -0.000s]
+[6:11:54 PM  799c25ae]:err:finished. total time: -0.000s
+[6:11:54 PM  799c25ae]:err:target reported max download size of 805306368 bytes
+[6:11:54 PM  799c25ae]:err:sending 'sparsecrclist' (0 KB)...
+[6:11:54 PM  799c25ae]:info:"Flash sparsecrclist error" 
+[6:11:54 PM  799c25ae]:err:OKAY [  0.016s]
+[6:11:54 PM  799c25ae]:err:writing 'sparsecrclist'...
+[6:11:54 PM  799c25ae]:err:FAILED (remote: update sparse crc list failed)
+[6:11:54 PM  799c25ae]:err:finished. total time: 0.016s
+[6:11:54 PM  799c25ae]:error:"Flash sparsecrclist error" 
+[6:11:54 PM  799c25ae]:process exit.
+[6:11:55 PM  799c25ae]:flashSuccess False
+[6:11:55 PM  799c25ae]:isFactory False CheckCPUID False
+[6:11:55 PM  799c25ae]:before:flashSuccess is False set IsUpdate:True set IsDone True
+[6:11:55 PM  799c25ae]:after:flashSuccess is False set IsUpdate:false set IsDone true

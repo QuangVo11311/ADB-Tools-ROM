@@ -1,0 +1,29 @@
+[9:26:55 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:26:55 AM]:create RegistryKey Software\XiaoMi\MiFlash\
+[9:26:56 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\Windows\INF\oem44.inf,result True,GetLastWin32Error 
+[9:26:56 AM]:set RegistryKey value:android_winusb.inf--oem44.inf
+[9:26:56 AM]:mkdir "C:\Users\TienPC\.android"
+[9:26:56 AM]:output:A subdirectory or file C:\Users\TienPC\.android already exists.
+
+[9:26:56 AM]: echo 0x2717 >>"C:\Users\TienPC\.android\adb_usb.ini"
+[9:26:56 AM]:output:
+[9:26:56 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:26:58 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[9:26:58 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:26:58 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[9:26:58 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:27:00 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[9:27:00 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:27:02 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\Windows\INF\oem57.inf,result True,GetLastWin32Error 
+[9:27:02 AM]:set RegistryKey value:qcser.inf--oem57.inf
+[9:27:19 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:27:19 AM]:ls ubs :
+[9:27:21 AM]:GetScriptDevices
+[9:27:22 AM]:add device 167ccaac
+[9:27:25 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:27:25 AM]:ls ubs :
+[9:27:25 AM]:GetScriptDevices
+[9:27:26 AM]:FlashingDevice.flashDeviceList.Remove 167ccaac
+[9:27:26 AM]:add device 167ccaac
+[9:27:26 AM]:Thread start,thread id 9,thread name 167ccaac
+[9:27:26 AM]:start process id 1176 name cmd

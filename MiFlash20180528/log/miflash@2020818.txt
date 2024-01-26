@@ -1,0 +1,106 @@
+[3:39:42 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:39:42 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM4)
+
+[3:39:43 PM]:GetScriptDevices
+[3:39:43 PM]:add device COM4
+[3:40:04 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:40:04 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM4)
+
+[3:40:04 PM]:GetScriptDevices
+[3:40:04 PM]:FlashingDevice.flashDeviceList.Remove COM4
+[3:40:04 PM]:add device COM4
+[3:40:05 PM]:Thread start,thread id 9,thread name COM4
+[3:40:25 PM]:deivce:COM4 error: [3:40:25 PM  COM4]:error:The write timed out.
+[3:40:25 PM]:Thread stopped, thread id 9, thread name COM4
+[3:40:36 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:40:36 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM4)
+
+[3:40:36 PM]:GetScriptDevices
+[3:40:36 PM]:add device COM4
+[3:40:48 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:40:48 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM4)
+
+[3:40:48 PM]:GetScriptDevices
+[3:40:48 PM]:FlashingDevice.flashDeviceList.Remove COM4
+[3:40:48 PM]:add device COM4
+[3:40:48 PM]:Thread start,thread id 9,thread name COM4
+[3:41:08 PM]:deivce:COM4 error: [3:41:08 PM  COM4]:error:The write timed out.
+[3:41:08 PM]:Thread stopped, thread id 9, thread name COM4
+[3:54:57 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:54:57 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM4)
+
+[3:54:58 PM]:GetScriptDevices
+[3:54:58 PM]:add device COM4
+[3:55:05 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:55:05 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM4)
+
+[3:55:06 PM]:GetScriptDevices
+[3:55:06 PM]:FlashingDevice.flashDeviceList.Remove COM4
+[3:55:06 PM]:add device COM4
+[3:55:07 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:55:07 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM4)
+
+[3:55:07 PM]:GetScriptDevices
+[3:55:07 PM]:FlashingDevice.flashDeviceList.Remove COM4
+[3:55:08 PM]:add device COM4
+[3:55:08 PM]:Thread start,thread id 15,thread name COM4
+[3:55:27 PM]:deivce:COM4 error: [3:55:27 PM  COM4]:error:The write timed out.
+[3:55:27 PM]:Thread stopped, thread id 15, thread name COM4
+[3:57:52 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[3:57:52 PM]:create RegistryKey Software\XiaoMi\MiFlash\
+[3:57:52 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\Windows\INF\oem7.inf,result True,GetLastWin32Error 
+[3:57:52 PM]:set RegistryKey value:android_winusb.inf--oem7.inf
+[3:57:52 PM]:mkdir "C:\Users\TienNguyen\.android"
+[3:57:52 PM]:output:A subdirectory or file C:\Users\TienNguyen\.android already exists.
+
+[3:57:52 PM]: echo 0x2717 >>"C:\Users\TienNguyen\.android\adb_usb.ini"
+[3:57:52 PM]:output:
+[3:57:52 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[3:57:53 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[3:57:53 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[3:57:53 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[3:57:53 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[3:57:54 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[3:57:54 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[3:57:55 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\Windows\INF\oem68.inf,result True,GetLastWin32Error 
+[3:57:55 PM]:set RegistryKey value:qcser.inf--oem68.inf
+[3:58:02 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:58:02 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:58:02 PM]:GetScriptDevices
+[3:58:02 PM]:add device COM3
+[3:58:12 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:58:12 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:58:12 PM]:GetScriptDevices
+[3:58:12 PM]:FlashingDevice.flashDeviceList.Remove COM3
+[3:58:12 PM]:add device COM3
+[3:58:13 PM]:Thread start,thread id 9,thread name COM3
+[3:58:32 PM]:deivce:COM3 error: [3:58:32 PM  COM3]:error:The write timed out.
+[3:58:32 PM]:Thread stopped, thread id 9, thread name COM3
+[4:00:48 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[4:00:48 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM5)
+
+[4:00:48 PM]:GetScriptDevices
+[4:00:48 PM]:add device COM5
+[4:33:19 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[4:33:19 PM]:ls ubs :
+[4:33:20 PM]:GetScriptDevices
+[4:33:20 PM]:add device 11a6e9e5
+[4:33:20 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[4:33:20 PM]:ls ubs :
+[4:33:20 PM]:GetScriptDevices
+[4:33:20 PM]:FlashingDevice.flashDeviceList.Remove 11a6e9e5
+[4:33:20 PM]:add device 11a6e9e5
+[4:33:46 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[4:33:46 PM]:ls ubs :
+[4:33:46 PM]:GetScriptDevices
+[4:33:46 PM]:FlashingDevice.flashDeviceList.Remove 11a6e9e5
+[4:33:46 PM]:add device 11a6e9e5
+[4:33:50 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[4:33:51 PM]:ls ubs :
+[4:33:51 PM]:GetScriptDevices
+[4:33:51 PM]:FlashingDevice.flashDeviceList.Remove 11a6e9e5
+[4:33:51 PM]:add device 11a6e9e5
+[4:33:51 PM]:Thread start,thread id 13,thread name 11a6e9e5
+[4:33:51 PM]:start process id 5944 name cmd

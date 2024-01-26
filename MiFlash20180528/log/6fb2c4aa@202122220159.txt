@@ -1,0 +1,364 @@
+[8:15:09 PM  6fb2c4aa]:MiFlash 2018.5.28.0
+[8:15:09 PM  6fb2c4aa]:Thread id:14 Thread name:6fb2c4aa
+[8:15:09 PM  6fb2c4aa]:image path:D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global
+[8:15:09 PM  6fb2c4aa]:env android path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[8:15:09 PM  6fb2c4aa]:script :D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\flash_all.bat
+[8:15:09 PM  6fb2c4aa]:Physical Memory Usage:3272704 Byte
+[8:15:09 PM  6fb2c4aa]:start process id 9268 name cmd
+[8:15:10 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || echo Missmatching image and device 
+[8:15:10 PM  6fb2c4aa]:info:product: ginkgo
+[8:15:10 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || exit /B 1 
+[8:15:10 PM  6fb2c4aa]:info:product: ginkgo
+[8:15:10 PM  6fb2c4aa]:info:$set CURRENT_ANTI_VER=1 
+[8:15:10 PM  6fb2c4aa]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s 6fb2c4aa getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[8:15:10 PM  6fb2c4aa]:info:$(set version=1 ) 
+[8:15:10 PM  6fb2c4aa]:info:$if [1] EQU [] set version=0 
+[8:15:10 PM  6fb2c4aa]:info:$if 1 GTR 1 (
+[8:15:10 PM  6fb2c4aa]:info:echo current device antirollback version is greater than this package  
+[8:15:10 PM  6fb2c4aa]:info: exit /B 1 
+[8:15:10 PM  6fb2c4aa]:info:) 
+[8:15:10 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash xbl D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\xbl.elf   || 
+[8:15:11 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:11 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash xblbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\xbl.elf   || 
+[8:15:11 PM  6fb2c4aa]:err:sending 'xbl' (3445 KB)...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.123s]
+[8:15:11 PM  6fb2c4aa]:err:writing 'xbl'...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  1.167s]
+[8:15:11 PM  6fb2c4aa]:err:finished. total time: 1.290s
+[8:15:11 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:11 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash xbl_config D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\xbl_config.elf   || 
+[8:15:11 PM  6fb2c4aa]:err:sending 'xblbak' (3445 KB)...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.117s]
+[8:15:11 PM  6fb2c4aa]:err:writing 'xblbak'...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.018s]
+[8:15:11 PM  6fb2c4aa]:err:finished. total time: 0.135s
+[8:15:11 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:11 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash xbl_configbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\xbl_config.elf   || 
+[8:15:11 PM  6fb2c4aa]:err:sending 'xbl_config' (48 KB)...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.009s]
+[8:15:11 PM  6fb2c4aa]:err:writing 'xbl_config'...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:11 PM  6fb2c4aa]:err:finished. total time: 0.013s
+[8:15:11 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:11 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash imagefv D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\imagefv.elf   || 
+[8:15:11 PM  6fb2c4aa]:err:sending 'xbl_configbak' (48 KB)...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.013s]
+[8:15:11 PM  6fb2c4aa]:err:writing 'xbl_configbak'...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:11 PM  6fb2c4aa]:err:finished. total time: 0.017s
+[8:15:11 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:11 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash imagefvbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\imagefv.elf   || 
+[8:15:11 PM  6fb2c4aa]:err:sending 'imagefv' (20 KB)...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:11 PM  6fb2c4aa]:err:writing 'imagefv'...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.002s]
+[8:15:11 PM  6fb2c4aa]:err:finished. total time: 0.006s
+[8:15:11 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:11 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash uefisecapp D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\uefi_sec.mbn   || 
+[8:15:11 PM  6fb2c4aa]:err:sending 'imagefvbak' (20 KB)...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:11 PM  6fb2c4aa]:err:writing 'imagefvbak'...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.002s]
+[8:15:11 PM  6fb2c4aa]:err:finished. total time: 0.007s
+[8:15:11 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:11 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash uefisecappbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\uefi_sec.mbn   || 
+[8:15:11 PM  6fb2c4aa]:err:sending 'uefisecapp' (125 KB)...
+[8:15:11 PM  6fb2c4aa]:err:OKAY [  0.007s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'uefisecapp'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.011s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash qupfw D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\qupv3fw.elf   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'uefisecappbak' (125 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.013s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'uefisecappbak'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.019s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash qupfwbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\qupv3fw.elf   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'qupfw' (48 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.012s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'qupfw'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.003s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.015s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash metadata D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\metadata.img   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'qupfwbak' (48 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.013s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'qupfwbak'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.017s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash tz D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\tz.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'metadata' (48 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'metadata'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.008s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash tzbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\tz.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'tz' (1956 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.064s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'tz'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.040s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.104s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash rpm D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\rpm.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'tzbak' (1956 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.067s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'tzbak'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.079s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.146s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash rpmbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\rpm.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'rpm' (218 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.011s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'rpm'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.015s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash hyp D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\hyp.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'rpmbak' (218 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.013s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'rpmbak'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.018s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash hypbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\hyp.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'hyp' (361 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.021s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'hyp'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.026s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash keymaster D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\km4.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'hypbak' (361 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.022s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'hypbak'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.027s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash keymasterbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\km4.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'keymaster' (232 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.012s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'keymaster'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.016s
+[8:15:12 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:12 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash cmnlib D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\cmnlib.mbn   || 
+[8:15:12 PM  6fb2c4aa]:err:sending 'keymasterbak' (232 KB)...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.013s]
+[8:15:12 PM  6fb2c4aa]:err:writing 'keymasterbak'...
+[8:15:12 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:12 PM  6fb2c4aa]:err:finished. total time: 0.018s
+[8:15:13 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:13 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash cmnlibbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\cmnlib.mbn   || 
+[8:15:13 PM  6fb2c4aa]:err:sending 'cmnlib' (384 KB)...
+[8:15:13 PM  6fb2c4aa]:err:OKAY [  0.024s]
+[8:15:13 PM  6fb2c4aa]:err:writing 'cmnlib'...
+[8:15:13 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:13 PM  6fb2c4aa]:err:finished. total time: 0.029s
+[8:15:13 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:13 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash cmnlib64 D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\cmnlib64.mbn   || 
+[8:15:13 PM  6fb2c4aa]:err:sending 'cmnlibbak' (384 KB)...
+[8:15:13 PM  6fb2c4aa]:err:OKAY [  0.015s]
+[8:15:13 PM  6fb2c4aa]:err:writing 'cmnlibbak'...
+[8:15:13 PM  6fb2c4aa]:err:OKAY [  0.007s]
+[8:15:13 PM  6fb2c4aa]:err:finished. total time: 0.022s
+[8:15:13 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:13 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash cmnlib64bak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\cmnlib64.mbn   || 
+[8:15:13 PM  6fb2c4aa]:err:sending 'cmnlib64' (499 KB)...
+[8:15:13 PM  6fb2c4aa]:err:OKAY [  0.026s]
+[8:15:13 PM  6fb2c4aa]:err:writing 'cmnlib64'...
+[8:15:13 PM  6fb2c4aa]:err:OKAY [  0.007s]
+[8:15:13 PM  6fb2c4aa]:err:finished. total time: 0.033s
+[8:15:13 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:13 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash modem D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\NON-HLOS.bin   || 
+[8:15:13 PM  6fb2c4aa]:err:sending 'cmnlib64bak' (499 KB)...
+[8:15:13 PM  6fb2c4aa]:err:OKAY [  0.023s]
+[8:15:13 PM  6fb2c4aa]:err:writing 'cmnlib64bak'...
+[8:15:13 PM  6fb2c4aa]:err:OKAY [  0.006s]
+[8:15:13 PM  6fb2c4aa]:err:finished. total time: 0.029s
+[8:15:18 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:18 PM  6fb2c4aa]:err:sending 'modem' (118913 KB)...
+[8:15:18 PM  6fb2c4aa]:err:OKAY [  3.864s]
+[8:15:18 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash dsp D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\dspso.bin   || 
+[8:15:18 PM  6fb2c4aa]:err:writing 'modem'...
+[8:15:18 PM  6fb2c4aa]:err:OKAY [  0.528s]
+[8:15:18 PM  6fb2c4aa]:err:finished. total time: 4.392s
+[8:15:19 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:19 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash dspbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\dspso.bin   || 
+[8:15:19 PM  6fb2c4aa]:err:sending 'dsp' (32768 KB)...
+[8:15:19 PM  6fb2c4aa]:err:OKAY [  1.070s]
+[8:15:19 PM  6fb2c4aa]:err:writing 'dsp'...
+[8:15:19 PM  6fb2c4aa]:err:OKAY [  0.148s]
+[8:15:19 PM  6fb2c4aa]:err:finished. total time: 1.218s
+[8:15:20 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:20 PM  6fb2c4aa]:err:sending 'dspbak' (32768 KB)...
+[8:15:20 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash bluetooth D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\BTFM.bin   || 
+[8:15:20 PM  6fb2c4aa]:err:OKAY [  1.063s]
+[8:15:20 PM  6fb2c4aa]:err:writing 'dspbak'...
+[8:15:20 PM  6fb2c4aa]:err:OKAY [  0.147s]
+[8:15:20 PM  6fb2c4aa]:err:finished. total time: 1.210s
+[8:15:20 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:20 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash bluetoothbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\BTFM.bin   || 
+[8:15:20 PM  6fb2c4aa]:err:sending 'bluetooth' (876 KB)...
+[8:15:20 PM  6fb2c4aa]:err:OKAY [  0.032s]
+[8:15:20 PM  6fb2c4aa]:err:writing 'bluetooth'...
+[8:15:20 PM  6fb2c4aa]:err:OKAY [  0.007s]
+[8:15:20 PM  6fb2c4aa]:err:finished. total time: 0.040s
+[8:15:20 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:20 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash storsec D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\storsec.mbn   || 
+[8:15:20 PM  6fb2c4aa]:err:sending 'bluetoothbak' (876 KB)...
+[8:15:20 PM  6fb2c4aa]:err:OKAY [  0.032s]
+[8:15:20 PM  6fb2c4aa]:err:writing 'bluetoothbak'...
+[8:15:20 PM  6fb2c4aa]:err:OKAY [  0.016s]
+[8:15:20 PM  6fb2c4aa]:err:finished. total time: 0.048s
+[8:15:20 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:20 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash devcfg D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\devcfg.mbn   || 
+[8:15:20 PM  6fb2c4aa]:err:sending 'storsec' (19 KB)...
+[8:15:20 PM  6fb2c4aa]:err:OKAY [  0.013s]
+[8:15:20 PM  6fb2c4aa]:err:writing 'storsec'...
+[8:15:20 PM  6fb2c4aa]:err:OKAY [  0.003s]
+[8:15:20 PM  6fb2c4aa]:err:finished. total time: 0.016s
+[8:15:21 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:21 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash devcfgbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\devcfg.mbn   || 
+[8:15:21 PM  6fb2c4aa]:err:sending 'devcfg' (41 KB)...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:21 PM  6fb2c4aa]:err:writing 'devcfg'...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.003s]
+[8:15:21 PM  6fb2c4aa]:err:finished. total time: 0.007s
+[8:15:21 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:21 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash abl D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\abl.elf   || 
+[8:15:21 PM  6fb2c4aa]:err:sending 'devcfgbak' (41 KB)...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.006s]
+[8:15:21 PM  6fb2c4aa]:err:writing 'devcfgbak'...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.004s]
+[8:15:21 PM  6fb2c4aa]:err:finished. total time: 0.010s
+[8:15:21 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:21 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash ablbak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\abl.elf   || 
+[8:15:21 PM  6fb2c4aa]:err:sending 'abl' (148 KB)...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.013s]
+[8:15:21 PM  6fb2c4aa]:err:writing 'abl'...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.006s]
+[8:15:21 PM  6fb2c4aa]:err:finished. total time: 0.020s
+[8:15:21 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:21 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash dtbo D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\dtbo.img   || 
+[8:15:21 PM  6fb2c4aa]:err:sending 'ablbak' (148 KB)...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.013s]
+[8:15:21 PM  6fb2c4aa]:err:writing 'ablbak'...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.012s]
+[8:15:21 PM  6fb2c4aa]:err:finished. total time: 0.025s
+[8:15:21 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:21 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash vbmeta D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\vbmeta.img   || 
+[8:15:21 PM  6fb2c4aa]:err:sending 'dtbo' (8192 KB)...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.274s]
+[8:15:21 PM  6fb2c4aa]:err:writing 'dtbo'...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.052s]
+[8:15:21 PM  6fb2c4aa]:err:finished. total time: 0.325s
+[8:15:21 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:21 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash vbmetabak D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\vbmeta.img   || 
+[8:15:21 PM  6fb2c4aa]:err:sending 'vbmeta' (4 KB)...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:21 PM  6fb2c4aa]:err:writing 'vbmeta'...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.002s]
+[8:15:21 PM  6fb2c4aa]:err:finished. total time: 0.007s
+[8:15:21 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:21 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash boot D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\boot.img   || 
+[8:15:21 PM  6fb2c4aa]:err:sending 'vbmetabak' (4 KB)...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:15:21 PM  6fb2c4aa]:err:writing 'vbmetabak'...
+[8:15:21 PM  6fb2c4aa]:err:OKAY [  0.002s]
+[8:15:21 PM  6fb2c4aa]:err:finished. total time: 0.007s
+[8:15:24 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:24 PM  6fb2c4aa]:err:sending 'boot' (65536 KB)...
+[8:15:24 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash recovery D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\recovery.img   || 
+[8:15:24 PM  6fb2c4aa]:err:OKAY [  2.116s]
+[8:15:24 PM  6fb2c4aa]:err:writing 'boot'...
+[8:15:24 PM  6fb2c4aa]:err:OKAY [  0.294s]
+[8:15:24 PM  6fb2c4aa]:err:finished. total time: 2.410s
+[8:15:26 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:15:27 PM  6fb2c4aa]:err:sending 'recovery' (65536 KB)...
+[8:15:27 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash system D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\system.img   || 
+[8:15:27 PM  6fb2c4aa]:err:OKAY [  2.131s]
+[8:15:27 PM  6fb2c4aa]:err:writing 'recovery'...
+[8:15:27 PM  6fb2c4aa]:err:OKAY [  0.294s]
+[8:15:27 PM  6fb2c4aa]:err:finished. total time: 2.425s
+[8:17:56 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:17:56 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash vendor D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\vendor.img   || 
+[8:17:56 PM  6fb2c4aa]:err:erasing 'system'...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [  0.711s]
+[8:17:56 PM  6fb2c4aa]:err:sending sparse 'system' 1/5 (772756 KB)...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [ 26.010s]
+[8:17:56 PM  6fb2c4aa]:err:writing 'system' 1/5...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [  0.001s]
+[8:17:56 PM  6fb2c4aa]:err:sending sparse 'system' 2/5 (772048 KB)...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [ 26.313s]
+[8:17:56 PM  6fb2c4aa]:err:writing 'system' 2/5...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [  0.001s]
+[8:17:56 PM  6fb2c4aa]:err:sending sparse 'system' 3/5 (774312 KB)...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [ 26.233s]
+[8:17:56 PM  6fb2c4aa]:err:writing 'system' 3/5...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [  0.001s]
+[8:17:56 PM  6fb2c4aa]:err:sending sparse 'system' 4/5 (774312 KB)...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [ 26.284s]
+[8:17:56 PM  6fb2c4aa]:err:writing 'system' 4/5...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [  0.001s]
+[8:17:56 PM  6fb2c4aa]:err:sending sparse 'system' 5/5 (784452 KB)...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [ 26.604s]
+[8:17:56 PM  6fb2c4aa]:err:writing 'system' 5/5...
+[8:17:56 PM  6fb2c4aa]:err:OKAY [  0.001s]
+[8:17:56 PM  6fb2c4aa]:err:finished. total time: 132.160s
+[8:18:35 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:18:35 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash userdata D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\userdata.img   || 
+[8:18:35 PM  6fb2c4aa]:err:sending sparse 'vendor' 1/2 (774124 KB)...
+[8:18:35 PM  6fb2c4aa]:err:OKAY [ 26.019s]
+[8:18:35 PM  6fb2c4aa]:err:writing 'vendor' 1/2...
+[8:18:35 PM  6fb2c4aa]:err:OKAY [  0.002s]
+[8:18:35 PM  6fb2c4aa]:err:sending sparse 'vendor' 2/2 (165268 KB)...
+[8:18:35 PM  6fb2c4aa]:err:OKAY [  5.739s]
+[8:18:35 PM  6fb2c4aa]:err:writing 'vendor' 2/2...
+[8:18:35 PM  6fb2c4aa]:err:OKAY [  0.001s]
+[8:18:35 PM  6fb2c4aa]:err:finished. total time: 31.761s
+[8:19:17 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:19:17 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash cache D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\cache.img   || 
+[8:19:17 PM  6fb2c4aa]:err:sending sparse 'userdata' 1/2 (786428 KB)...
+[8:19:17 PM  6fb2c4aa]:err:OKAY [ 26.278s]
+[8:19:17 PM  6fb2c4aa]:err:writing 'userdata' 1/2...
+[8:19:17 PM  6fb2c4aa]:err:OKAY [  0.002s]
+[8:19:17 PM  6fb2c4aa]:err:sending sparse 'userdata' 2/2 (279752 KB)...
+[8:19:17 PM  6fb2c4aa]:err:OKAY [  9.560s]
+[8:19:17 PM  6fb2c4aa]:err:writing 'userdata' 2/2...
+[8:19:17 PM  6fb2c4aa]:err:OKAY [  0.001s]
+[8:19:17 PM  6fb2c4aa]:err:finished. total time: 35.842s
+[8:19:18 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:19:18 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa erase ddr 
+[8:19:18 PM  6fb2c4aa]:err:erasing 'cache'...
+[8:19:18 PM  6fb2c4aa]:err:OKAY [  0.017s]
+[8:19:18 PM  6fb2c4aa]:err:sending 'cache' (120 KB)...
+[8:19:18 PM  6fb2c4aa]:err:OKAY [  0.012s]
+[8:19:18 PM  6fb2c4aa]:err:writing 'cache'...
+[8:19:18 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa erase misc 
+[8:19:18 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:19:18 PM  6fb2c4aa]:err:finished. total time: 0.034s
+[8:19:18 PM  6fb2c4aa]:err:erasing 'ddr'...
+[8:19:18 PM  6fb2c4aa]:err:OKAY [  0.006s]
+[8:19:18 PM  6fb2c4aa]:err:finished. total time: 0.006s
+[8:19:18 PM  6fb2c4aa]:err:erasing 'misc'...
+[8:19:18 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa erase apdp 
+[8:19:18 PM  6fb2c4aa]:err:OKAY [  0.007s]
+[8:19:18 PM  6fb2c4aa]:err:finished. total time: 0.007s
+[8:19:18 PM  6fb2c4aa]:err:erasing 'apdp'...
+[8:19:18 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa flash cust D:\ginkgo_global_images_V12.0.3.0.QCOMIXM_20201226.0000.00_10.0_global\images\cust.img 
+[8:19:18 PM  6fb2c4aa]:err:OKAY [  0.005s]
+[8:19:18 PM  6fb2c4aa]:err:finished. total time: 0.005s
+[8:19:44 PM  6fb2c4aa]:err:target reported max download size of 805306368 bytes
+[8:19:44 PM  6fb2c4aa]:err:sending 'cust' (733308 KB)...
+[8:19:44 PM  6fb2c4aa]:err:OKAY [ 23.933s]
+[8:19:44 PM  6fb2c4aa]:err:writing 'cust'...
+[8:19:44 PM  6fb2c4aa]:err:OKAY [  0.002s]
+[8:19:44 PM  6fb2c4aa]:err:finished. total time: 23.935s
+[8:19:44 PM  6fb2c4aa]:info:$fastboot -s 6fb2c4aa reboot 
+[8:19:48 PM  6fb2c4aa]:err:rebooting...
+[8:19:48 PM  6fb2c4aa]:info:$pause
+[8:19:48 PM  6fb2c4aa]:err:finished. total time: -0.000s

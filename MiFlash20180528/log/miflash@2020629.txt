@@ -1,0 +1,32 @@
+[9:03:10 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:03:10 PM]:create RegistryKey Software\XiaoMi\MiFlash\
+[9:03:10 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\Windows\INF\oem45.inf,result True,GetLastWin32Error 
+[9:03:10 PM]:set RegistryKey value:android_winusb.inf--oem45.inf
+[9:03:10 PM]:mkdir "C:\Users\htien\.android"
+[9:03:10 PM]:output:A subdirectory or file C:\Users\htien\.android already exists.
+
+[9:03:10 PM]: echo 0x2717 >>"C:\Users\htien\.android\adb_usb.ini"
+[9:03:10 PM]:output:
+[9:03:10 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:03:11 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[9:03:11 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:03:12 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[9:03:12 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:03:13 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[9:03:13 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[9:03:16 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\Windows\INF\oem66.inf,result True,GetLastWin32Error 
+[9:03:16 PM]:set RegistryKey value:qcser.inf--oem66.inf
+[9:03:21 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:03:22 PM]:ls ubs :
+[9:03:22 PM]:GetScriptDevices
+[9:03:34 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:03:34 PM]:ls ubs :
+[9:03:34 PM]:GetScriptDevices
+[9:03:35 PM]:add device 167ccaac
+[9:03:49 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:03:49 PM]:ls ubs :
+[9:03:49 PM]:GetScriptDevices
+[9:03:49 PM]:FlashingDevice.flashDeviceList.Remove 167ccaac
+[9:03:49 PM]:add device 167ccaac
+[9:03:49 PM]:Thread start,thread id 7,thread name 167ccaac
+[9:03:49 PM]:start process id 11340 name cmd

@@ -1,0 +1,11 @@
+[3:45:29 PM]:lsusb path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:45:29 PM]:ls ubs :
+[3:45:29 PM]:GetScriptDevices
+[3:45:30 PM]:add device a0daca02
+[3:45:32 PM]:lsusb path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:45:32 PM]:ls ubs :
+[3:45:32 PM]:GetScriptDevices
+[3:45:32 PM]:FlashingDevice.flashDeviceList.Remove a0daca02
+[3:45:32 PM]:add device a0daca02
+[3:45:32 PM]:Thread start,thread id 13,thread name a0daca02
+[3:45:32 PM]:start process id 6132 name cmd

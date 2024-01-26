@@ -1,0 +1,29 @@
+[11:53:33 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:53:33 AM]:create RegistryKey Software\XiaoMi\MiFlash\
+[11:53:34 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\WINDOWS\INF\oem1.inf,result True,GetLastWin32Error 
+[11:53:34 AM]:set RegistryKey value:android_winusb.inf--oem1.inf
+[11:53:34 AM]:mkdir "C:\Users\htien\.android"
+[11:53:34 AM]:output:A subdirectory or file C:\Users\htien\.android already exists.
+
+[11:53:34 AM]: echo 0x2717 >>"C:\Users\htien\.android\adb_usb.ini"
+[11:53:34 AM]:output:
+[11:53:34 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:53:36 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[11:53:36 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:53:36 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[11:53:36 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:53:38 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[11:53:38 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[11:53:40 AM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\WINDOWS\INF\oem65.inf,result True,GetLastWin32Error 
+[11:53:40 AM]:set RegistryKey value:qcser.inf--oem65.inf
+[11:54:35 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[11:54:35 AM]:ls ubs :
+[11:54:35 AM]:GetScriptDevices
+[11:54:36 AM]:add device 167ccaac
+[11:54:38 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[11:54:38 AM]:ls ubs :
+[11:54:38 AM]:GetScriptDevices
+[11:54:38 AM]:FlashingDevice.flashDeviceList.Remove 167ccaac
+[11:54:38 AM]:add device 167ccaac
+[11:54:38 AM]:Thread start,thread id 9,thread name 167ccaac
+[11:54:38 AM]:start process id 10120 name cmd

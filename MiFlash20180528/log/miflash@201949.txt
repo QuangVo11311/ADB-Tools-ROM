@@ -1,0 +1,62 @@
+[1:47:42 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:47:42 PM]:create RegistryKey Software\XiaoMi\MiFlash\
+[1:47:45 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\Windows\INF\oem21.inf,result True,GetLastWin32Error 
+[1:47:45 PM]:set RegistryKey value:android_winusb.inf--oem21.inf
+[1:47:45 PM]:mkdir "C:\Users\NguyenTien\.android"
+[1:47:45 PM]:output:A subdirectory or file C:\Users\NguyenTien\.android already exists.
+
+[1:47:45 PM]: echo 0x2717 >>"C:\Users\NguyenTien\.android\adb_usb.ini"
+[1:47:45 PM]:output:
+[1:47:45 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:47:52 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to C:\Windows\INF\oem22.inf,result True,GetLastWin32Error 
+[1:47:52 PM]:set RegistryKey value:NvidiaUsb.inf--oem22.inf
+[1:47:52 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:47:55 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to C:\Windows\INF\oem23.inf,result True,GetLastWin32Error 
+[1:47:55 PM]:set RegistryKey value:tetherxp.inf--oem23.inf
+[1:47:55 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:47:58 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to C:\Windows\INF\oem24.inf,result True,GetLastWin32Error 
+[1:47:58 PM]:set RegistryKey value:wpdmtphw.inf--oem24.inf
+[1:47:58 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:47:59 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\Windows\INF\oem25.inf,result True,GetLastWin32Error 
+[1:47:59 PM]:set RegistryKey value:qcser.inf--oem25.inf
+[1:49:30 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:49:30 PM]:driver oem21.inf exists,uninstall,reuslt True,GetLastWin32Error
+[1:49:31 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\Windows\INF\oem21.inf,result True,GetLastWin32Error 
+[1:49:31 PM]:set RegistryKey value:android_winusb.inf--oem21.inf
+[1:49:31 PM]:mkdir "C:\Users\NguyenTien\.android"
+[1:49:31 PM]:output:A subdirectory or file C:\Users\NguyenTien\.android already exists.
+
+[1:49:31 PM]: echo 0x2717 >>"C:\Users\NguyenTien\.android\adb_usb.ini"
+[1:49:31 PM]:output:
+[1:49:31 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:49:32 PM]:driver oem22.inf exists,uninstall,reuslt True,GetLastWin32Error
+[1:50:21 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to C:\Windows\INF\oem22.inf,result True,GetLastWin32Error 
+[1:50:21 PM]:set RegistryKey value:NvidiaUsb.inf--oem22.inf
+[1:50:21 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:50:21 PM]:driver oem23.inf exists,uninstall,reuslt True,GetLastWin32Error
+[1:50:23 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to C:\Windows\INF\oem23.inf,result True,GetLastWin32Error 
+[1:50:23 PM]:set RegistryKey value:tetherxp.inf--oem23.inf
+[1:50:23 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:50:24 PM]:driver oem24.inf exists,uninstall,reuslt True,GetLastWin32Error
+[1:50:34 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to C:\Windows\INF\oem24.inf,result True,GetLastWin32Error 
+[1:50:34 PM]:set RegistryKey value:wpdmtphw.inf--oem24.inf
+[1:50:34 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:50:34 PM]:driver oem25.inf exists,uninstall,reuslt True,GetLastWin32Error
+[1:50:35 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\Windows\INF\oem25.inf,result True,GetLastWin32Error 
+[1:50:35 PM]:set RegistryKey value:qcser.inf--oem25.inf
+[1:51:58 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:51:58 PM]:ls ubs :
+[1:51:59 PM]:GetScriptDevices
+[1:51:59 PM]:add device ba6b07537d23
+[1:52:34 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:52:35 PM]:ls ubs :
+[1:52:35 PM]:GetScriptDevices
+[1:52:35 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[1:52:35 PM]:add device ba6b07537d23
+[1:52:37 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:52:37 PM]:ls ubs :
+[1:52:37 PM]:GetScriptDevices
+[1:52:37 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[1:52:37 PM]:add device ba6b07537d23
+[1:52:37 PM]:Thread start,thread id 13,thread name ba6b07537d23
+[1:52:37 PM]:start process id 200 name cmd

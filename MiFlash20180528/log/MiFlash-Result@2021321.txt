@@ -1,0 +1,4 @@
+[6:07:50 PM]:1    799c25ae     1.0031597s     [6:07:50 PM  799c25ae]:error:"Flash sparsecrclist error" 
+[6:08:08 PM]:1    799c25ae     0.5937209s     [6:08:08 PM  799c25ae]:error:"Flash sparsecrclist error" 
+[6:11:55 PM]:1    799c25ae     1.0025105s     [6:11:54 PM  799c25ae]:error:"Flash sparsecrclist error" 
+[6:19:56 PM]:1    799c25ae     409.733944s     [6:19:55 PM  799c25ae]:error:$REM fastboot -s 799c25ae flash crclist D:\umi_images_V12.0.8.0.QJBCNXM_20200806.0000.00_10.0_cn\images\crclist.txt || @ECHO "Flash crclist error" && exit /B 1 

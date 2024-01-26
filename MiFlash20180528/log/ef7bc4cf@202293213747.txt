@@ -1,0 +1,33 @@
+[9:37:47 PM  ef7bc4cf]:MiFlash 2018.5.28.0
+[9:37:47 PM  ef7bc4cf]:Thread id:10 Thread name:ef7bc4cf
+[9:37:47 PM  ef7bc4cf]:image path:E:\ADBandFastboot\ROM\ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn_5c9c74ecd8\ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn
+[9:37:47 PM  ef7bc4cf]:env android path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Google\Android"
+[9:37:47 PM  ef7bc4cf]:script :E:\ADBandFastboot\ROM\ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn_5c9c74ecd8\ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn\flash_all.bat
+[9:37:47 PM  ef7bc4cf]:Physical Memory Usage:3305472 Byte
+[9:37:47 PM  ef7bc4cf]:start process id 8216 name cmd
+[9:37:47 PM  ef7bc4cf]:info:$fastboot -s ef7bc4cf getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || echo Missmatching image and device 
+[9:37:47 PM  ef7bc4cf]:info:product: ginkgo
+[9:37:47 PM  ef7bc4cf]:info:$fastboot -s ef7bc4cf getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || exit /B 1 
+[9:37:47 PM  ef7bc4cf]:info:product: ginkgo
+[9:37:47 PM  ef7bc4cf]:info:$set CURRENT_ANTI_VER=1 
+[9:37:47 PM  ef7bc4cf]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s ef7bc4cf getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[9:37:47 PM  ef7bc4cf]:info:$(set version=1 ) 
+[9:37:47 PM  ef7bc4cf]:info:$if [1] EQU [] set version=0 
+[9:37:47 PM  ef7bc4cf]:info:$if 1 GTR 1 (
+[9:37:47 PM  ef7bc4cf]:info:echo current device antirollback version is greater than this package  
+[9:37:47 PM  ef7bc4cf]:info: exit /B 1 
+[9:37:47 PM  ef7bc4cf]:info:) 
+[9:37:47 PM  ef7bc4cf]:info:$fastboot -s ef7bc4cf flash xbl E:\ADBandFastboot\ROM\ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn_5c9c74ecd8\ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn\images\xbl.elf   || 
+[9:37:48 PM  ef7bc4cf]:err:target reported max download size of 799782912 bytes
+[9:37:48 PM  ef7bc4cf]:err:sending 'xbl' (3449 KB)...
+[9:37:48 PM  ef7bc4cf]:err:OKAY [  0.103s]
+[9:37:48 PM  ef7bc4cf]:err:writing 'xbl'...
+[9:37:48 PM  ef7bc4cf]:err:FAILED (remote: Flashing is not allowed in Lock State)
+[9:37:48 PM  ef7bc4cf]:err:finished. total time: 0.106s
+[9:37:48 PM  ef7bc4cf]:info:"Flash xbl error" 
+[9:37:48 PM  ef7bc4cf]:error:FAILED (remote: Flashing is not allowed in Lock State)
+[9:37:48 PM  ef7bc4cf]:process exit.
+[9:37:48 PM  ef7bc4cf]:flashSuccess False
+[9:37:48 PM  ef7bc4cf]:isFactory False CheckCPUID False
+[9:37:48 PM  ef7bc4cf]:before:flashSuccess is False set IsUpdate:True set IsDone True
+[9:37:48 PM  ef7bc4cf]:after:flashSuccess is False set IsUpdate:false set IsDone true

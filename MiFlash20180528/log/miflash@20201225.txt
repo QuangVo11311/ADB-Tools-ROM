@@ -1,0 +1,29 @@
+[8:25:17 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[8:25:17 PM]:create RegistryKey Software\XiaoMi\MiFlash\
+[8:25:18 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\WINDOWS\INF\oem1.inf,result True,GetLastWin32Error 
+[8:25:18 PM]:set RegistryKey value:android_winusb.inf--oem1.inf
+[8:25:18 PM]:mkdir "C:\Users\htien\.android"
+[8:25:18 PM]:output:A subdirectory or file C:\Users\htien\.android already exists.
+
+[8:25:18 PM]: echo 0x2717 >>"C:\Users\htien\.android\adb_usb.ini"
+[8:25:18 PM]:output:
+[8:25:18 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[8:25:18 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[8:25:18 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[8:25:19 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[8:25:19 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[8:25:20 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[8:25:20 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[8:25:20 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\WINDOWS\INF\oem11.inf,result True,GetLastWin32Error 
+[8:25:20 PM]:set RegistryKey value:qcser.inf--oem11.inf
+[9:28:05 PM]:lsusb path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:28:05 PM]:ls ubs :
+[9:28:05 PM]:GetScriptDevices
+[9:28:06 PM]:add device a0daca02
+[9:30:39 PM]:lsusb path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:30:39 PM]:ls ubs :
+[9:30:39 PM]:GetScriptDevices
+[9:30:39 PM]:FlashingDevice.flashDeviceList.Remove a0daca02
+[9:30:39 PM]:add device a0daca02
+[9:30:39 PM]:Thread start,thread id 9,thread name a0daca02
+[9:30:39 PM]:start process id 3108 name cmd

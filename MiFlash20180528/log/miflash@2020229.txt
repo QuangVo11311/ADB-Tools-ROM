@@ -1,0 +1,1079 @@
+[2:09:30 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:09:33 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:09:37 PM]:GetScriptDevices
+[2:09:39 PM]:add device COM10
+[2:13:07 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:13:08 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:13:08 PM]:GetScriptDevices
+[2:13:08 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:13:08 PM]:add device COM10
+[2:13:09 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:13:09 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:13:10 PM]:GetScriptDevices
+[2:13:10 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:13:10 PM]:add device COM10
+[2:13:10 PM]:Thread start,thread id 13,thread name COM10
+[2:13:30 PM]:deivce:COM10 error: [2:13:30 PM  COM10]:error:The write timed out.
+[2:13:30 PM]:Thread stopped, thread id 13, thread name COM10
+[2:13:36 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:13:37 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:13:37 PM]:GetScriptDevices
+[2:13:37 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:13:37 PM]:add device COM10
+[2:13:48 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:13:48 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:13:48 PM]:GetScriptDevices
+[2:13:48 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:13:48 PM]:add device COM10
+[2:13:48 PM]:Thread start,thread id 14,thread name COM10
+[2:14:07 PM]:deivce:COM10 error: [2:14:07 PM  COM10]:error:The write timed out.
+[2:14:08 PM]:Thread stopped, thread id 14, thread name COM10
+[2:14:45 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:14:45 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:14:45 PM]:GetScriptDevices
+[2:14:45 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:14:45 PM]:add device COM10
+[2:14:46 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:14:46 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:14:46 PM]:GetScriptDevices
+[2:14:46 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:14:46 PM]:add device COM10
+[2:14:46 PM]:Thread start,thread id 11,thread name COM10
+[2:15:05 PM]:deivce:COM10 error: [2:15:05 PM  COM10]:error:The write timed out.
+[2:15:06 PM]:Thread stopped, thread id 11, thread name COM10
+[2:15:39 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:15:39 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:15:39 PM]:GetScriptDevices
+[2:15:40 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:15:40 PM]:add device COM10
+[2:20:37 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:20:38 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:20:38 PM]:GetScriptDevices
+[2:20:38 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:20:38 PM]:add device COM10
+[2:20:40 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:20:40 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:20:40 PM]:GetScriptDevices
+[2:20:40 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:20:40 PM]:add device COM10
+[2:20:40 PM]:Thread start,thread id 14,thread name COM10
+[2:21:41 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:21:42 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:21:43 PM]:GetScriptDevices
+[2:21:43 PM]:Dulicate device COM10
+[2:21:59 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:21:59 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:21:59 PM]:GetScriptDevices
+[2:22:00 PM]:add device COM10
+[2:22:17 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:22:18 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:22:18 PM]:GetScriptDevices
+[2:22:18 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:22:18 PM]:add device COM10
+[2:22:18 PM]:Thread start,thread id 9,thread name COM10
+[2:22:25 PM]:Thread stopped, thread id 9, thread name COM10
+[2:22:43 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:22:43 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:22:44 PM]:GetScriptDevices
+[2:22:44 PM]:add device COM10
+[2:22:48 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:22:48 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:22:48 PM]:GetScriptDevices
+[2:22:49 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:22:49 PM]:add device COM10
+[2:22:49 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:22:49 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:22:50 PM]:GetScriptDevices
+[2:22:50 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:22:50 PM]:add device COM10
+[2:22:50 PM]:Thread start,thread id 13,thread name COM10
+[2:22:57 PM]:Thread stopped, thread id 13, thread name COM10
+[2:23:08 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:23:10 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:23:10 PM]:GetScriptDevices
+[2:23:10 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:23:10 PM]:add device COM10
+[2:30:45 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:30:46 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:30:46 PM]:GetScriptDevices
+[2:30:46 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:30:46 PM]:add device COM10
+[2:30:47 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:30:47 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:30:47 PM]:GetScriptDevices
+[2:30:47 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:30:47 PM]:add device COM10
+[2:30:47 PM]:Thread start,thread id 10,thread name COM10
+[2:31:17 PM]:Authentication required. errcode:0 lasterr:The operation completed successfully
+[2:31:17 PM]:Thread stopped, thread id 10, thread name COM10
+[2:58:04 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:58:05 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:58:05 PM]:GetScriptDevices
+[2:58:06 PM]:add device COM10
+[2:58:21 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:58:21 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[2:58:21 PM]:GetScriptDevices
+[2:58:21 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[2:58:21 PM]:add device COM10
+[2:58:21 PM]:Thread start,thread id 9,thread name COM10
+[2:58:27 PM]:Thread stopped, thread id 9, thread name COM10
+[3:03:00 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:03:00 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:03:00 PM]:GetScriptDevices
+[3:03:00 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:03:00 PM]:add device COM10
+[3:03:01 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:03:01 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:03:01 PM]:GetScriptDevices
+[3:03:01 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:03:01 PM]:add device COM10
+[3:03:01 PM]:Thread start,thread id 17,thread name COM10
+[3:03:01 PM]:deivce:COM10 error: [3:03:01 PM  COM10]:sahara read end error with status:20
+[3:03:02 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:02 PM]:Thread stopped, thread id 17, thread name COM10
+[3:03:02 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:03 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:03 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:04 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:04 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:05 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:05 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:06 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:06 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:07 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:07 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:08 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:08 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:09 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:09 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:10 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:10 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:11 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:11 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:12 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:12 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:13 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:13 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:14 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:14 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:15 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:15 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:16 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:16 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:17 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:17 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:18 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:18 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:19 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:19 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:20 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:20 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:21 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:21 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:22 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:22 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:23 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:23 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:24 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:24 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:25 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:25 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:26 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:26 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:27 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:27 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:28 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:28 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:29 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:29 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:30 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:30 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:31 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:31 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:32 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:32 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:33 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:33 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:34 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:34 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:35 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:35 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:36 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:36 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:37 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:37 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:38 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:38 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:39 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:39 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:40 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:40 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:41 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:41 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:42 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:42 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:43 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:43 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:44 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:44 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:45 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:45 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:46 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:46 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:47 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:47 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:48 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:48 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:49 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:49 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:50 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:50 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:51 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:51 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:52 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:52 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:53 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:53 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:54 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:54 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:55 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:55 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:56 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:56 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:57 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:57 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:58 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:58 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:59 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:03:59 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:00 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:00 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:01 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:01 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:02 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:02 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:03 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:03 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:04 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:04 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:05 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:05 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:06 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:06 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:07 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:07 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:08 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:08 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:09 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:09 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:10 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:10 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:11 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:11 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:12 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:12 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:13 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:13 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:14 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:14 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:15 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:15 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:16 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:16 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:17 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:17 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:18 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:18 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:19 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:19 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:20 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:20 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:21 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:21 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:22 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:22 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:23 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:23 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:24 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:24 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:25 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:25 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:26 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:26 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:27 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:27 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:28 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:28 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:29 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:29 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:30 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:30 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:31 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:31 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:32 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:32 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:33 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:33 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:34 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:34 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:35 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:35 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:36 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:36 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:37 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:37 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:38 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:38 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:39 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:39 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:40 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:40 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:41 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:41 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:42 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:42 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:43 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:43 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:44 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:44 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:45 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:45 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:46 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:46 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:47 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:47 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:48 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:48 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:49 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:49 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:50 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:50 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:51 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:51 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:52 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:52 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:53 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:53 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:54 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:54 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:55 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:55 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:56 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:56 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:57 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:57 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:58 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:58 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:59 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:04:59 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:00 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:00 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:01 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:01 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:02 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:02 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:03 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:03 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:04 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:04 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:05:05 PM]:Value of '-2147483648' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at XiaoMiFlash.MainFrm.timer_updateStatus_Tick(Object sender, EventArgs e)
+[3:09:47 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:09:48 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:09:49 PM]:GetScriptDevices
+[3:09:49 PM]:add device COM10
+[3:10:17 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:10:17 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:10:17 PM]:GetScriptDevices
+[3:10:17 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:10:17 PM]:add device COM10
+[3:10:18 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:10:18 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:10:18 PM]:GetScriptDevices
+[3:10:18 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:10:18 PM]:add device COM10
+[3:10:18 PM]:Thread start,thread id 17,thread name COM10
+[3:10:21 PM]:Thread stopped, thread id 17, thread name COM10
+[3:11:04 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:11:04 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:11:04 PM]:GetScriptDevices
+[3:11:04 PM]:add device COM10
+[3:11:06 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:11:06 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:11:06 PM]:GetScriptDevices
+[3:11:06 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:11:06 PM]:add device COM10
+[3:11:06 PM]:Thread start,thread id 13,thread name COM10
+[3:13:28 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:13:28 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:13:29 PM]:GetScriptDevices
+[3:13:29 PM]:add device COM10
+[3:13:31 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:13:31 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:13:31 PM]:GetScriptDevices
+[3:13:31 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:13:31 PM]:add device COM10
+[3:13:31 PM]:Thread start,thread id 9,thread name COM10
+[3:13:51 PM]:deivce:COM10 error: [3:13:51 PM  COM10]:error:The write timed out.
+[3:13:51 PM]:Thread stopped, thread id 9, thread name COM10
+[3:14:11 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:14:11 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:14:11 PM]:GetScriptDevices
+[3:14:11 PM]:add device COM10
+[3:14:13 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:14:13 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:14:13 PM]:GetScriptDevices
+[3:14:13 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:14:13 PM]:add device COM10
+[3:14:13 PM]:Thread start,thread id 9,thread name COM10
+[3:14:33 PM]:deivce:COM10 error: [3:14:33 PM  COM10]:error:The write timed out.
+[3:14:33 PM]:Thread stopped, thread id 9, thread name COM10
+[3:15:10 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:15:10 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:15:10 PM]:GetScriptDevices
+[3:15:10 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:15:10 PM]:add device COM10
+[3:15:12 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:15:12 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:15:12 PM]:GetScriptDevices
+[3:15:12 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:15:12 PM]:add device COM10
+[3:15:12 PM]:Thread start,thread id 16,thread name COM10
+[3:15:31 PM]:deivce:COM10 error: [3:15:31 PM  COM10]:error:The write timed out.
+[3:15:31 PM]:Thread stopped, thread id 16, thread name COM10
+[3:17:41 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:17:41 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:17:42 PM]:GetScriptDevices
+[3:17:42 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:17:42 PM]:add device COM10
+[3:17:44 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:17:44 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:17:44 PM]:GetScriptDevices
+[3:17:45 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:17:45 PM]:add device COM10
+[3:17:45 PM]:Thread start,thread id 4,thread name COM10
+[3:22:42 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:22:42 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:22:43 PM]:GetScriptDevices
+[3:22:43 PM]:add device COM10
+[3:22:43 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:22:43 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:22:44 PM]:GetScriptDevices
+[3:22:44 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:22:44 PM]:add device COM10
+[3:22:44 PM]:Thread start,thread id 13,thread name COM10
+[3:23:03 PM]:deivce:COM10 error: [3:23:03 PM  COM10]:error:The write timed out.
+[3:23:03 PM]:Thread stopped, thread id 13, thread name COM10
+[3:23:37 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:23:37 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:23:37 PM]:GetScriptDevices
+[3:23:37 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:23:37 PM]:add device COM10
+[3:23:39 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:23:39 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:23:39 PM]:GetScriptDevices
+[3:23:39 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:23:39 PM]:add device COM10
+[3:23:39 PM]:Thread start,thread id 16,thread name COM10
+[3:23:58 PM]:deivce:COM10 error: [3:23:58 PM  COM10]:error:The write timed out.
+[3:23:59 PM]:Thread stopped, thread id 16, thread name COM10
+[3:26:22 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:26:22 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:26:23 PM]:GetScriptDevices
+[3:26:23 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:26:23 PM]:add device COM10
+[3:26:25 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:26:25 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM10)
+
+[3:26:25 PM]:GetScriptDevices
+[3:26:26 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:26:26 PM]:add device COM10
+[3:26:26 PM]:Thread start,thread id 15,thread name COM10
+[3:26:45 PM]:deivce:COM10 error: [3:26:45 PM  COM10]:error:The write timed out.
+[3:26:45 PM]:Thread stopped, thread id 15, thread name COM10
+[3:28:00 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:28:01 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:28:01 PM]:GetScriptDevices
+[3:28:01 PM]:FlashingDevice.flashDeviceList.Remove COM10
+[3:28:01 PM]:add device COM3
+[3:28:02 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:28:02 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:28:02 PM]:GetScriptDevices
+[3:28:03 PM]:FlashingDevice.flashDeviceList.Remove COM3
+[3:28:03 PM]:add device COM3
+[3:28:03 PM]:Thread start,thread id 17,thread name COM3
+[3:30:28 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:30:28 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:30:28 PM]:GetScriptDevices
+[3:30:28 PM]:add device COM3
+[3:30:32 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:30:32 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:30:32 PM]:GetScriptDevices
+[3:30:32 PM]:FlashingDevice.flashDeviceList.Remove COM3
+[3:30:32 PM]:add device COM3
+[3:30:32 PM]:Thread start,thread id 9,thread name COM3
+[3:30:51 PM]:deivce:COM3 error: [3:30:51 PM  COM3]:error:The write timed out.
+[3:30:51 PM]:Thread stopped, thread id 9, thread name COM3
+[3:31:15 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:31:15 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:31:15 PM]:GetScriptDevices
+[3:31:15 PM]:FlashingDevice.flashDeviceList.Remove COM3
+[3:31:15 PM]:add device COM3
+[3:31:32 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:31:32 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:31:32 PM]:GetScriptDevices
+[3:31:32 PM]:FlashingDevice.flashDeviceList.Remove COM3
+[3:31:32 PM]:add device COM3
+[3:31:32 PM]:Thread start,thread id 15,thread name COM3
+[3:37:49 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:37:49 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:37:49 PM]:GetScriptDevices
+[3:37:49 PM]:add device COM3
+[3:37:52 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:37:52 PM]:ls ubs :Qualcomm HS-USB QDLoader 9008 (COM3)
+
+[3:37:52 PM]:GetScriptDevices
+[3:37:53 PM]:FlashingDevice.flashDeviceList.Remove COM3
+[3:37:53 PM]:add device COM3
+[3:37:53 PM]:Thread start,thread id 9,thread name COM3

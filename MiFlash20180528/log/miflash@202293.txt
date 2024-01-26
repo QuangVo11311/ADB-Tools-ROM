@@ -1,0 +1,56 @@
+[9:27:53 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:27:53 PM]:ls ubs :
+[9:27:53 PM]:GetScriptDevices
+[9:27:54 PM]:add device ef7bc4cf
+[9:29:19 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:29:19 PM]:ls ubs :
+[9:29:19 PM]:GetScriptDevices
+[9:29:19 PM]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[9:29:19 PM]:add device ef7bc4cf
+[9:29:19 PM]:Thread start,thread id 9,thread name ef7bc4cf
+[9:29:20 PM]:Thread stopped, thread id 9, thread name ef7bc4cf
+[9:36:46 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:36:46 PM]:ls ubs :
+[9:36:47 PM]:GetScriptDevices
+[9:36:47 PM]:add device ef7bc4cf
+[9:36:52 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:36:52 PM]:ls ubs :
+[9:36:52 PM]:GetScriptDevices
+[9:36:52 PM]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[9:36:52 PM]:add device ef7bc4cf
+[9:36:53 PM]:Thread start,thread id 9,thread name ef7bc4cf
+[9:36:53 PM]:Thread stopped, thread id 9, thread name ef7bc4cf
+[9:37:44 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:37:44 PM]:ls ubs :
+[9:37:44 PM]:GetScriptDevices
+[9:37:44 PM]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[9:37:44 PM]:add device ef7bc4cf
+[9:37:46 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:37:46 PM]:ls ubs :
+[9:37:46 PM]:GetScriptDevices
+[9:37:47 PM]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[9:37:47 PM]:add device ef7bc4cf
+[9:37:47 PM]:Thread start,thread id 10,thread name ef7bc4cf
+[9:37:47 PM]:start process id 8216 name cmd
+[9:37:48 PM]:Thread stopped, thread id 10, thread name ef7bc4cf
+[9:38:17 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:38:17 PM]:ls ubs :
+[9:38:17 PM]:GetScriptDevices
+[9:38:17 PM]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[9:38:17 PM]:add device ef7bc4cf
+[9:38:17 PM]:Thread start,thread id 7,thread name ef7bc4cf
+[9:38:17 PM]:start process id 12044 name cmd
+[9:38:18 PM]:Thread stopped, thread id 7, thread name ef7bc4cf
+[9:39:38 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:39:38 PM]:ls ubs :
+[9:39:39 PM]:GetScriptDevices
+[9:39:39 PM]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[9:39:39 PM]:add device ef7bc4cf
+[9:39:40 PM]:lsusb path:"E:\ADBandFastboot\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[9:39:40 PM]:ls ubs :
+[9:39:40 PM]:GetScriptDevices
+[9:39:40 PM]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[9:39:40 PM]:add device ef7bc4cf
+[9:39:40 PM]:Thread start,thread id 17,thread name ef7bc4cf
+[9:39:40 PM]:start process id 12808 name cmd
+[9:39:41 PM]:Thread stopped, thread id 17, thread name ef7bc4cf

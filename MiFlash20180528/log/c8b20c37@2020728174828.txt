@@ -1,0 +1,370 @@
+[5:48:28 PM  c8b20c37]:MiFlash 2018.5.28.0
+[5:48:28 PM  c8b20c37]:Thread id:13 Thread name:c8b20c37
+[5:48:28 PM  c8b20c37]:image path:E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global
+[5:48:28 PM  c8b20c37]:env android path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[5:48:28 PM  c8b20c37]:script :E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\flash_all.bat
+[5:48:28 PM  c8b20c37]:Physical Memory Usage:5292032 Byte
+[5:48:28 PM  c8b20c37]:start process id 11524 name cmd
+[5:48:29 PM  c8b20c37]:info:$set CURRENT_ANTI_VER=1 
+[5:48:29 PM  c8b20c37]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s c8b20c37 getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[5:48:29 PM  c8b20c37]:info:$(set version=1 ) 
+[5:48:29 PM  c8b20c37]:info:$if [1] EQU [] set version=0 
+[5:48:29 PM  c8b20c37]:info:$set anticheck="antirollback check pass" 
+[5:48:29 PM  c8b20c37]:info:$if 1 GTR 1 set anticheck="Current device antirollback version is greater than this pakcage" 
+[5:48:29 PM  c8b20c37]:info:$echo "antirollback check pass"   | findstr /r /c:"pass"   || 
+[5:48:29 PM  c8b20c37]:info:"antirollback check pass" 
+[5:48:29 PM  c8b20c37]:info:$fastboot -s c8b20c37 getvar product   2>&1  | findstr /r /c:"^product: *raphael"   || echo Missmatching image and device 
+[5:48:29 PM  c8b20c37]:info:product: raphael
+[5:48:29 PM  c8b20c37]:info:$fastboot -s c8b20c37 getvar product   2>&1  | findstr /r /c:"^product: *raphael"   || exit /B 1 
+[5:48:29 PM  c8b20c37]:info:product: raphael
+[5:48:29 PM  c8b20c37]:info:$fastboot -s c8b20c37 erase boot   || 
+[5:48:29 PM  c8b20c37]:err:erasing 'boot'...
+[5:48:29 PM  c8b20c37]:err:OKAY [  0.034s]
+[5:48:29 PM  c8b20c37]:err:finished. total time: 0.034s
+[5:48:29 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash crclist E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\crclist.txt   || 
+[5:48:29 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:29 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash sparsecrclist E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\sparsecrclist.txt   || 
+[5:48:29 PM  c8b20c37]:err:sending 'crclist' (0 KB)...
+[5:48:29 PM  c8b20c37]:err:OKAY [  0.009s]
+[5:48:29 PM  c8b20c37]:err:writing 'crclist'...
+[5:48:29 PM  c8b20c37]:err:OKAY [  0.007s]
+[5:48:29 PM  c8b20c37]:err:finished. total time: 0.016s
+[5:48:29 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:29 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash xbl E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\xbl.elf   || 
+[5:48:29 PM  c8b20c37]:err:sending 'sparsecrclist' (0 KB)...
+[5:48:29 PM  c8b20c37]:err:OKAY [  0.007s]
+[5:48:29 PM  c8b20c37]:err:writing 'sparsecrclist'...
+[5:48:29 PM  c8b20c37]:err:OKAY [  0.003s]
+[5:48:29 PM  c8b20c37]:err:finished. total time: 0.011s
+[5:48:30 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:30 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash xblbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\xbl.elf   || 
+[5:48:30 PM  c8b20c37]:err:sending 'xbl' (4011 KB)...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.092s]
+[5:48:30 PM  c8b20c37]:err:writing 'xbl'...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.170s]
+[5:48:30 PM  c8b20c37]:err:finished. total time: 0.262s
+[5:48:30 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:30 PM  c8b20c37]:err:sending 'xblbak' (4011 KB)...
+[5:48:30 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash xbl_config E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\xbl_config.elf   || 
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.094s]
+[5:48:30 PM  c8b20c37]:err:writing 'xblbak'...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.189s]
+[5:48:30 PM  c8b20c37]:err:finished. total time: 0.283s
+[5:48:30 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash xbl_configbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\xbl_config.elf   || 
+[5:48:30 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:30 PM  c8b20c37]:err:sending 'xbl_config' (120 KB)...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.007s]
+[5:48:30 PM  c8b20c37]:err:writing 'xbl_config'...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.011s]
+[5:48:30 PM  c8b20c37]:err:finished. total time: 0.019s
+[5:48:30 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:30 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash abl E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\abl.elf   || 
+[5:48:30 PM  c8b20c37]:err:sending 'xbl_configbak' (120 KB)...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.013s]
+[5:48:30 PM  c8b20c37]:err:writing 'xbl_configbak'...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.013s]
+[5:48:30 PM  c8b20c37]:err:finished. total time: 0.026s
+[5:48:30 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:30 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash ablbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\abl.elf   || 
+[5:48:30 PM  c8b20c37]:err:sending 'abl' (204 KB)...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.013s]
+[5:48:30 PM  c8b20c37]:err:writing 'abl'...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.012s]
+[5:48:30 PM  c8b20c37]:err:finished. total time: 0.025s
+[5:48:30 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:30 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash tz E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\tz.mbn   || 
+[5:48:30 PM  c8b20c37]:err:sending 'ablbak' (204 KB)...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.012s]
+[5:48:30 PM  c8b20c37]:err:writing 'ablbak'...
+[5:48:30 PM  c8b20c37]:err:OKAY [  0.012s]
+[5:48:30 PM  c8b20c37]:err:finished. total time: 0.024s
+[5:48:31 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:31 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash tzbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\tz.mbn   || 
+[5:48:31 PM  c8b20c37]:err:sending 'tz' (3095 KB)...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.079s]
+[5:48:31 PM  c8b20c37]:err:writing 'tz'...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.116s]
+[5:48:31 PM  c8b20c37]:err:finished. total time: 0.195s
+[5:48:31 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:31 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash hyp E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\hyp.mbn   || 
+[5:48:31 PM  c8b20c37]:err:sending 'tzbak' (3095 KB)...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.072s]
+[5:48:31 PM  c8b20c37]:err:writing 'tzbak'...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.114s]
+[5:48:31 PM  c8b20c37]:err:finished. total time: 0.186s
+[5:48:31 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:31 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash hypbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\hyp.mbn   || 
+[5:48:31 PM  c8b20c37]:err:sending 'hyp' (476 KB)...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.021s]
+[5:48:31 PM  c8b20c37]:err:writing 'hyp'...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.026s]
+[5:48:31 PM  c8b20c37]:err:finished. total time: 0.047s
+[5:48:31 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:31 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash devcfg E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\devcfg.mbn   || 
+[5:48:31 PM  c8b20c37]:err:sending 'hypbak' (476 KB)...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.018s]
+[5:48:31 PM  c8b20c37]:err:writing 'hypbak'...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.023s]
+[5:48:31 PM  c8b20c37]:err:finished. total time: 0.040s
+[5:48:31 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:31 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash devcfgbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\devcfg.mbn   || 
+[5:48:31 PM  c8b20c37]:err:sending 'devcfg' (53 KB)...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.007s]
+[5:48:31 PM  c8b20c37]:err:writing 'devcfg'...
+[5:48:31 PM  c8b20c37]:err:OKAY [  0.007s]
+[5:48:31 PM  c8b20c37]:err:finished. total time: 0.013s
+[5:48:31 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:31 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash storsec E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\storsec.mbn   || 
+[5:48:31 PM  c8b20c37]:err:sending 'devcfgbak' (53 KB)...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.006s]
+[5:48:32 PM  c8b20c37]:err:writing 'devcfgbak'...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.007s]
+[5:48:32 PM  c8b20c37]:err:finished. total time: 0.013s
+[5:48:32 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:32 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash bluetooth E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\BTFM.bin   || 
+[5:48:32 PM  c8b20c37]:err:sending 'storsec' (20 KB)...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.012s]
+[5:48:32 PM  c8b20c37]:err:writing 'storsec'...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.005s]
+[5:48:32 PM  c8b20c37]:err:finished. total time: 0.017s
+[5:48:32 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:32 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash cmnlib E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\cmnlib.mbn   || 
+[5:48:32 PM  c8b20c37]:err:sending 'bluetooth' (828 KB)...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.026s]
+[5:48:32 PM  c8b20c37]:err:writing 'bluetooth'...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.034s]
+[5:48:32 PM  c8b20c37]:err:finished. total time: 0.060s
+[5:48:32 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:32 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash cmnlibbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\cmnlib.mbn   || 
+[5:48:32 PM  c8b20c37]:err:sending 'cmnlib' (383 KB)...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.022s]
+[5:48:32 PM  c8b20c37]:err:writing 'cmnlib'...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.019s]
+[5:48:32 PM  c8b20c37]:err:finished. total time: 0.041s
+[5:48:32 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:32 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash cmnlib64 E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\cmnlib64.mbn   || 
+[5:48:32 PM  c8b20c37]:err:sending 'cmnlibbak' (383 KB)...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.014s]
+[5:48:32 PM  c8b20c37]:err:writing 'cmnlibbak'...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.019s]
+[5:48:32 PM  c8b20c37]:err:finished. total time: 0.033s
+[5:48:32 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:32 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash cmnlib64bak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\cmnlib64.mbn   || 
+[5:48:32 PM  c8b20c37]:err:sending 'cmnlib64' (499 KB)...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.016s]
+[5:48:32 PM  c8b20c37]:err:writing 'cmnlib64'...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.023s]
+[5:48:32 PM  c8b20c37]:err:finished. total time: 0.040s
+[5:48:32 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:32 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash modem E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\NON-HLOS.bin   || 
+[5:48:32 PM  c8b20c37]:err:sending 'cmnlib64bak' (499 KB)...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.020s]
+[5:48:32 PM  c8b20c37]:err:writing 'cmnlib64bak'...
+[5:48:32 PM  c8b20c37]:err:OKAY [  0.024s]
+[5:48:32 PM  c8b20c37]:err:finished. total time: 0.044s
+[5:48:45 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:45 PM  c8b20c37]:err:sending 'modem' (174396 KB)...
+[5:48:45 PM  c8b20c37]:err:OKAY [  3.734s]
+[5:48:45 PM  c8b20c37]:err:writing 'modem'...
+[5:48:45 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash dsp E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\dspso.bin   || 
+[5:48:45 PM  c8b20c37]:err:OKAY [  6.161s]
+[5:48:45 PM  c8b20c37]:err:finished. total time: 9.895s
+[5:48:50 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:50 PM  c8b20c37]:err:sending 'dsp' (65536 KB)...
+[5:48:50 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash metadata E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\metadata.img   || 
+[5:48:50 PM  c8b20c37]:err:OKAY [  1.394s]
+[5:48:50 PM  c8b20c37]:err:writing 'dsp'...
+[5:48:50 PM  c8b20c37]:err:OKAY [  2.301s]
+[5:48:50 PM  c8b20c37]:err:finished. total time: 3.694s
+[5:48:50 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:50 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash keymaster E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\km4.mbn   || 
+[5:48:50 PM  c8b20c37]:err:sending 'metadata' (48 KB)...
+[5:48:50 PM  c8b20c37]:err:OKAY [  0.012s]
+[5:48:50 PM  c8b20c37]:err:writing 'metadata'...
+[5:48:50 PM  c8b20c37]:err:OKAY [  0.006s]
+[5:48:50 PM  c8b20c37]:err:finished. total time: 0.018s
+[5:48:50 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:50 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash keymasterbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\km4.mbn   || 
+[5:48:50 PM  c8b20c37]:err:sending 'keymaster' (244 KB)...
+[5:48:50 PM  c8b20c37]:err:OKAY [  0.013s]
+[5:48:50 PM  c8b20c37]:err:writing 'keymaster'...
+[5:48:50 PM  c8b20c37]:err:OKAY [  0.014s]
+[5:48:50 PM  c8b20c37]:err:finished. total time: 0.027s
+[5:48:50 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:50 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash logo E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\logo.img   || 
+[5:48:50 PM  c8b20c37]:err:sending 'keymasterbak' (244 KB)...
+[5:48:50 PM  c8b20c37]:err:OKAY [  0.019s]
+[5:48:50 PM  c8b20c37]:err:writing 'keymasterbak'...
+[5:48:50 PM  c8b20c37]:err:OKAY [  0.014s]
+[5:48:50 PM  c8b20c37]:err:finished. total time: 0.033s
+[5:48:51 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:51 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash misc E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\misc.img   || 
+[5:48:51 PM  c8b20c37]:err:sending 'logo' (24324 KB)...
+[5:48:51 PM  c8b20c37]:err:OKAY [  0.524s]
+[5:48:51 PM  c8b20c37]:err:writing 'logo'...
+[5:48:51 PM  c8b20c37]:err:OKAY [  0.858s]
+[5:48:51 PM  c8b20c37]:err:finished. total time: 1.383s
+[5:48:52 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:52 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash aop E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\aop.mbn   || 
+[5:48:52 PM  c8b20c37]:err:sending 'misc' (4096 KB)...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.098s]
+[5:48:52 PM  c8b20c37]:err:writing 'misc'...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.151s]
+[5:48:52 PM  c8b20c37]:err:finished. total time: 0.249s
+[5:48:52 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:52 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash aopbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\aop.mbn   || 
+[5:48:52 PM  c8b20c37]:err:sending 'aop' (195 KB)...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.018s]
+[5:48:52 PM  c8b20c37]:err:writing 'aop'...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.013s]
+[5:48:52 PM  c8b20c37]:err:finished. total time: 0.031s
+[5:48:52 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:52 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash qupfw E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\qupv3fw.elf   || 
+[5:48:52 PM  c8b20c37]:err:sending 'aopbak' (195 KB)...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.011s]
+[5:48:52 PM  c8b20c37]:err:writing 'aopbak'...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.012s]
+[5:48:52 PM  c8b20c37]:err:finished. total time: 0.022s
+[5:48:52 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:52 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash qupfwbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\qupv3fw.elf   || 
+[5:48:52 PM  c8b20c37]:err:sending 'qupfw' (69 KB)...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.008s]
+[5:48:52 PM  c8b20c37]:err:writing 'qupfw'...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.008s]
+[5:48:52 PM  c8b20c37]:err:finished. total time: 0.016s
+[5:48:52 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:52 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash imagefv E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\imagefv.elf   || 
+[5:48:52 PM  c8b20c37]:err:sending 'qupfwbak' (69 KB)...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.012s]
+[5:48:52 PM  c8b20c37]:err:writing 'qupfwbak'...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.008s]
+[5:48:52 PM  c8b20c37]:err:finished. total time: 0.020s
+[5:48:52 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:52 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash uefisecapp E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\uefi_sec.mbn   || 
+[5:48:52 PM  c8b20c37]:err:sending 'imagefv' (28 KB)...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.008s]
+[5:48:52 PM  c8b20c37]:err:writing 'imagefv'...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.005s]
+[5:48:52 PM  c8b20c37]:err:finished. total time: 0.013s
+[5:48:52 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:52 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash uefisecappbak E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\uefi_sec.mbn   || 
+[5:48:52 PM  c8b20c37]:err:sending 'uefisecapp' (122 KB)...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.011s]
+[5:48:52 PM  c8b20c37]:err:writing 'uefisecapp'...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.010s]
+[5:48:52 PM  c8b20c37]:err:finished. total time: 0.021s
+[5:48:52 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:52 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash multiimgoem E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\multi_image.mbn   || 
+[5:48:52 PM  c8b20c37]:err:sending 'uefisecappbak' (122 KB)...
+[5:48:52 PM  c8b20c37]:err:OKAY [  0.014s]
+[5:48:53 PM  c8b20c37]:err:writing 'uefisecappbak'...
+[5:48:53 PM  c8b20c37]:err:OKAY [  0.009s]
+[5:48:53 PM  c8b20c37]:err:finished. total time: 0.023s
+[5:48:53 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:48:53 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash vendor E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\vendor.img   || 
+[5:48:53 PM  c8b20c37]:err:sending 'multiimgoem' (32 KB)...
+[5:48:53 PM  c8b20c37]:err:OKAY [  0.011s]
+[5:48:53 PM  c8b20c37]:err:writing 'multiimgoem'...
+[5:48:53 PM  c8b20c37]:err:OKAY [  0.006s]
+[5:48:53 PM  c8b20c37]:err:finished. total time: 0.017s
+[5:49:41 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:49:41 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash vbmeta E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\vbmeta.img   || 
+[5:49:41 PM  c8b20c37]:err:sending sparse 'vendor' 1/2 (773896 KB)...
+[5:49:41 PM  c8b20c37]:err:OKAY [ 17.378s]
+[5:49:41 PM  c8b20c37]:err:writing 'vendor' 1/2...
+[5:49:41 PM  c8b20c37]:err:OKAY [  0.004s]
+[5:49:41 PM  c8b20c37]:err:sending sparse 'vendor' 2/2 (684668 KB)...
+[5:49:41 PM  c8b20c37]:err:OKAY [ 28.409s]
+[5:49:41 PM  c8b20c37]:err:writing 'vendor' 2/2...
+[5:49:41 PM  c8b20c37]:err:OKAY [  0.003s]
+[5:49:41 PM  c8b20c37]:err:finished. total time: 45.794s
+[5:50:24 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:50:24 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash dtbo E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\dtbo.img   || 
+[5:50:24 PM  c8b20c37]:err:sending 'vbmeta' (4 KB)...
+[5:50:24 PM  c8b20c37]:err:OKAY [  0.013s]
+[5:50:24 PM  c8b20c37]:err:writing 'vbmeta'...
+[5:50:24 PM  c8b20c37]:err:OKAY [  0.004s]
+[5:50:24 PM  c8b20c37]:err:finished. total time: 0.017s
+[5:50:26 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:50:26 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash system E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\system.img   || 
+[5:50:26 PM  c8b20c37]:err:sending 'dtbo' (32768 KB)...
+[5:50:26 PM  c8b20c37]:err:OKAY [  0.697s]
+[5:50:26 PM  c8b20c37]:err:writing 'dtbo'...
+[5:50:26 PM  c8b20c37]:err:OKAY [  1.150s]
+[5:50:26 PM  c8b20c37]:err:finished. total time: 1.847s
+[5:54:40 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:54:40 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash cache E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\cache.img   || 
+[5:54:40 PM  c8b20c37]:err:erasing 'system'...
+[5:54:40 PM  c8b20c37]:err:OKAY [  0.182s]
+[5:54:40 PM  c8b20c37]:err:sending sparse 'system' 1/5 (773404 KB)...
+[5:54:40 PM  c8b20c37]:err:OKAY [ 17.327s]
+[5:54:40 PM  c8b20c37]:err:writing 'system' 1/5...
+[5:54:41 PM  c8b20c37]:err:OKAY [  0.003s]
+[5:54:41 PM  c8b20c37]:err:sending sparse 'system' 2/5 (772552 KB)...
+[5:54:41 PM  c8b20c37]:err:OKAY [ 28.398s]
+[5:54:41 PM  c8b20c37]:err:writing 'system' 2/5...
+[5:54:41 PM  c8b20c37]:err:OKAY [  0.004s]
+[5:54:41 PM  c8b20c37]:err:sending sparse 'system' 3/5 (774312 KB)...
+[5:54:41 PM  c8b20c37]:err:OKAY [ 48.563s]
+[5:54:41 PM  c8b20c37]:err:writing 'system' 3/5...
+[5:54:41 PM  c8b20c37]:err:OKAY [  0.003s]
+[5:54:41 PM  c8b20c37]:err:sending sparse 'system' 4/5 (774312 KB)...
+[5:54:41 PM  c8b20c37]:err:OKAY [ 48.883s]
+[5:54:41 PM  c8b20c37]:err:writing 'system' 4/5...
+[5:54:41 PM  c8b20c37]:err:OKAY [  0.003s]
+[5:54:41 PM  c8b20c37]:err:sending sparse 'system' 5/5 (448604 KB)...
+[5:54:41 PM  c8b20c37]:err:OKAY [ 48.893s]
+[5:54:41 PM  c8b20c37]:err:writing 'system' 5/5...
+[5:54:41 PM  c8b20c37]:err:OKAY [  0.003s]
+[5:54:41 PM  c8b20c37]:err:finished. total time: 192.261s
+[5:55:08 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:55:08 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash userdata E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\userdata.img   || 
+[5:55:08 PM  c8b20c37]:err:erasing 'cache'...
+[5:55:08 PM  c8b20c37]:err:OKAY [  0.014s]
+[5:55:08 PM  c8b20c37]:err:sending 'cache' (120 KB)...
+[5:55:08 PM  c8b20c37]:err:OKAY [  0.013s]
+[5:55:08 PM  c8b20c37]:err:writing 'cache'...
+[5:55:08 PM  c8b20c37]:err:OKAY [  0.012s]
+[5:55:08 PM  c8b20c37]:err:finished. total time: 0.040s
+[5:55:25 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:55:25 PM  c8b20c37]:err:erasing 'userdata'...
+[5:55:25 PM  c8b20c37]:err:OKAY [  3.213s]
+[5:55:25 PM  c8b20c37]:err:sending 'userdata' (211388 KB)...
+[5:55:25 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash recovery E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\recovery.img   || 
+[5:55:25 PM  c8b20c37]:err:OKAY [  4.495s]
+[5:55:25 PM  c8b20c37]:err:writing 'userdata'...
+[5:55:25 PM  c8b20c37]:err:OKAY [  6.367s]
+[5:55:25 PM  c8b20c37]:err:finished. total time: 14.074s
+[5:55:38 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:55:38 PM  c8b20c37]:err:sending 'recovery' (65536 KB)...
+[5:55:38 PM  c8b20c37]:info:$fastboot -s c8b20c37 erase secdata   || 
+[5:55:38 PM  c8b20c37]:err:OKAY [  1.399s]
+[5:55:38 PM  c8b20c37]:err:writing 'recovery'...
+[5:55:38 PM  c8b20c37]:err:OKAY [  2.306s]
+[5:55:38 PM  c8b20c37]:err:finished. total time: 3.705s
+[5:55:38 PM  c8b20c37]:err:erasing 'secdata'...
+[5:55:38 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash cust E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\cust.img   || 
+[5:55:38 PM  c8b20c37]:err:OKAY [  0.004s]
+[5:55:38 PM  c8b20c37]:err:finished. total time: 0.004s
+[5:55:58 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:55:58 PM  c8b20c37]:err:sending 'cust' (577684 KB)...
+[5:55:58 PM  c8b20c37]:err:OKAY [ 12.314s]
+[5:55:58 PM  c8b20c37]:err:writing 'cust'...
+[5:55:58 PM  c8b20c37]:err:OKAY [  0.003s]
+[5:55:58 PM  c8b20c37]:err:finished. total time: 12.317s
+[5:55:58 PM  c8b20c37]:info:$fastboot -s c8b20c37 flash boot E:\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global_4f4ff5b4d1\raphael_global_images_V11.0.4.0.QFKMIXM_20200422.0000.00_10.0_global\images\boot.img   || 
+[5:56:29 PM  c8b20c37]:err:target reported max download size of 805306368 bytes
+[5:56:29 PM  c8b20c37]:err:sending 'boot' (131072 KB)...
+[5:56:29 PM  c8b20c37]:err:OKAY [  2.789s]
+[5:56:29 PM  c8b20c37]:err:writing 'boot'...
+[5:56:29 PM  c8b20c37]:info:$fastboot -s c8b20c37 reboot   || 
+[5:56:29 PM  c8b20c37]:err:OKAY [  4.601s]
+[5:56:29 PM  c8b20c37]:err:finished. total time: 7.390s
+[5:56:29 PM  c8b20c37]:err:rebooting...
+[5:56:29 PM  c8b20c37]:err:finished. total time: 0.078s
+[5:56:29 PM  c8b20c37]:flash done
+[5:56:29 PM  c8b20c37]:process exit.
+[5:56:29 PM  c8b20c37]:flashSuccess True
+[5:56:29 PM  c8b20c37]:isFactory False CheckCPUID False
+[5:56:29 PM  c8b20c37]:before:flashSuccess is True set IsUpdate:True set IsDone True
+[5:56:29 PM  c8b20c37]:after:flashSuccess is True set IsUpdate:false set IsDone true

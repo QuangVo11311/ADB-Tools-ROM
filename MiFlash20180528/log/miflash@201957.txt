@@ -1,0 +1,43 @@
+[1:43:44 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:43:44 PM]:create RegistryKey Software\XiaoMi\MiFlash\
+[1:43:48 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\Windows\INF\oem15.inf,result True,GetLastWin32Error 
+[1:43:48 PM]:set RegistryKey value:android_winusb.inf--oem15.inf
+[1:43:48 PM]:mkdir "C:\Users\NguyenTien\.android"
+[1:43:48 PM]:output:A subdirectory or file C:\Users\NguyenTien\.android already exists.
+
+[1:43:48 PM]: echo 0x2717 >>"C:\Users\NguyenTien\.android\adb_usb.ini"
+[1:43:48 PM]:output:
+[1:43:48 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:44:10 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to C:\Windows\INF\oem16.inf,result True,GetLastWin32Error 
+[1:44:10 PM]:set RegistryKey value:NvidiaUsb.inf--oem16.inf
+[1:44:10 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:44:12 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to C:\Windows\INF\oem17.inf,result True,GetLastWin32Error 
+[1:44:12 PM]:set RegistryKey value:tetherxp.inf--oem17.inf
+[1:44:12 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:44:15 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to C:\Windows\INF\oem18.inf,result True,GetLastWin32Error 
+[1:44:15 PM]:set RegistryKey value:wpdmtphw.inf--oem18.inf
+[1:44:15 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:44:16 PM]:install driver E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\Windows\INF\oem19.inf,result True,GetLastWin32Error 
+[1:44:16 PM]:set RegistryKey value:qcser.inf--oem19.inf
+[1:44:40 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:44:40 PM]:ls ubs :
+[1:44:42 PM]:GetScriptDevices
+[1:44:44 PM]:add device ba6b07537d23
+[1:44:45 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:44:45 PM]:ls ubs :
+[1:44:45 PM]:GetScriptDevices
+[1:44:45 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[1:44:45 PM]:add device ba6b07537d23
+[1:44:45 PM]:Thread start,thread id 4,thread name ba6b07537d23
+[1:44:45 PM]:start process id 4292 name cmd
+[2:11:22 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:11:22 PM]:ls ubs :
+[2:11:23 PM]:GetScriptDevices
+[2:11:23 PM]:add device ba6b07537d23
+[2:11:24 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2:11:24 PM]:ls ubs :
+[2:11:24 PM]:GetScriptDevices
+[2:11:24 PM]:FlashingDevice.flashDeviceList.Remove ba6b07537d23
+[2:11:24 PM]:add device ba6b07537d23
+[2:11:24 PM]:Thread start,thread id 13,thread name ba6b07537d23
+[2:11:24 PM]:start process id 5004 name cmd

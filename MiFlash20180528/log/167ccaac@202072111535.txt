@@ -1,0 +1,356 @@
+[11:05:35 AM  167ccaac]:MiFlash 2018.5.28.0
+[11:05:35 AM  167ccaac]:Thread id:9 Thread name:167ccaac
+[11:05:35 AM  167ccaac]:image path:E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global
+[11:05:35 AM  167ccaac]:env android path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[11:05:35 AM  167ccaac]:script :E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\flash_all.bat
+[11:05:35 AM  167ccaac]:Physical Memory Usage:5394432 Byte
+[11:05:35 AM  167ccaac]:start process id 7752 name cmd
+[11:05:35 AM  167ccaac]:info:$fastboot -s 167ccaac getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || echo Missmatching image and device 
+[11:05:35 AM  167ccaac]:info:product: ginkgo
+[11:05:35 AM  167ccaac]:info:$fastboot -s 167ccaac getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || exit /B 1 
+[11:05:35 AM  167ccaac]:info:product: ginkgo
+[11:05:35 AM  167ccaac]:info:$set CURRENT_ANTI_VER=1 
+[11:05:35 AM  167ccaac]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s 167ccaac getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[11:05:35 AM  167ccaac]:info:$(set version=1 ) 
+[11:05:35 AM  167ccaac]:info:$if [1] EQU [] set version=0 
+[11:05:35 AM  167ccaac]:info:$if 1 GTR 1 (
+[11:05:35 AM  167ccaac]:info:echo current device antirollback version is greater than this package  
+[11:05:35 AM  167ccaac]:info: exit /B 1 
+[11:05:35 AM  167ccaac]:info:) 
+[11:05:35 AM  167ccaac]:info:$fastboot -s 167ccaac flash xbl E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\xbl.elf   || 
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:err:sending 'xbl' (3444 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.121s]
+[11:05:36 AM  167ccaac]:err:writing 'xbl'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.034s]
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash xblbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\xbl.elf   || 
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.155s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:err:sending 'xblbak' (3444 KB)...
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash xbl_config E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\xbl_config.elf   || 
+[11:05:36 AM  167ccaac]:err:OKAY [  0.122s]
+[11:05:36 AM  167ccaac]:err:writing 'xblbak'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.017s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.139s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash xbl_configbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\xbl_config.elf   || 
+[11:05:36 AM  167ccaac]:err:sending 'xbl_config' (48 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:36 AM  167ccaac]:err:writing 'xbl_config'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.008s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash imagefv E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\imagefv.elf   || 
+[11:05:36 AM  167ccaac]:err:sending 'xbl_configbak' (48 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.014s]
+[11:05:36 AM  167ccaac]:err:writing 'xbl_configbak'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.017s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash imagefvbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\imagefv.elf   || 
+[11:05:36 AM  167ccaac]:err:sending 'imagefv' (20 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:36 AM  167ccaac]:err:writing 'imagefv'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.003s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.007s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash uefisecapp E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\uefi_sec.mbn   || 
+[11:05:36 AM  167ccaac]:err:sending 'imagefvbak' (20 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.007s]
+[11:05:36 AM  167ccaac]:err:writing 'imagefvbak'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.003s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.011s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash uefisecappbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\uefi_sec.mbn   || 
+[11:05:36 AM  167ccaac]:err:sending 'uefisecapp' (125 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.008s]
+[11:05:36 AM  167ccaac]:err:writing 'uefisecapp'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.012s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash qupfw E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\qupv3fw.elf   || 
+[11:05:36 AM  167ccaac]:err:sending 'uefisecappbak' (125 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.012s]
+[11:05:36 AM  167ccaac]:err:writing 'uefisecappbak'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.017s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash qupfwbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\qupv3fw.elf   || 
+[11:05:36 AM  167ccaac]:err:sending 'qupfw' (48 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.007s]
+[11:05:36 AM  167ccaac]:err:writing 'qupfw'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.011s
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:err:sending 'qupfwbak' (48 KB)...
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash metadata E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\metadata.img   || 
+[11:05:36 AM  167ccaac]:err:OKAY [  0.013s]
+[11:05:36 AM  167ccaac]:err:writing 'qupfwbak'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.016s
+[11:05:36 AM  167ccaac]:info:$fastboot -s 167ccaac flash tz E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\tz.mbn   || 
+[11:05:36 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:36 AM  167ccaac]:err:sending 'metadata' (48 KB)...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.010s]
+[11:05:36 AM  167ccaac]:err:writing 'metadata'...
+[11:05:36 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:36 AM  167ccaac]:err:finished. total time: 0.015s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash tzbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\tz.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'tz' (1976 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.069s]
+[11:05:37 AM  167ccaac]:err:writing 'tz'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.012s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.081s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash rpm E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\rpm.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'tzbak' (1976 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.074s]
+[11:05:37 AM  167ccaac]:err:writing 'tzbak'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.012s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.086s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash rpmbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\rpm.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'rpm' (215 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.010s]
+[11:05:37 AM  167ccaac]:err:writing 'rpm'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.015s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash hyp E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\hyp.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'rpmbak' (215 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.014s]
+[11:05:37 AM  167ccaac]:err:writing 'rpmbak'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.019s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash hypbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\hyp.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'hyp' (361 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.017s]
+[11:05:37 AM  167ccaac]:err:writing 'hyp'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.023s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash keymaster E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\km4.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'hypbak' (361 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.014s]
+[11:05:37 AM  167ccaac]:err:writing 'hypbak'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.006s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.019s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash keymasterbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\km4.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'keymaster' (232 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.015s]
+[11:05:37 AM  167ccaac]:err:writing 'keymaster'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.020s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\cmnlib.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'keymasterbak' (232 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.011s]
+[11:05:37 AM  167ccaac]:err:writing 'keymasterbak'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.016s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlibbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\cmnlib.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'cmnlib' (384 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.015s]
+[11:05:37 AM  167ccaac]:err:writing 'cmnlib'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.021s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib64 E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\cmnlib64.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'cmnlibbak' (384 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.022s]
+[11:05:37 AM  167ccaac]:err:writing 'cmnlibbak'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.005s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.027s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib64bak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\cmnlib64.mbn   || 
+[11:05:37 AM  167ccaac]:err:sending 'cmnlib64' (499 KB)...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.019s]
+[11:05:37 AM  167ccaac]:err:writing 'cmnlib64'...
+[11:05:37 AM  167ccaac]:err:OKAY [  0.006s]
+[11:05:37 AM  167ccaac]:err:finished. total time: 0.025s
+[11:05:37 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:37 AM  167ccaac]:info:$fastboot -s 167ccaac flash modem E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\NON-HLOS.bin   || 
+[11:05:37 AM  167ccaac]:err:sending 'cmnlib64bak' (499 KB)...
+[11:05:38 AM  167ccaac]:err:OKAY [  0.027s]
+[11:05:38 AM  167ccaac]:err:writing 'cmnlib64bak'...
+[11:05:38 AM  167ccaac]:err:OKAY [  0.007s]
+[11:05:38 AM  167ccaac]:err:finished. total time: 0.033s
+[11:05:42 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:42 AM  167ccaac]:err:sending 'modem' (116449 KB)...
+[11:05:42 AM  167ccaac]:err:OKAY [  3.781s]
+[11:05:42 AM  167ccaac]:info:$fastboot -s 167ccaac flash dsp E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\dspso.bin   || 
+[11:05:42 AM  167ccaac]:err:writing 'modem'...
+[11:05:42 AM  167ccaac]:err:OKAY [  0.550s]
+[11:05:42 AM  167ccaac]:err:finished. total time: 4.331s
+[11:05:44 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:44 AM  167ccaac]:info:$fastboot -s 167ccaac flash dspbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\dspso.bin   || 
+[11:05:44 AM  167ccaac]:err:sending 'dsp' (32768 KB)...
+[11:05:44 AM  167ccaac]:err:OKAY [  1.057s]
+[11:05:44 AM  167ccaac]:err:writing 'dsp'...
+[11:05:44 AM  167ccaac]:err:OKAY [  0.152s]
+[11:05:44 AM  167ccaac]:err:finished. total time: 1.209s
+[11:05:45 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:45 AM  167ccaac]:info:$fastboot -s 167ccaac flash bluetooth E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\BTFM.bin   || 
+[11:05:45 AM  167ccaac]:err:sending 'dspbak' (32768 KB)...
+[11:05:45 AM  167ccaac]:err:OKAY [  1.065s]
+[11:05:45 AM  167ccaac]:err:writing 'dspbak'...
+[11:05:45 AM  167ccaac]:err:OKAY [  0.158s]
+[11:05:45 AM  167ccaac]:err:finished. total time: 1.222s
+[11:05:45 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:45 AM  167ccaac]:info:$fastboot -s 167ccaac flash bluetoothbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\BTFM.bin   || 
+[11:05:45 AM  167ccaac]:err:sending 'bluetooth' (876 KB)...
+[11:05:45 AM  167ccaac]:err:OKAY [  0.036s]
+[11:05:45 AM  167ccaac]:err:writing 'bluetooth'...
+[11:05:45 AM  167ccaac]:err:OKAY [  0.018s]
+[11:05:45 AM  167ccaac]:err:finished. total time: 0.054s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash storsec E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\storsec.mbn   || 
+[11:05:46 AM  167ccaac]:err:sending 'bluetoothbak' (876 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.030s]
+[11:05:46 AM  167ccaac]:err:writing 'bluetoothbak'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.006s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.036s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash devcfg E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\devcfg.mbn   || 
+[11:05:46 AM  167ccaac]:err:sending 'storsec' (19 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.010s]
+[11:05:46 AM  167ccaac]:err:writing 'storsec'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.014s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash devcfgbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\devcfg.mbn   || 
+[11:05:46 AM  167ccaac]:err:sending 'devcfg' (41 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.008s]
+[11:05:46 AM  167ccaac]:err:writing 'devcfg'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.013s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash abl E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\abl.elf   || 
+[11:05:46 AM  167ccaac]:err:sending 'devcfgbak' (41 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.013s]
+[11:05:46 AM  167ccaac]:err:writing 'devcfgbak'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.017s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash ablbak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\abl.elf   || 
+[11:05:46 AM  167ccaac]:err:sending 'abl' (148 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.008s]
+[11:05:46 AM  167ccaac]:err:writing 'abl'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.003s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.011s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash dtbo E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\dtbo.img   || 
+[11:05:46 AM  167ccaac]:err:sending 'ablbak' (148 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.014s]
+[11:05:46 AM  167ccaac]:err:writing 'ablbak'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.006s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.019s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash vbmeta E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\vbmeta.img   || 
+[11:05:46 AM  167ccaac]:err:sending 'dtbo' (8192 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.273s]
+[11:05:46 AM  167ccaac]:err:writing 'dtbo'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.036s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.309s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash vbmetabak E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\vbmeta.img   || 
+[11:05:46 AM  167ccaac]:err:sending 'vbmeta' (4 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.004s]
+[11:05:46 AM  167ccaac]:err:writing 'vbmeta'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.002s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.006s
+[11:05:46 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash boot E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\boot.img   || 
+[11:05:46 AM  167ccaac]:err:sending 'vbmetabak' (4 KB)...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.003s]
+[11:05:46 AM  167ccaac]:err:writing 'vbmetabak'...
+[11:05:46 AM  167ccaac]:err:OKAY [  0.002s]
+[11:05:46 AM  167ccaac]:err:finished. total time: 0.005s
+[11:05:49 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:49 AM  167ccaac]:err:sending 'boot' (65536 KB)...
+[11:05:49 AM  167ccaac]:info:$fastboot -s 167ccaac flash recovery E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\recovery.img   || 
+[11:05:49 AM  167ccaac]:err:OKAY [  2.125s]
+[11:05:49 AM  167ccaac]:err:writing 'boot'...
+[11:05:49 AM  167ccaac]:err:OKAY [  0.308s]
+[11:05:49 AM  167ccaac]:err:finished. total time: 2.434s
+[11:05:51 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:05:51 AM  167ccaac]:err:sending 'recovery' (65536 KB)...
+[11:05:51 AM  167ccaac]:info:$fastboot -s 167ccaac flash system E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\system.img   || 
+[11:05:51 AM  167ccaac]:err:OKAY [  2.114s]
+[11:05:51 AM  167ccaac]:err:writing 'recovery'...
+[11:05:51 AM  167ccaac]:err:OKAY [  0.308s]
+[11:05:51 AM  167ccaac]:err:finished. total time: 2.422s
+[11:08:51 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:08:51 AM  167ccaac]:info:$fastboot -s 167ccaac flash vendor E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\vendor.img   || 
+[11:08:51 AM  167ccaac]:err:erasing 'system'...
+[11:08:51 AM  167ccaac]:err:OKAY [  0.590s]
+[11:08:51 AM  167ccaac]:err:sending sparse 'system' 1/5 (786428 KB)...
+[11:08:51 AM  167ccaac]:err:OKAY [ 26.622s]
+[11:08:51 AM  167ccaac]:err:writing 'system' 1/5...
+[11:08:51 AM  167ccaac]:err:OKAY [  0.001s]
+[11:08:51 AM  167ccaac]:err:sending sparse 'system' 2/5 (786428 KB)...
+[11:08:51 AM  167ccaac]:err:OKAY [ 26.654s]
+[11:08:51 AM  167ccaac]:err:writing 'system' 2/5...
+[11:08:51 AM  167ccaac]:err:OKAY [  0.001s]
+[11:08:51 AM  167ccaac]:err:sending sparse 'system' 3/5 (786428 KB)...
+[11:08:51 AM  167ccaac]:err:OKAY [ 27.054s]
+[11:08:51 AM  167ccaac]:err:writing 'system' 3/5...
+[11:08:51 AM  167ccaac]:err:OKAY [  0.001s]
+[11:08:51 AM  167ccaac]:err:sending sparse 'system' 4/5 (786428 KB)...
+[11:08:51 AM  167ccaac]:err:OKAY [ 27.265s]
+[11:08:51 AM  167ccaac]:err:writing 'system' 4/5...
+[11:08:51 AM  167ccaac]:err:OKAY [  0.001s]
+[11:08:51 AM  167ccaac]:err:sending sparse 'system' 5/5 (329812 KB)...
+[11:08:51 AM  167ccaac]:err:OKAY [ 11.762s]
+[11:08:51 AM  167ccaac]:err:writing 'system' 5/5...
+[11:08:51 AM  167ccaac]:err:OKAY [  0.001s]
+[11:08:51 AM  167ccaac]:err:finished. total time: 119.952s
+[11:09:24 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:09:24 AM  167ccaac]:err:sending 'vendor' (672092 KB)...
+[11:09:24 AM  167ccaac]:err:OKAY [ 22.680s]
+[11:09:24 AM  167ccaac]:err:writing 'vendor'...
+[11:09:24 AM  167ccaac]:err:OKAY [  0.005s]
+[11:09:24 AM  167ccaac]:err:finished. total time: 22.685s
+[11:09:24 AM  167ccaac]:info:$fastboot -s 167ccaac flash userdata E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\userdata.img   || 
+[11:09:44 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:09:44 AM  167ccaac]:err:sending 'userdata' (315968 KB)...
+[11:09:44 AM  167ccaac]:err:OKAY [ 10.218s]
+[11:09:44 AM  167ccaac]:err:writing 'userdata'...
+[11:09:44 AM  167ccaac]:err:OKAY [  0.002s]
+[11:09:44 AM  167ccaac]:err:finished. total time: 10.220s
+[11:09:44 AM  167ccaac]:info:$fastboot -s 167ccaac flash cache E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\cache.img   || 
+[11:09:45 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:09:45 AM  167ccaac]:info:$fastboot -s 167ccaac erase ddr 
+[11:09:46 AM  167ccaac]:err:erasing 'cache'...
+[11:09:46 AM  167ccaac]:err:OKAY [  0.013s]
+[11:09:46 AM  167ccaac]:err:sending 'cache' (160 KB)...
+[11:09:46 AM  167ccaac]:err:OKAY [  0.012s]
+[11:09:46 AM  167ccaac]:info:$fastboot -s 167ccaac erase misc 
+[11:09:46 AM  167ccaac]:err:writing 'cache'...
+[11:09:46 AM  167ccaac]:err:OKAY [  0.008s]
+[11:09:46 AM  167ccaac]:err:finished. total time: 0.033s
+[11:09:46 AM  167ccaac]:info:$fastboot -s 167ccaac erase apdp 
+[11:09:46 AM  167ccaac]:err:erasing 'ddr'...
+[11:09:46 AM  167ccaac]:err:OKAY [  0.007s]
+[11:09:46 AM  167ccaac]:err:finished. total time: 0.007s
+[11:09:46 AM  167ccaac]:err:erasing 'misc'...
+[11:09:46 AM  167ccaac]:err:OKAY [  0.005s]
+[11:09:46 AM  167ccaac]:info:$fastboot -s 167ccaac flash cust E:\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global_78303ebdfd\ginkgo_global_images_V10.3.2.0.PCOMIXM_20190913.0000.00_9.0_global\images\cust.img 
+[11:09:46 AM  167ccaac]:err:finished. total time: 0.005s
+[11:09:46 AM  167ccaac]:err:erasing 'apdp'...
+[11:09:46 AM  167ccaac]:err:OKAY [  0.019s]
+[11:09:46 AM  167ccaac]:err:finished. total time: 0.019s
+[11:10:02 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[11:10:02 AM  167ccaac]:err:sending 'cust' (347488 KB)...
+[11:10:02 AM  167ccaac]:err:OKAY [ 11.268s]
+[11:10:02 AM  167ccaac]:err:writing 'cust'...
+[11:10:02 AM  167ccaac]:err:OKAY [  0.002s]
+[11:10:02 AM  167ccaac]:err:finished. total time: 11.269s
+[11:10:02 AM  167ccaac]:info:$fastboot -s 167ccaac reboot 
+[11:10:04 AM  167ccaac]:err:rebooting...
+[11:10:04 AM  167ccaac]:info:$pause
+[11:10:04 AM  167ccaac]:err:finished. total time: 0.006s

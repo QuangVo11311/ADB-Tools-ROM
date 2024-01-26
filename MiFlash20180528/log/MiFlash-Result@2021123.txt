@@ -1,0 +1,10 @@
+[10:14:04 AM]:10    COM10     6.0344783s     [10:14:04 AM  COM10]:System.Exception: configure failed!!!
+   at XiaoMiFlash.code.bl.SerialPortDevice.ConfigureDDR(Int32 intSectorSize, Int32 buffer_sectors, String ddrType, Int32 m_iSkipStorageInit)
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()     at XiaoMiFlash.code.bl.SerialPortDevice.ConfigureDDR(Int32 intSectorSize, Int32 buffer_sectors, String ddrType, Int32 m_iSkipStorageInit)
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()
+[10:16:25 AM]:10    COM10     7.0016342s     cannot receive hello packet
+[10:25:29 AM]:10    COM10     6.9893557s     cannot receive hello packet
+[10:36:08 AM]:10    COM10     7.0454146s     cannot receive hello packet
+[10:40:32 AM]:10    COM10     7.0271097s     cannot receive hello packet
+[10:41:23 AM]:10    COM10     6.7860131s     cannot receive hello packet
+[10:43:36 AM]:10    COM10     7.032626s     cannot receive hello packet

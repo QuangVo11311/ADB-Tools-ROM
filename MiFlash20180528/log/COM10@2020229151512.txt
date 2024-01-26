@@ -1,0 +1,26 @@
+[3:15:12 PM  COM10]:MiFlash 2018.5.28.0
+[3:15:12 PM  COM10]:flash in thread name:COM10,id:16
+[3:15:12 PM  COM10]:sw in images
+[3:15:12 PM  COM10]:flash in thread name:COM10,id:16
+[3:15:12 PM  COM10]:[COM10]:start flash.
+[3:15:13 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[3:15:14 PM  COM10]:try to reset status.
+[3:15:16 PM  COM10]:write time out try agian 1
+[3:15:18 PM  COM10]:write time out try agian 2
+[3:15:21 PM  COM10]:write time out try agian 3
+[3:15:23 PM  COM10]:write time out try agian 4
+[3:15:26 PM  COM10]:write time out try agian 5
+[3:15:28 PM  COM10]:write time out try agian 6
+[3:15:31 PM  COM10]:write time out try agian 7
+[3:15:31 PM  COM10]:error:The write timed out.
+[3:15:31 PM  COM10]:System.Exception: write time out,maybe device was disconnected.
+   at XiaoMiFlash.code.Utility.Comm.WritePort(Byte[] send, Int32 offSet, Int32 count)
+   at XiaoMiFlash.code.bl.SerialPortDevice.SaharaDownloadProgrammer()
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()     at XiaoMiFlash.code.Utility.Comm.WritePort(Byte[] send, Int32 offSet, Int32 count)
+   at XiaoMiFlash.code.bl.SerialPortDevice.SaharaDownloadProgrammer()
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()
+[3:15:31 PM  COM10]:no provision exit:COM10
+[3:15:31 PM  COM10]:flashSuccess False
+[3:15:31 PM  COM10]:isFactory False CheckCPUID False
+[3:15:31 PM  COM10]:before:flashSuccess is False set IsUpdate:True set IsDone True
+[3:15:31 PM  COM10]:after:flashSuccess is False set IsUpdate:false set IsDone true

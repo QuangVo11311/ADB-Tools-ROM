@@ -1,0 +1,134 @@
+[09:59:33  ba6b07537d23]:MiFlash 2018.5.28.0
+[09:59:33  ba6b07537d23]:Thread id:13 Thread name:ba6b07537d23
+[09:59:33  ba6b07537d23]:image path:E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global
+[09:59:33  ba6b07537d23]:env android path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[09:59:33  ba6b07537d23]:script :E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\flash_all.bat
+[09:59:33  ba6b07537d23]:Physical Memory Usage:1024000 Byte
+[09:59:33  ba6b07537d23]:start process id 2108 name cmd
+[09:59:34  ba6b07537d23]:info:$echo "cactus fastboot flash tools" 
+[09:59:34  ba6b07537d23]:info:"cactus fastboot flash tools"
+[09:59:34  ba6b07537d23]:info:$fastboot -s ba6b07537d23 getvar product   2>&1  | findstr /r /c:"^product: *cactus"   || echo Missmatching image and device 
+[09:59:34  ba6b07537d23]:info:product: cactus
+[09:59:34  ba6b07537d23]:info:$fastboot -s ba6b07537d23 getvar product   2>&1  | findstr /r /c:"^product: *cactus"   || exit /B 1 
+[09:59:34  ba6b07537d23]:info:product: cactus
+[09:59:34  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash crclist "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\crclist.txt"    || 
+[09:59:34  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:34  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash sparsecrclist "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\sparsecrclist.txt"    || 
+[09:59:34  ba6b07537d23]:err:sending 'crclist' (0 KB)...
+[09:59:34  ba6b07537d23]:err:OKAY [  0.005s]
+[09:59:34  ba6b07537d23]:err:writing 'crclist'...
+[09:59:34  ba6b07537d23]:err:OKAY [  0.001s]
+[09:59:34  ba6b07537d23]:err:finished. total time: 0.006s
+[09:59:34  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:34  ba6b07537d23]:err:sending 'sparsecrclist' (0 KB)...
+[09:59:34  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash preloader "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\preloader_cactus.bin"    || 
+[09:59:34  ba6b07537d23]:err:OKAY [  0.005s]
+[09:59:34  ba6b07537d23]:err:writing 'sparsecrclist'...
+[09:59:34  ba6b07537d23]:err:OKAY [  0.001s]
+[09:59:34  ba6b07537d23]:err:finished. total time: 0.006s
+[09:59:34  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:34  ba6b07537d23]:err:sending 'preloader' (226 KB)...
+[09:59:34  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash logo "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\logo.bin"    || 
+[09:59:34  ba6b07537d23]:err:OKAY [  0.013s]
+[09:59:34  ba6b07537d23]:err:writing 'preloader'...
+[09:59:34  ba6b07537d23]:err:OKAY [  0.011s]
+[09:59:34  ba6b07537d23]:err:finished. total time: 0.024s
+[09:59:34  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:34  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash tee1 "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\tee.img"    || 
+[09:59:34  ba6b07537d23]:err:sending 'logo' (1147 KB)...
+[09:59:34  ba6b07537d23]:err:OKAY [  0.045s]
+[09:59:34  ba6b07537d23]:err:writing 'logo'...
+[09:59:34  ba6b07537d23]:err:OKAY [  0.036s]
+[09:59:34  ba6b07537d23]:err:finished. total time: 0.080s
+[09:59:34  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:34  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash scp1 "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\scp.img"    || 
+[09:59:34  ba6b07537d23]:err:sending 'tee1' (3314 KB)...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.117s]
+[09:59:35  ba6b07537d23]:err:writing 'tee1'...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.104s]
+[09:59:35  ba6b07537d23]:err:finished. total time: 0.221s
+[09:59:35  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:35  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash sspm_1 "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\sspm.img"    || 
+[09:59:35  ba6b07537d23]:err:sending 'scp1' (551 KB)...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.024s]
+[09:59:35  ba6b07537d23]:err:writing 'scp1'...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.017s]
+[09:59:35  ba6b07537d23]:err:finished. total time: 0.041s
+[09:59:35  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:35  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash lk "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\lk.img"    || 
+[09:59:35  ba6b07537d23]:err:sending 'sspm_1' (422 KB)...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.020s]
+[09:59:35  ba6b07537d23]:err:writing 'sspm_1'...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.016s]
+[09:59:35  ba6b07537d23]:err:finished. total time: 0.036s
+[09:59:35  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:35  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash tee2 "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\tee.img"    || 
+[09:59:35  ba6b07537d23]:err:sending 'lk' (681 KB)...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.029s]
+[09:59:35  ba6b07537d23]:err:writing 'lk'...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.027s]
+[09:59:35  ba6b07537d23]:err:finished. total time: 0.056s
+[09:59:35  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:35  ba6b07537d23]:err:sending 'tee2' (3314 KB)...
+[09:59:35  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash scp2 "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\scp.img"    || 
+[09:59:35  ba6b07537d23]:err:OKAY [  0.117s]
+[09:59:35  ba6b07537d23]:err:writing 'tee2'...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.098s]
+[09:59:35  ba6b07537d23]:err:finished. total time: 0.214s
+[09:59:35  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:35  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash sspm_2 "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\sspm.img"    || 
+[09:59:35  ba6b07537d23]:err:sending 'scp2' (551 KB)...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.023s]
+[09:59:35  ba6b07537d23]:err:writing 'scp2'...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.015s]
+[09:59:35  ba6b07537d23]:err:finished. total time: 0.039s
+[09:59:35  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:35  ba6b07537d23]:err:sending 'sspm_2' (422 KB)...
+[09:59:35  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash lk2 "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\lk.img"    || 
+[09:59:35  ba6b07537d23]:err:OKAY [  0.019s]
+[09:59:35  ba6b07537d23]:err:writing 'sspm_2'...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.016s]
+[09:59:35  ba6b07537d23]:err:finished. total time: 0.035s
+[09:59:35  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:35  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash odmdtbo "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\odmdtbo.img"    || 
+[09:59:35  ba6b07537d23]:err:sending 'lk2' (681 KB)...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.028s]
+[09:59:35  ba6b07537d23]:err:writing 'lk2'...
+[09:59:35  ba6b07537d23]:err:OKAY [  0.030s]
+[09:59:35  ba6b07537d23]:err:finished. total time: 0.058s
+[09:59:37  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:37  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash spmfw "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\spmfw.img"    || 
+[09:59:37  ba6b07537d23]:err:sending 'odmdtbo' (16384 KB)...
+[09:59:37  ba6b07537d23]:err:OKAY [  0.561s]
+[09:59:37  ba6b07537d23]:err:writing 'odmdtbo'...
+[09:59:37  ba6b07537d23]:err:OKAY [  0.459s]
+[09:59:37  ba6b07537d23]:err:finished. total time: 1.020s
+[09:59:37  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:37  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash md1img "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\md1img.img"    || 
+[09:59:37  ba6b07537d23]:err:sending 'spmfw' (50 KB)...
+[09:59:37  ba6b07537d23]:err:OKAY [  0.007s]
+[09:59:37  ba6b07537d23]:err:writing 'spmfw'...
+[09:59:37  ba6b07537d23]:err:OKAY [  0.005s]
+[09:59:37  ba6b07537d23]:err:finished. total time: 0.012s
+[09:59:42  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[09:59:42  ba6b07537d23]:err:sending 'md1img' (55197 KB)...
+[09:59:42  ba6b07537d23]:err:OKAY [  1.844s]
+[09:59:42  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash vendor "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\vendor.img"    || 
+[09:59:42  ba6b07537d23]:err:writing 'md1img'...
+[09:59:42  ba6b07537d23]:err:OKAY [  2.772s]
+[09:59:42  ba6b07537d23]:err:finished. total time: 4.616s
+[10:00:11  ba6b07537d23]:err:target reported max download size of 134217728 bytes
+[10:00:11  ba6b07537d23]:err:sending sparse 'vendor' 1/3 (129396 KB)...
+[10:00:11  ba6b07537d23]:info:$fastboot -s ba6b07537d23 flash system "E:\xiaomi\rom6a\cactus_global_images_9.5.23_20190523.0000.00_9.0_global_63ecd38280\cactus_global_images_9.5.23_20190523.0000.00_9.0_global\images\system.img"    || 
+[10:00:11  ba6b07537d23]:err:OKAY [  4.654s]
+[10:00:11  ba6b07537d23]:err:writing 'vendor' 1/3...
+[10:00:11  ba6b07537d23]:err:OKAY [  3.694s]
+[10:00:11  ba6b07537d23]:err:sending sparse 'vendor' 2/3 (128856 KB)...
+[10:00:11  ba6b07537d23]:err:OKAY [  4.697s]
+[10:00:11  ba6b07537d23]:err:writing 'vendor' 2/3...
+[10:00:11  ba6b07537d23]:err:OKAY [  3.627s]
+[10:00:11  ba6b07537d23]:err:sending sparse 'vendor' 3/3 (68984 KB)...
+[10:00:11  ba6b07537d23]:err:OKAY [  2.534s]
+[10:00:11  ba6b07537d23]:err:writing 'vendor' 3/3...
+[10:00:11  ba6b07537d23]:err:OKAY [  3.211s]
+[10:00:11  ba6b07537d23]:err:finished. total time: 22.416s

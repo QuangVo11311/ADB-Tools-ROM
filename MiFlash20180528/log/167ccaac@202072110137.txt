@@ -1,0 +1,356 @@
+[10:13:07 AM  167ccaac]:MiFlash 2018.5.28.0
+[10:13:07 AM  167ccaac]:Thread id:9 Thread name:167ccaac
+[10:13:07 AM  167ccaac]:image path:E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn
+[10:13:07 AM  167ccaac]:env android path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Android"
+[10:13:07 AM  167ccaac]:script :E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\flash_all.bat
+[10:13:07 AM  167ccaac]:Physical Memory Usage:3280896 Byte
+[10:13:07 AM  167ccaac]:start process id 8384 name cmd
+[10:13:07 AM  167ccaac]:info:$fastboot -s 167ccaac getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || echo Missmatching image and device 
+[10:13:07 AM  167ccaac]:info:product: ginkgo
+[10:13:07 AM  167ccaac]:info:$fastboot -s 167ccaac getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || exit /B 1 
+[10:13:07 AM  167ccaac]:info:product: ginkgo
+[10:13:07 AM  167ccaac]:info:$set CURRENT_ANTI_VER=1 
+[10:13:07 AM  167ccaac]:info:$for /F "tokens=2 delims=: " %i in ('fastboot -s 167ccaac getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[10:13:07 AM  167ccaac]:info:$(set version=1 ) 
+[10:13:07 AM  167ccaac]:info:$if [1] EQU [] set version=0 
+[10:13:08 AM  167ccaac]:info:$if 1 GTR 1 (
+[10:13:08 AM  167ccaac]:info:echo current device antirollback version is greater than this package  
+[10:13:08 AM  167ccaac]:info: exit /B 1 
+[10:13:08 AM  167ccaac]:info:) 
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash xbl E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\xbl.elf   || 
+[10:13:08 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash xblbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\xbl.elf   || 
+[10:13:08 AM  167ccaac]:err:sending 'xbl' (3444 KB)...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.120s]
+[10:13:08 AM  167ccaac]:err:writing 'xbl'...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.021s]
+[10:13:08 AM  167ccaac]:err:finished. total time: 0.141s
+[10:13:08 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash xbl_config E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\xbl_config.elf   || 
+[10:13:08 AM  167ccaac]:err:sending 'xblbak' (3444 KB)...
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash xbl_configbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\xbl_config.elf   || 
+[10:13:08 AM  167ccaac]:err:OKAY [  0.122s]
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash imagefv E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\imagefv.elf   || 
+[10:13:08 AM  167ccaac]:err:writing 'xblbak'...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.018s]
+[10:13:08 AM  167ccaac]:err:finished. total time: 0.140s
+[10:13:08 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:08 AM  167ccaac]:err:sending 'xbl_config' (48 KB)...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.004s]
+[10:13:08 AM  167ccaac]:err:writing 'xbl_config'...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:08 AM  167ccaac]:err:finished. total time: 0.009s
+[10:13:08 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:08 AM  167ccaac]:err:sending 'xbl_configbak' (48 KB)...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.007s]
+[10:13:08 AM  167ccaac]:err:writing 'xbl_configbak'...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.004s]
+[10:13:08 AM  167ccaac]:err:finished. total time: 0.011s
+[10:13:08 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash imagefvbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\imagefv.elf   || 
+[10:13:08 AM  167ccaac]:err:sending 'imagefv' (20 KB)...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.003s]
+[10:13:08 AM  167ccaac]:err:writing 'imagefv'...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.003s]
+[10:13:08 AM  167ccaac]:err:finished. total time: 0.005s
+[10:13:08 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash uefisecapp E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\uefi_sec.mbn   || 
+[10:13:08 AM  167ccaac]:err:sending 'imagefvbak' (20 KB)...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.010s]
+[10:13:08 AM  167ccaac]:err:writing 'imagefvbak'...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.013s]
+[10:13:08 AM  167ccaac]:err:finished. total time: 0.022s
+[10:13:08 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash uefisecappbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\uefi_sec.mbn   || 
+[10:13:08 AM  167ccaac]:err:sending 'uefisecapp' (125 KB)...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.013s]
+[10:13:08 AM  167ccaac]:err:writing 'uefisecapp'...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:08 AM  167ccaac]:err:finished. total time: 0.018s
+[10:13:08 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:08 AM  167ccaac]:info:$fastboot -s 167ccaac flash qupfw E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\qupv3fw.elf   || 
+[10:13:08 AM  167ccaac]:err:sending 'uefisecappbak' (125 KB)...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.011s]
+[10:13:08 AM  167ccaac]:err:writing 'uefisecappbak'...
+[10:13:08 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.016s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash qupfwbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\qupv3fw.elf   || 
+[10:13:09 AM  167ccaac]:err:sending 'qupfw' (48 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.007s]
+[10:13:09 AM  167ccaac]:err:writing 'qupfw'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.012s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash metadata E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\metadata.img   || 
+[10:13:09 AM  167ccaac]:err:sending 'qupfwbak' (48 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.008s]
+[10:13:09 AM  167ccaac]:err:writing 'qupfwbak'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.010s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.018s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash tz E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\tz.mbn   || 
+[10:13:09 AM  167ccaac]:err:sending 'metadata' (48 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.012s]
+[10:13:09 AM  167ccaac]:err:writing 'metadata'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.017s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash tzbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\tz.mbn   || 
+[10:13:09 AM  167ccaac]:err:sending 'tz' (1976 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.075s]
+[10:13:09 AM  167ccaac]:err:writing 'tz'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.014s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.089s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash rpm E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\rpm.mbn   || 
+[10:13:09 AM  167ccaac]:err:sending 'tzbak' (1976 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.074s]
+[10:13:09 AM  167ccaac]:err:writing 'tzbak'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.011s]
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash rpmbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\rpm.mbn   || 
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.085s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:err:sending 'rpm' (218 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.014s]
+[10:13:09 AM  167ccaac]:err:writing 'rpm'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.020s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash hyp E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\hyp.mbn   || 
+[10:13:09 AM  167ccaac]:err:sending 'rpmbak' (218 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.017s]
+[10:13:09 AM  167ccaac]:err:writing 'rpmbak'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.006s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.022s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash hypbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\hyp.mbn   || 
+[10:13:09 AM  167ccaac]:err:sending 'hyp' (361 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.014s]
+[10:13:09 AM  167ccaac]:err:writing 'hyp'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.020s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash keymaster E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\km4.mbn   || 
+[10:13:09 AM  167ccaac]:err:sending 'hypbak' (361 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.020s]
+[10:13:09 AM  167ccaac]:err:writing 'hypbak'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.025s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash keymasterbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\km4.mbn   || 
+[10:13:09 AM  167ccaac]:err:sending 'keymaster' (232 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.010s]
+[10:13:09 AM  167ccaac]:err:writing 'keymaster'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:09 AM  167ccaac]:err:finished. total time: 0.014s
+[10:13:09 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:09 AM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\cmnlib.mbn   || 
+[10:13:09 AM  167ccaac]:err:sending 'keymasterbak' (232 KB)...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.010s]
+[10:13:09 AM  167ccaac]:err:writing 'keymasterbak'...
+[10:13:09 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:10 AM  167ccaac]:err:finished. total time: 0.015s
+[10:13:10 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:10 AM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlibbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\cmnlib.mbn   || 
+[10:13:10 AM  167ccaac]:err:sending 'cmnlib' (384 KB)...
+[10:13:10 AM  167ccaac]:err:OKAY [  0.020s]
+[10:13:10 AM  167ccaac]:err:writing 'cmnlib'...
+[10:13:10 AM  167ccaac]:err:OKAY [  0.008s]
+[10:13:10 AM  167ccaac]:err:finished. total time: 0.028s
+[10:13:10 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:10 AM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib64 E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\cmnlib64.mbn   || 
+[10:13:10 AM  167ccaac]:err:sending 'cmnlibbak' (384 KB)...
+[10:13:10 AM  167ccaac]:err:OKAY [  0.019s]
+[10:13:10 AM  167ccaac]:err:writing 'cmnlibbak'...
+[10:13:10 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:10 AM  167ccaac]:err:finished. total time: 0.025s
+[10:13:10 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:10 AM  167ccaac]:info:$fastboot -s 167ccaac flash cmnlib64bak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\cmnlib64.mbn   || 
+[10:13:10 AM  167ccaac]:err:sending 'cmnlib64' (499 KB)...
+[10:13:10 AM  167ccaac]:err:OKAY [  0.020s]
+[10:13:10 AM  167ccaac]:err:writing 'cmnlib64'...
+[10:13:10 AM  167ccaac]:err:OKAY [  0.006s]
+[10:13:10 AM  167ccaac]:err:finished. total time: 0.026s
+[10:13:10 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:10 AM  167ccaac]:info:$fastboot -s 167ccaac flash modem E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\NON-HLOS.bin   || 
+[10:13:10 AM  167ccaac]:err:sending 'cmnlib64bak' (499 KB)...
+[10:13:10 AM  167ccaac]:err:OKAY [  0.020s]
+[10:13:10 AM  167ccaac]:err:writing 'cmnlib64bak'...
+[10:13:10 AM  167ccaac]:err:OKAY [  0.006s]
+[10:13:10 AM  167ccaac]:err:finished. total time: 0.026s
+[10:13:14 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:14 AM  167ccaac]:err:sending 'modem' (118289 KB)...
+[10:13:14 AM  167ccaac]:err:OKAY [  3.833s]
+[10:13:14 AM  167ccaac]:info:$fastboot -s 167ccaac flash dsp E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\dspso.bin   || 
+[10:13:14 AM  167ccaac]:err:writing 'modem'...
+[10:13:14 AM  167ccaac]:err:OKAY [  0.626s]
+[10:13:14 AM  167ccaac]:err:finished. total time: 4.459s
+[10:13:17 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:17 AM  167ccaac]:info:$fastboot -s 167ccaac flash dspbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\dspso.bin   || 
+[10:13:17 AM  167ccaac]:err:sending 'dsp' (32768 KB)...
+[10:13:17 AM  167ccaac]:err:OKAY [  1.057s]
+[10:13:17 AM  167ccaac]:err:writing 'dsp'...
+[10:13:17 AM  167ccaac]:err:OKAY [  0.151s]
+[10:13:17 AM  167ccaac]:err:finished. total time: 1.209s
+[10:13:18 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:18 AM  167ccaac]:info:$fastboot -s 167ccaac flash bluetooth E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\BTFM.bin   || 
+[10:13:18 AM  167ccaac]:err:sending 'dspbak' (32768 KB)...
+[10:13:18 AM  167ccaac]:err:OKAY [  1.135s]
+[10:13:18 AM  167ccaac]:err:writing 'dspbak'...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.151s]
+[10:13:18 AM  167ccaac]:err:finished. total time: 1.286s
+[10:13:18 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:18 AM  167ccaac]:info:$fastboot -s 167ccaac flash bluetoothbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\BTFM.bin   || 
+[10:13:18 AM  167ccaac]:err:sending 'bluetooth' (876 KB)...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.030s]
+[10:13:18 AM  167ccaac]:err:writing 'bluetooth'...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.017s]
+[10:13:18 AM  167ccaac]:err:finished. total time: 0.048s
+[10:13:18 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:18 AM  167ccaac]:info:$fastboot -s 167ccaac flash storsec E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\storsec.mbn   || 
+[10:13:18 AM  167ccaac]:err:sending 'bluetoothbak' (876 KB)...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.034s]
+[10:13:18 AM  167ccaac]:err:writing 'bluetoothbak'...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.008s]
+[10:13:18 AM  167ccaac]:err:finished. total time: 0.042s
+[10:13:18 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:18 AM  167ccaac]:info:$fastboot -s 167ccaac flash devcfg E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\devcfg.mbn   || 
+[10:13:18 AM  167ccaac]:err:sending 'storsec' (19 KB)...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.003s]
+[10:13:18 AM  167ccaac]:err:writing 'storsec'...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.004s]
+[10:13:18 AM  167ccaac]:err:finished. total time: 0.007s
+[10:13:18 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:18 AM  167ccaac]:info:$fastboot -s 167ccaac flash devcfgbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\devcfg.mbn   || 
+[10:13:18 AM  167ccaac]:err:sending 'devcfg' (41 KB)...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:18 AM  167ccaac]:err:writing 'devcfg'...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.004s]
+[10:13:18 AM  167ccaac]:err:finished. total time: 0.009s
+[10:13:18 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:18 AM  167ccaac]:info:$fastboot -s 167ccaac flash abl E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\abl.elf   || 
+[10:13:18 AM  167ccaac]:err:sending 'devcfgbak' (41 KB)...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.009s]
+[10:13:18 AM  167ccaac]:err:writing 'devcfgbak'...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.013s]
+[10:13:18 AM  167ccaac]:err:finished. total time: 0.021s
+[10:13:18 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:18 AM  167ccaac]:info:$fastboot -s 167ccaac flash ablbak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\abl.elf   || 
+[10:13:18 AM  167ccaac]:err:sending 'abl' (148 KB)...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.015s]
+[10:13:18 AM  167ccaac]:err:writing 'abl'...
+[10:13:18 AM  167ccaac]:err:OKAY [  0.004s]
+[10:13:19 AM  167ccaac]:err:finished. total time: 0.019s
+[10:13:19 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:19 AM  167ccaac]:info:$fastboot -s 167ccaac flash dtbo E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\dtbo.img   || 
+[10:13:19 AM  167ccaac]:err:sending 'ablbak' (148 KB)...
+[10:13:19 AM  167ccaac]:err:OKAY [  0.011s]
+[10:13:19 AM  167ccaac]:err:writing 'ablbak'...
+[10:13:19 AM  167ccaac]:err:OKAY [  0.004s]
+[10:13:19 AM  167ccaac]:err:finished. total time: 0.015s
+[10:13:19 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:19 AM  167ccaac]:err:sending 'dtbo' (8192 KB)...
+[10:13:19 AM  167ccaac]:err:OKAY [  0.274s]
+[10:13:19 AM  167ccaac]:info:$fastboot -s 167ccaac flash vbmeta E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\vbmeta.img   || 
+[10:13:19 AM  167ccaac]:err:writing 'dtbo'...
+[10:13:19 AM  167ccaac]:err:OKAY [  0.037s]
+[10:13:19 AM  167ccaac]:err:finished. total time: 0.311s
+[10:13:19 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:19 AM  167ccaac]:err:sending 'vbmeta' (4 KB)...
+[10:13:19 AM  167ccaac]:info:$fastboot -s 167ccaac flash vbmetabak E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\vbmeta.img   || 
+[10:13:19 AM  167ccaac]:err:OKAY [  0.005s]
+[10:13:19 AM  167ccaac]:err:writing 'vbmeta'...
+[10:13:19 AM  167ccaac]:err:OKAY [  0.002s]
+[10:13:19 AM  167ccaac]:err:finished. total time: 0.008s
+[10:13:19 AM  167ccaac]:info:$fastboot -s 167ccaac flash boot E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\boot.img   || 
+[10:13:19 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:19 AM  167ccaac]:err:sending 'vbmetabak' (4 KB)...
+[10:13:19 AM  167ccaac]:err:OKAY [  0.011s]
+[10:13:19 AM  167ccaac]:err:writing 'vbmetabak'...
+[10:13:19 AM  167ccaac]:err:OKAY [  0.002s]
+[10:13:19 AM  167ccaac]:err:finished. total time: 0.014s
+[10:13:22 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:22 AM  167ccaac]:err:sending 'boot' (65536 KB)...
+[10:13:22 AM  167ccaac]:info:$fastboot -s 167ccaac flash recovery E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\recovery.img   || 
+[10:13:22 AM  167ccaac]:err:OKAY [  2.100s]
+[10:13:22 AM  167ccaac]:err:writing 'boot'...
+[10:13:22 AM  167ccaac]:err:OKAY [  0.297s]
+[10:13:22 AM  167ccaac]:err:finished. total time: 2.397s
+[10:13:24 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:13:24 AM  167ccaac]:err:sending 'recovery' (65536 KB)...
+[10:13:24 AM  167ccaac]:info:$fastboot -s 167ccaac flash system E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\system.img   || 
+[10:13:24 AM  167ccaac]:err:OKAY [  2.133s]
+[10:13:24 AM  167ccaac]:err:writing 'recovery'...
+[10:13:24 AM  167ccaac]:err:OKAY [  0.301s]
+[10:13:24 AM  167ccaac]:err:finished. total time: 2.435s
+[10:17:23 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:17:24 AM  167ccaac]:info:$fastboot -s 167ccaac flash vendor E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\vendor.img   || 
+[10:17:25 AM  167ccaac]:err:erasing 'system'...
+[10:17:25 AM  167ccaac]:err:OKAY [  0.677s]
+[10:17:25 AM  167ccaac]:err:sending sparse 'system' 1/5 (786428 KB)...
+[10:17:25 AM  167ccaac]:err:OKAY [ 29.135s]
+[10:17:25 AM  167ccaac]:err:writing 'system' 1/5...
+[10:17:25 AM  167ccaac]:err:OKAY [  0.001s]
+[10:17:25 AM  167ccaac]:err:sending sparse 'system' 2/5 (786428 KB)...
+[10:17:25 AM  167ccaac]:err:OKAY [ 27.715s]
+[10:17:25 AM  167ccaac]:err:writing 'system' 2/5...
+[10:17:25 AM  167ccaac]:err:OKAY [ -0.000s]
+[10:17:25 AM  167ccaac]:err:sending sparse 'system' 3/5 (786428 KB)...
+[10:17:25 AM  167ccaac]:err:OKAY [ 33.526s]
+[10:17:25 AM  167ccaac]:err:writing 'system' 3/5...
+[10:17:25 AM  167ccaac]:err:OKAY [  0.001s]
+[10:17:25 AM  167ccaac]:err:sending sparse 'system' 4/5 (786428 KB)...
+[10:17:25 AM  167ccaac]:err:OKAY [ 36.967s]
+[10:17:25 AM  167ccaac]:err:writing 'system' 4/5...
+[10:17:25 AM  167ccaac]:err:OKAY [  0.001s]
+[10:17:25 AM  167ccaac]:err:sending sparse 'system' 5/5 (125884 KB)...
+[10:17:25 AM  167ccaac]:err:OKAY [  5.981s]
+[10:17:25 AM  167ccaac]:err:writing 'system' 5/5...
+[10:17:25 AM  167ccaac]:err:OKAY [  0.001s]
+[10:17:25 AM  167ccaac]:err:finished. total time: 134.519s
+[10:17:57 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:17:57 AM  167ccaac]:err:sending 'vendor' (718864 KB)...
+[10:17:57 AM  167ccaac]:err:OKAY [ 23.396s]
+[10:17:57 AM  167ccaac]:info:$fastboot -s 167ccaac flash userdata E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\userdata.img   || 
+[10:17:57 AM  167ccaac]:err:writing 'vendor'...
+[10:17:57 AM  167ccaac]:err:OKAY [  0.002s]
+[10:17:57 AM  167ccaac]:err:finished. total time: 23.398s
+[10:18:01 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:18:01 AM  167ccaac]:err:sending 'userdata' (22420 KB)...
+[10:18:01 AM  167ccaac]:info:$fastboot -s 167ccaac flash cache E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\cache.img   || 
+[10:18:01 AM  167ccaac]:err:OKAY [  0.729s]
+[10:18:01 AM  167ccaac]:err:writing 'userdata'...
+[10:18:01 AM  167ccaac]:err:OKAY [  0.002s]
+[10:18:01 AM  167ccaac]:err:finished. total time: 0.730s
+[10:18:02 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:18:02 AM  167ccaac]:info:$fastboot -s 167ccaac erase ddr 
+[10:18:02 AM  167ccaac]:err:erasing 'cache'...
+[10:18:02 AM  167ccaac]:err:OKAY [  0.018s]
+[10:18:02 AM  167ccaac]:err:sending 'cache' (160 KB)...
+[10:18:02 AM  167ccaac]:err:OKAY [  0.007s]
+[10:18:02 AM  167ccaac]:err:writing 'cache'...
+[10:18:02 AM  167ccaac]:info:$fastboot -s 167ccaac erase misc 
+[10:18:02 AM  167ccaac]:err:OKAY [  0.005s]
+[10:18:02 AM  167ccaac]:err:finished. total time: 0.030s
+[10:18:02 AM  167ccaac]:err:erasing 'ddr'...
+[10:18:02 AM  167ccaac]:err:OKAY [  0.006s]
+[10:18:02 AM  167ccaac]:err:finished. total time: 0.007s
+[10:18:02 AM  167ccaac]:err:erasing 'misc'...
+[10:18:02 AM  167ccaac]:info:$fastboot -s 167ccaac erase apdp 
+[10:18:02 AM  167ccaac]:err:OKAY [  0.005s]
+[10:18:02 AM  167ccaac]:err:finished. total time: 0.005s
+[10:18:02 AM  167ccaac]:err:erasing 'apdp'...
+[10:18:02 AM  167ccaac]:info:$fastboot -s 167ccaac flash cust E:\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn_e7e894ac9b\ginkgo_images_V11.0.7.0.PCOCNXM_20200612.0000.00_9.0_cn\images\cust.img 
+[10:18:02 AM  167ccaac]:err:OKAY [  0.005s]
+[10:18:02 AM  167ccaac]:err:finished. total time: 0.005s
+[10:18:31 AM  167ccaac]:err:target reported max download size of 805306368 bytes
+[10:18:32 AM  167ccaac]:info:$fastboot -s 167ccaac reboot 
+[10:18:32 AM  167ccaac]:err:sending 'cust' (639144 KB)...
+[10:18:32 AM  167ccaac]:err:OKAY [ 20.781s]
+[10:18:32 AM  167ccaac]:err:writing 'cust'...
+[10:18:32 AM  167ccaac]:err:OKAY [  0.002s]
+[10:18:32 AM  167ccaac]:err:finished. total time: 20.784s
+[10:18:34 AM  167ccaac]:err:rebooting...
+[10:18:34 AM  167ccaac]:info:$pause
+[10:18:34 AM  167ccaac]:err:finished. total time: 0.028s

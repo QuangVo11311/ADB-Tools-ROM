@@ -1,0 +1,44 @@
+[2:22:50 PM  COM10]:MiFlash 2018.5.28.0
+[2:22:50 PM  COM10]:flash in thread name:COM10,id:13
+[2:22:50 PM  COM10]:sw in images
+[2:22:50 PM  COM10]:flash in thread name:COM10,id:13
+[2:22:50 PM  COM10]:[COM10]:start flash.
+[2:22:50 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:52 PM  COM10]:try to reset status.
+[2:22:52 PM  COM10]:Switch mode back
+[2:22:52 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:52 PM  COM10]:try to reset status.
+[2:22:52 PM  COM10]:Switch mode back
+[2:22:52 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:53 PM  COM10]:try to reset status.
+[2:22:53 PM  COM10]:Switch mode back
+[2:22:53 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:53 PM  COM10]:try to reset status.
+[2:22:53 PM  COM10]:Switch mode back
+[2:22:53 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:54 PM  COM10]:try to reset status.
+[2:22:54 PM  COM10]:Switch mode back
+[2:22:54 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:54 PM  COM10]:try to reset status.
+[2:22:54 PM  COM10]:Switch mode back
+[2:22:54 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:55 PM  COM10]:try to reset status.
+[2:22:55 PM  COM10]:Switch mode back
+[2:22:55 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:55 PM  COM10]:try to reset status.
+[2:22:55 PM  COM10]:Switch mode back
+[2:22:55 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:56 PM  COM10]:try to reset status.
+[2:22:56 PM  COM10]:Switch mode back
+[2:22:56 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[2:22:57 PM  COM10]:try to reset status.
+[2:22:57 PM  COM10]:Switch mode back
+[2:22:57 PM  COM10]:System.Exception: cannot receive hello packet
+   at XiaoMiFlash.code.bl.SerialPortDevice.SaharaDownloadProgrammer()
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()     at XiaoMiFlash.code.bl.SerialPortDevice.SaharaDownloadProgrammer()
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()
+[2:22:57 PM  COM10]:no provision exit:COM10
+[2:22:57 PM  COM10]:flashSuccess False
+[2:22:57 PM  COM10]:isFactory False CheckCPUID False
+[2:22:57 PM  COM10]:before:flashSuccess is False set IsUpdate:True set IsDone True
+[2:22:57 PM  COM10]:after:flashSuccess is False set IsUpdate:false set IsDone true

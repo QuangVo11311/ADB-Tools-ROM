@@ -1,0 +1,33 @@
+[2:13:30 PM]:10    COM10     20.685131s     write time out,maybe device was disconnected.
+[2:14:08 PM]:10    COM10     19.5187601s     write time out,maybe device was disconnected.
+[2:15:06 PM]:10    COM10     19.3407631s     write time out,maybe device was disconnected.
+[2:20:47 PM]:10    COM10     6.7708659s     [2:20:47 PM  COM10]:dump:<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="ERROR: Only nop and sig tag can be recevied before authentication."/>
+</data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="NAK" />
+</data>
+
+
+[2:22:25 PM]:10    COM10     6.5013638s     cannot receive hello packet
+[2:22:57 PM]:10    COM10     7.0368441s     cannot receive hello packet
+[2:30:53 PM]:10    COM10     5.5037012s     [2:30:53 PM  COM10]:dump:<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="ERROR: Only nop and sig tag can be recevied before authentication."/>
+</data><?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="NAK" />
+</data>
+
+
+[2:31:17 PM]:10    COM10     30.0960007s     You are not authorized to Download!!!
+[2:58:27 PM]:10    COM10     6.4985606s     cannot receive hello packet
+[3:10:20 PM]:10    COM10     2.0212034s     Object reference not set to an instance of an object.
+[3:13:51 PM]:10    COM10     19.5096386s     write time out,maybe device was disconnected.
+[3:14:33 PM]:10    COM10     19.4994539s     write time out,maybe device was disconnected.
+[3:15:31 PM]:10    COM10     19.3619407s     write time out,maybe device was disconnected.
+[3:23:03 PM]:10    COM10     19.5037472s     write time out,maybe device was disconnected.
+[3:23:59 PM]:10    COM10     19.4873017s     write time out,maybe device was disconnected.
+[3:26:45 PM]:10    COM10     19.6504406s     write time out,maybe device was disconnected.
+[3:30:51 PM]:3    COM3     19.4994416s     write time out,maybe device was disconnected.

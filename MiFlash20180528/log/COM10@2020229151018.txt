@@ -1,0 +1,18 @@
+[3:10:18 PM  COM10]:MiFlash 2018.5.28.0
+[3:10:18 PM  COM10]:flash in thread name:COM10,id:17
+[3:10:18 PM  COM10]:sw in images
+[3:10:18 PM  COM10]:flash in thread name:COM10,id:17
+[3:10:18 PM  COM10]:[COM10]:start flash.
+[3:10:19 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[3:10:20 PM  COM10]:try to reset status.
+[3:10:20 PM  COM10]:Switch mode back
+[3:10:20 PM  COM10]:cannot receive hello packet,MiFlash is trying to reset status!
+[3:10:20 PM  COM10]:flashSuccess False
+[3:10:20 PM  COM10]:isFactory False CheckCPUID False
+[3:10:20 PM  COM10]:before:flashSuccess is False set IsUpdate:True set IsDone True
+[3:10:20 PM  COM10]:after:flashSuccess is False set IsUpdate:false set IsDone true
+[3:10:20 PM  COM10]:System.NullReferenceException: Object reference not set to an instance of an object.
+   at XiaoMiFlash.code.bl.SerialPortDevice.SaharaDownloadProgrammer()
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()     at XiaoMiFlash.code.bl.SerialPortDevice.SaharaDownloadProgrammer()
+   at XiaoMiFlash.code.bl.SerialPortDevice.XiaomiFlash()
+[3:10:20 PM  COM10]:no provision exit:COM10

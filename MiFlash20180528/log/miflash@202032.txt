@@ -1,0 +1,81 @@
+[11:22:26 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[11:22:27 AM]:ls ubs :
+[11:22:28 AM]:GetScriptDevices
+[11:22:29 AM]:add device 3fa29ba
+[11:22:31 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[11:22:31 AM]:ls ubs :
+[11:22:31 AM]:GetScriptDevices
+[11:22:31 AM]:FlashingDevice.flashDeviceList.Remove 3fa29ba
+[11:22:31 AM]:add device 3fa29ba
+[11:22:31 AM]:Thread start,thread id 13,thread name 3fa29ba
+[11:22:31 AM]:start process id 14660 name cmd
+[11:27:27 AM]:Thread stopped, thread id 13, thread name 3fa29ba
+[11:59:28 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[11:59:29 AM]:ls ubs :
+[11:59:30 AM]:GetScriptDevices
+[11:59:32 AM]:add device 3fa29ba
+[11:59:37 AM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[11:59:37 AM]:ls ubs :
+[11:59:37 AM]:GetScriptDevices
+[11:59:37 AM]:FlashingDevice.flashDeviceList.Remove 3fa29ba
+[11:59:37 AM]:add device 3fa29ba
+[11:59:37 AM]:Thread start,thread id 9,thread name 3fa29ba
+[11:59:37 AM]:start process id 13808 name cmd
+[12:03:51 PM]:Thread stopped, thread id 9, thread name 3fa29ba
+[12:28:52 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[12:28:53 PM]:ls ubs :
+[12:28:53 PM]:GetScriptDevices
+[12:28:54 PM]:FlashingDevice.flashDeviceList.Remove 3fa29ba
+[12:28:54 PM]:add device 3fa29ba
+[12:28:55 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[12:28:55 PM]:ls ubs :
+[12:28:55 PM]:GetScriptDevices
+[12:28:56 PM]:FlashingDevice.flashDeviceList.Remove 3fa29ba
+[12:28:56 PM]:add device 3fa29ba
+[12:28:56 PM]:Thread start,thread id 15,thread name 3fa29ba
+[12:28:56 PM]:start process id 12540 name cmd
+[12:49:29 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[12:49:31 PM]:ls ubs :
+[12:49:32 PM]:GetScriptDevices
+[12:49:33 PM]:add device 3fa29ba
+[1:30:43 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:30:43 PM]:ls ubs :
+[1:30:44 PM]:GetScriptDevices
+[1:30:45 PM]:????????????device is err Because it contains '?'
+[1:37:02 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:37:02 PM]:ls ubs :
+[1:37:02 PM]:GetScriptDevices
+[1:37:03 PM]:add device 3fa29ba
+[1:37:05 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:37:05 PM]:ls ubs :
+[1:37:05 PM]:GetScriptDevices
+[1:37:06 PM]:FlashingDevice.flashDeviceList.Remove 3fa29ba
+[1:37:06 PM]:add device 3fa29ba
+[1:37:06 PM]:Thread start,thread id 13,thread name 3fa29ba
+[1:37:06 PM]:start process id 22940 name cmd
+[1:46:34 PM]:Thread stopped, thread id 13, thread name 3fa29ba
+[3:26:20 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:26:21 PM]:ls ubs :
+[3:26:23 PM]:GetScriptDevices
+[3:26:23 PM]:add device 3fa29ba
+[3:26:25 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:26:25 PM]:ls ubs :
+[3:26:25 PM]:GetScriptDevices
+[3:26:25 PM]:Object reference not set to an instance of an object.    at XiaoMiFlash.code.Utility.UsbDevice.GetAndroidDevices(TreeViewUsbItem item, List`1& outItems)
+[3:26:25 PM]:FlashingDevice.flashDeviceList.Remove 3fa29ba
+[3:26:25 PM]:add device 3fa29ba
+[3:26:25 PM]:Thread start,thread id 13,thread name 3fa29ba
+[3:26:25 PM]:start process id 5748 name cmd
+[3:32:29 PM]:Thread stopped, thread id 13, thread name 3fa29ba
+[3:33:14 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:33:15 PM]:ls ubs :
+[3:33:15 PM]:GetScriptDevices
+[3:33:16 PM]:FlashingDevice.flashDeviceList.Remove 3fa29ba
+[3:33:16 PM]:add device 3fa29ba
+[3:33:37 PM]:lsusb path:"E:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[3:33:37 PM]:ls ubs :
+[3:33:37 PM]:GetScriptDevices
+[3:33:37 PM]:FlashingDevice.flashDeviceList.Remove 3fa29ba
+[3:33:37 PM]:add device 3fa29ba
+[3:33:37 PM]:Thread start,thread id 20,thread name 3fa29ba
+[3:33:37 PM]:start process id 21016 name cmd

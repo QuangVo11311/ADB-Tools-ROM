@@ -1,0 +1,36 @@
+[1:31:46 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:31:46 PM]:create RegistryKey Software\XiaoMi\MiFlash\
+[1:31:47 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Google\Driver\android_winusb.inf to C:\Windows\INF\oem24.inf,result True,GetLastWin32Error 
+[1:31:47 PM]:set RegistryKey value:android_winusb.inf--oem24.inf
+[1:31:47 PM]:mkdir "C:\Users\TienNguyen\.android"
+[1:31:47 PM]:output:A subdirectory or file C:\Users\TienNguyen\.android already exists.
+
+[1:31:47 PM]: echo 0x2717 >>"C:\Users\TienNguyen\.android\adb_usb.ini"
+[1:31:47 PM]:output:
+[1:31:47 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:31:47 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Nvidia\Driver\NvidiaUsb.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[1:31:47 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:31:47 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\tetherxp.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[1:31:47 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:31:48 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Microsoft\Driver\wpdmtphw.inf to ,result False,GetLastWin32Error Unknown error (0xe000022f)
+[1:31:48 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[1:31:49 PM]:install driver D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\Driver\qcser.inf to C:\Windows\INF\oem37.inf,result True,GetLastWin32Error 
+[1:31:49 PM]:set RegistryKey value:qcser.inf--oem37.inf
+[1:31:53 PM]:lsusb path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:31:53 PM]:ls ubs :
+[1:31:53 PM]:GetScriptDevices
+[1:32:07 PM]:lsusb path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[1:32:07 PM]:ls ubs :USB Serial Device (COM3)
+
+[1:32:07 PM]:GetScriptDevices
+[5:07:20 PM]:lsusb path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[5:07:20 PM]:ls ubs :
+[5:07:20 PM]:GetScriptDevices
+[5:07:20 PM]:add device 42a52553
+[5:07:22 PM]:lsusb path:"D:\xiaomi\MiFlash20180528\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[5:07:22 PM]:ls ubs :
+[5:07:22 PM]:GetScriptDevices
+[5:07:22 PM]:FlashingDevice.flashDeviceList.Remove 42a52553
+[5:07:22 PM]:add device 42a52553
+[5:07:22 PM]:Thread start,thread id 13,thread name 42a52553
+[5:07:22 PM]:start process id 3132 name cmd
