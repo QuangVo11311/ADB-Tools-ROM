@@ -15,3 +15,7 @@
 [2024-02-15 00:04:31:754:754136]:dl not exit ffufilelist
 [2024-02-15 00:04:31:757:757134]:Thread start,thread id 10,thread name ef7bc4cf
 [2024-02-15 00:04:31:777:777134]:start process id 17108 name cmd
+[2024-02-15 14:49:43:489:489615]:lsusb path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2024-02-15 14:49:52:722:722203]:lsusb path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2024-02-15 14:49:53:051:051877]:lsusb path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[02:52:42 PM]:open RegistryKey Software\XiaoMi\MiFlash\
