@@ -46,3 +46,14 @@
 <br> Bước 3: Ở màn hình chính chọn <b>Install</b> => Chọn ROM vừa sao chép
 <br> Bước 4: Sau khi ROM chạy xong => Chọn <b>Wipe Cache/Dalvik</b> => Chờ quá trình này chạy xong
 <br> Bước 5: Chọn <b>Reboot System</b>
+
+### 4.3. Flash ROM dùng Hybrid để cài ROM EU hoặc cập nhật ROM EU(Áp dụng cho thiết bị sản xuất từ cuối năm 2022 trở đi)
+<br> Bước 1: Đưa thiết bị vào chế độ fastboot (Giữ phím giảm âm lượng + phím nguồn cho tới khi nào xuất hiện logo <b>fastboot</b>)
+<br> Bước 2: Kết nối thiết bị với máy tính
+<br> Bước 3: Giải nén ROM EU
+<br> Bước 4:
+
+* Trường hợp Flash lần đầu: Chọn <b>windows_fastboot_first_install_with_data_format</b>
+* Trường hợp Flash để cập nhật ROM: Chọn <b>windows_fastboot_update_rom</b>
+
+<br> Chờ Flash xong phần mềm tự tắt và máy tự động Reboot System
