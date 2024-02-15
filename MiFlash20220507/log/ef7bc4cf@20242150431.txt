@@ -1,0 +1,221 @@
+[2024-02-15 00:04:31:756:756140  ef7bc4cf]:MiFlash 2022.5.7.0
+[2024-02-15 00:04:31:756:756140  ef7bc4cf]:vboytest index:1
+[2024-02-15 00:04:31:761:761133  ef7bc4cf]:Thread id:9 Thread name:
+[2024-02-15 00:04:31:762:762135  ef7bc4cf]:image path:C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global
+[2024-02-15 00:04:31:762:762135  ef7bc4cf]:env android path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Google\Android"
+[2024-02-15 00:04:31:762:762135  ef7bc4cf]:script :C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\flash_all.bat
+[2024-02-15 00:04:31:777:777134  ef7bc4cf]:Physical Memory Usage:3604480 Byte
+[2024-02-15 00:04:31:777:777134  ef7bc4cf]:start process id 17108 name cmd
+[2024-02-15 00:04:31:810:810518  ef7bc4cf]:info1:$fastboot -s ef7bc4cf getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || echo Missmatching image and device 
+[2024-02-15 00:04:31:850:850680  ef7bc4cf]:info1:product: ginkgo
+[2024-02-15 00:04:31:852:852679  ef7bc4cf]:info1:$fastboot -s ef7bc4cf getvar product   2>&1  | findstr /r /c:"^product: *ginkgo"   || exit /B 1 
+[2024-02-15 00:04:31:877:877051  ef7bc4cf]:info1:product: ginkgo
+[2024-02-15 00:04:31:878:878050  ef7bc4cf]:info1:$set CURRENT_ANTI_VER=1 
+[2024-02-15 00:04:31:879:879050  ef7bc4cf]:info1:$for /F "tokens=2 delims=: " %i in ('fastboot -s ef7bc4cf getvar anti 2>&1 | findstr /r /c:"anti:"') do (set version=%i ) 
+[2024-02-15 00:04:31:923:923320  ef7bc4cf]:info1:$(set version=1 ) 
+[2024-02-15 00:04:31:924:924318  ef7bc4cf]:info1:$if [1] EQU [] set version=0 
+[2024-02-15 00:04:31:924:924318  ef7bc4cf]:info1:$if 1 GTR 1 (
+[2024-02-15 00:04:31:924:924318  ef7bc4cf]:info1:echo current device antirollback version is greater than this package  
+[2024-02-15 00:04:31:924:924318  ef7bc4cf]:info1: exit /B 1 
+[2024-02-15 00:04:31:925:925323  ef7bc4cf]:info1:) 
+[2024-02-15 00:04:31:925:925323  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash xbl C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\xbl.elf   || 
+[2024-02-15 00:04:32:039:039997  ef7bc4cf]:info2:Sending 'xbl' (3449 KB)                            OKAY [  0.089s]
+[2024-02-15 00:04:32:080:080997  ef7bc4cf]:info2:Writing 'xbl'                                      OKAY [  0.042s]
+[2024-02-15 00:04:32:080:080997  ef7bc4cf]:info2:Finished. Total time: 0.136s
+[2024-02-15 00:04:32:084:084998  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash xblbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\xbl.elf   || 
+[2024-02-15 00:04:32:199:199462  ef7bc4cf]:info2:Sending 'xblbak' (3449 KB)                         OKAY [  0.089s]
+[2024-02-15 00:04:32:227:227464  ef7bc4cf]:info2:Writing 'xblbak'                                   OKAY [  0.028s]
+[2024-02-15 00:04:32:227:227464  ef7bc4cf]:info2:Finished. Total time: 0.122s
+[2024-02-15 00:04:32:230:230466  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash xbl_config C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\xbl_config.elf   || 
+[2024-02-15 00:04:32:259:259462  ef7bc4cf]:info2:Sending 'xbl_config' (48 KB)                       OKAY [  0.004s]
+[2024-02-15 00:04:32:261:261465  ef7bc4cf]:info2:Writing 'xbl_config'                               OKAY [  0.002s]
+[2024-02-15 00:04:32:261:261465  ef7bc4cf]:info2:Finished. Total time: 0.012s
+[2024-02-15 00:04:32:264:264464  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash xbl_configbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\xbl_config.elf   || 
+[2024-02-15 00:04:32:299:299463  ef7bc4cf]:info2:Sending 'xbl_configbak' (48 KB)                    OKAY [  0.008s]
+[2024-02-15 00:04:32:302:302464  ef7bc4cf]:info2:Writing 'xbl_configbak'                            OKAY [  0.003s]
+[2024-02-15 00:04:32:302:302464  ef7bc4cf]:info2:Finished. Total time: 0.017s
+[2024-02-15 00:04:32:305:305464  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash imagefv C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\imagefv.elf   || 
+[2024-02-15 00:04:32:349:349462  ef7bc4cf]:info2:Sending 'imagefv' (20 KB)                          OKAY [  0.005s]
+[2024-02-15 00:04:32:350:350463  ef7bc4cf]:info2:Writing 'imagefv'                                  OKAY [  0.001s]
+[2024-02-15 00:04:32:351:351464  ef7bc4cf]:info2:Finished. Total time: 0.023s
+[2024-02-15 00:04:32:353:353464  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash imagefvbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\imagefv.elf   || 
+[2024-02-15 00:04:32:389:389462  ef7bc4cf]:info2:Sending 'imagefvbak' (20 KB)                       OKAY [  0.011s]
+[2024-02-15 00:04:32:390:390912  ef7bc4cf]:info2:Writing 'imagefvbak'                               OKAY [  0.001s]
+[2024-02-15 00:04:32:390:390912  ef7bc4cf]:info2:Finished. Total time: 0.018s
+[2024-02-15 00:04:32:393:393946  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash uefisecapp C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\uefi_sec.mbn   || 
+[2024-02-15 00:04:32:428:428942  ef7bc4cf]:info2:Sending 'uefisecapp' (125 KB)                      OKAY [  0.005s]
+[2024-02-15 00:04:32:432:432941  ef7bc4cf]:info2:Writing 'uefisecapp'                               OKAY [  0.003s]
+[2024-02-15 00:04:32:432:432941  ef7bc4cf]:info2:Finished. Total time: 0.017s
+[2024-02-15 00:04:32:435:435942  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash uefisecappbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\uefi_sec.mbn   || 
+[2024-02-15 00:04:32:468:468940  ef7bc4cf]:info2:Sending 'uefisecappbak' (125 KB)                   OKAY [  0.006s]
+[2024-02-15 00:04:32:472:472943  ef7bc4cf]:info2:Writing 'uefisecappbak'                            OKAY [  0.004s]
+[2024-02-15 00:04:32:472:472943  ef7bc4cf]:info2:Finished. Total time: 0.016s
+[2024-02-15 00:04:32:476:476941  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash qupfw C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\qupv3fw.elf   || 
+[2024-02-15 00:04:32:508:508941  ef7bc4cf]:info2:Sending 'qupfw' (48 KB)                            OKAY [  0.008s]
+[2024-02-15 00:04:32:511:511945  ef7bc4cf]:info2:Writing 'qupfw'                                    OKAY [  0.002s]
+[2024-02-15 00:04:32:511:511945  ef7bc4cf]:info2:Finished. Total time: 0.016s
+[2024-02-15 00:04:32:514:514943  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash qupfwbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\qupv3fw.elf   || 
+[2024-02-15 00:04:32:548:548941  ef7bc4cf]:info2:Sending 'qupfwbak' (48 KB)                         OKAY [  0.011s]
+[2024-02-15 00:04:32:551:551940  ef7bc4cf]:info2:Writing 'qupfwbak'                                 OKAY [  0.003s]
+[2024-02-15 00:04:32:552:552940  ef7bc4cf]:info2:Finished. Total time: 0.020s
+[2024-02-15 00:04:32:555:555940  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash metadata C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\metadata.img   || 
+[2024-02-15 00:04:32:589:589448  ef7bc4cf]:info2:Sending 'metadata' (44 KB)                         OKAY [  0.009s]
+[2024-02-15 00:04:32:592:592450  ef7bc4cf]:info2:Writing 'metadata'                                 OKAY [  0.003s]
+[2024-02-15 00:04:32:592:592450  ef7bc4cf]:info2:Finished. Total time: 0.018s
+[2024-02-15 00:04:32:595:595450  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash tz C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\tz.mbn   || 
+[2024-02-15 00:04:32:679:679611  ef7bc4cf]:info2:Sending 'tz' (1960 KB)                             OKAY [  0.058s]
+[2024-02-15 00:04:32:704:704611  ef7bc4cf]:info2:Writing 'tz'                                       OKAY [  0.025s]
+[2024-02-15 00:04:32:705:705612  ef7bc4cf]:info2:Finished. Total time: 0.088s
+[2024-02-15 00:04:32:708:708613  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash tzbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\tz.mbn   || 
+[2024-02-15 00:04:32:789:789612  ef7bc4cf]:info2:Sending 'tzbak' (1960 KB)                          OKAY [  0.057s]
+[2024-02-15 00:04:32:805:805612  ef7bc4cf]:info2:Writing 'tzbak'                                    OKAY [  0.016s]
+[2024-02-15 00:04:32:806:806611  ef7bc4cf]:info2:Finished. Total time: 0.078s
+[2024-02-15 00:04:32:809:809611  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash rpm C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\rpm.mbn   || 
+[2024-02-15 00:04:32:849:849360  ef7bc4cf]:info2:Sending 'rpm' (219 KB)                             OKAY [  0.013s]
+[2024-02-15 00:04:32:853:853359  ef7bc4cf]:info2:Writing 'rpm'                                      OKAY [  0.004s]
+[2024-02-15 00:04:32:853:853359  ef7bc4cf]:info2:Finished. Total time: 0.022s
+[2024-02-15 00:04:32:856:856778  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash rpmbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\rpm.mbn   || 
+[2024-02-15 00:04:32:899:899653  ef7bc4cf]:info2:Sending 'rpmbak' (219 KB)                          OKAY [  0.017s]
+[2024-02-15 00:04:32:903:903651  ef7bc4cf]:info2:Writing 'rpmbak'                                   OKAY [  0.003s]
+[2024-02-15 00:04:32:903:903651  ef7bc4cf]:info2:Finished. Total time: 0.026s
+[2024-02-15 00:04:32:906:906868  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash hyp C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\hyp.mbn   || 
+[2024-02-15 00:04:32:959:959668  ef7bc4cf]:info2:Sending 'hyp' (361 KB)                             OKAY [  0.015s]
+[2024-02-15 00:04:32:964:964665  ef7bc4cf]:info2:Writing 'hyp'                                      OKAY [  0.005s]
+[2024-02-15 00:04:32:964:964665  ef7bc4cf]:info2:Finished. Total time: 0.037s
+[2024-02-15 00:04:32:967:967670  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash hypbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\hyp.mbn   || 
+[2024-02-15 00:04:33:009:009666  ef7bc4cf]:info2:Sending 'hypbak' (361 KB)                          OKAY [  0.018s]
+[2024-02-15 00:04:33:014:014668  ef7bc4cf]:info2:Writing 'hypbak'                                   OKAY [  0.005s]
+[2024-02-15 00:04:33:015:015668  ef7bc4cf]:info2:Finished. Total time: 0.028s
+[2024-02-15 00:04:33:017:017668  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash keymaster C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\km4.mbn   || 
+[2024-02-15 00:04:33:059:059666  ef7bc4cf]:info2:Sending 'keymaster' (232 KB)                       OKAY [  0.017s]
+[2024-02-15 00:04:33:063:063666  ef7bc4cf]:info2:Writing 'keymaster'                                OKAY [  0.004s]
+[2024-02-15 00:04:33:063:063666  ef7bc4cf]:info2:Finished. Total time: 0.027s
+[2024-02-15 00:04:33:066:066667  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash keymasterbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\km4.mbn   || 
+[2024-02-15 00:04:33:099:099665  ef7bc4cf]:info2:Sending 'keymasterbak' (232 KB)                    OKAY [  0.008s]
+[2024-02-15 00:04:33:103:103669  ef7bc4cf]:info2:Writing 'keymasterbak'                             OKAY [  0.004s]
+[2024-02-15 00:04:33:103:103669  ef7bc4cf]:info2:Finished. Total time: 0.018s
+[2024-02-15 00:04:33:106:106668  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash cmnlib C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\cmnlib.mbn   || 
+[2024-02-15 00:04:33:149:149667  ef7bc4cf]:info2:Sending 'cmnlib' (385 KB)                          OKAY [  0.017s]
+[2024-02-15 00:04:33:155:155665  ef7bc4cf]:info2:Writing 'cmnlib'                                   OKAY [  0.005s]
+[2024-02-15 00:04:33:156:156666  ef7bc4cf]:info2:Finished. Total time: 0.028s
+[2024-02-15 00:04:33:157:157665  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash cmnlibbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\cmnlib.mbn   || 
+[2024-02-15 00:04:33:199:199685  ef7bc4cf]:info2:Sending 'cmnlibbak' (385 KB)                       OKAY [  0.016s]
+[2024-02-15 00:04:33:204:204685  ef7bc4cf]:info2:Writing 'cmnlibbak'                                OKAY [  0.005s]
+[2024-02-15 00:04:33:204:204685  ef7bc4cf]:info2:Finished. Total time: 0.027s
+[2024-02-15 00:04:33:207:207686  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash cmnlib64 C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\cmnlib64.mbn   || 
+[2024-02-15 00:04:33:259:259684  ef7bc4cf]:info2:Sending 'cmnlib64' (503 KB)                        OKAY [  0.017s]
+[2024-02-15 00:04:33:265:265687  ef7bc4cf]:info2:Writing 'cmnlib64'                                 OKAY [  0.006s]
+[2024-02-15 00:04:33:265:265687  ef7bc4cf]:info2:Finished. Total time: 0.037s
+[2024-02-15 00:04:33:268:268686  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash cmnlib64bak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\cmnlib64.mbn   || 
+[2024-02-15 00:04:33:309:309272  ef7bc4cf]:info2:Sending 'cmnlib64bak' (503 KB)                     OKAY [  0.016s]
+[2024-02-15 00:04:33:316:316274  ef7bc4cf]:info2:Writing 'cmnlib64bak'                              OKAY [  0.006s]
+[2024-02-15 00:04:33:316:316274  ef7bc4cf]:info2:Finished. Total time: 0.028s
+[2024-02-15 00:04:33:319:319275  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash modem C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\NON-HLOS.bin   || 
+[2024-02-15 00:04:36:346:346283  ef7bc4cf]:info2:Sending 'modem' (119681 KB)                        OKAY [  3.004s]
+[2024-02-15 00:04:37:302:302158  ef7bc4cf]:info2:Writing 'modem'                                    OKAY [  0.956s]
+[2024-02-15 00:04:37:303:303160  ef7bc4cf]:info2:Finished. Total time: 3.966s
+[2024-02-15 00:04:37:305:305159  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash dsp C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\dspso.bin   || 
+[2024-02-15 00:04:38:140:140293  ef7bc4cf]:info2:Sending 'dsp' (32768 KB)                           OKAY [  0.811s]
+[2024-02-15 00:04:38:395:395789  ef7bc4cf]:info2:Writing 'dsp'                                      OKAY [  0.255s]
+[2024-02-15 00:04:38:395:395789  ef7bc4cf]:info2:Finished. Total time: 1.073s
+[2024-02-15 00:04:38:398:398796  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash dspbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\dspso.bin   || 
+[2024-02-15 00:04:39:251:251054  ef7bc4cf]:info2:Sending 'dspbak' (32768 KB)                        OKAY [  0.827s]
+[2024-02-15 00:04:39:512:512060  ef7bc4cf]:info2:Writing 'dspbak'                                   OKAY [  0.260s]
+[2024-02-15 00:04:39:512:512060  ef7bc4cf]:info2:Finished. Total time: 1.093s
+[2024-02-15 00:04:39:514:514063  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash bluetooth C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\BTFM.bin   || 
+[2024-02-15 00:04:39:571:571060  ef7bc4cf]:info2:Sending 'bluetooth' (876 KB)                       OKAY [  0.032s]
+[2024-02-15 00:04:39:579:579063  ef7bc4cf]:info2:Writing 'bluetooth'                                OKAY [  0.008s]
+[2024-02-15 00:04:39:579:579063  ef7bc4cf]:info2:Finished. Total time: 0.045s
+[2024-02-15 00:04:39:582:582067  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash bluetoothbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\BTFM.bin   || 
+[2024-02-15 00:04:39:630:630614  ef7bc4cf]:info2:Sending 'bluetoothbak' (876 KB)                    OKAY [  0.024s]
+[2024-02-15 00:04:39:639:639614  ef7bc4cf]:info2:Writing 'bluetoothbak'                             OKAY [  0.008s]
+[2024-02-15 00:04:39:639:639614  ef7bc4cf]:info2:Finished. Total time: 0.038s
+[2024-02-15 00:04:39:642:642616  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash storsec C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\storsec.mbn   || 
+[2024-02-15 00:04:39:681:681334  ef7bc4cf]:info2:Sending 'storsec' (19 KB)                          OKAY [  0.011s]
+[2024-02-15 00:04:39:683:683344  ef7bc4cf]:info2:Writing 'storsec'                                  OKAY [  0.002s]
+[2024-02-15 00:04:39:683:683344  ef7bc4cf]:info2:Finished. Total time: 0.019s
+[2024-02-15 00:04:39:686:686336  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash devcfg C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\devcfg.mbn   || 
+[2024-02-15 00:04:39:720:720847  ef7bc4cf]:info2:Sending 'devcfg' (41 KB)                           OKAY [  0.009s]
+[2024-02-15 00:04:39:722:722853  ef7bc4cf]:info2:Writing 'devcfg'                                   OKAY [  0.002s]
+[2024-02-15 00:04:39:723:723853  ef7bc4cf]:info2:Finished. Total time: 0.017s
+[2024-02-15 00:04:39:726:726852  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash devcfgbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\devcfg.mbn   || 
+[2024-02-15 00:04:39:760:760850  ef7bc4cf]:info2:Sending 'devcfgbak' (41 KB)                        OKAY [  0.008s]
+[2024-02-15 00:04:39:763:763357  ef7bc4cf]:info2:Writing 'devcfgbak'                                OKAY [  0.003s]
+[2024-02-15 00:04:39:764:764367  ef7bc4cf]:info2:Finished. Total time: 0.017s
+[2024-02-15 00:04:39:766:766368  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash abl C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\abl.elf   || 
+[2024-02-15 00:04:39:821:821125  ef7bc4cf]:info2:Sending 'abl' (216 KB)                             OKAY [  0.017s]
+[2024-02-15 00:04:39:824:824238  ef7bc4cf]:info2:Writing 'abl'                                      OKAY [  0.003s]
+[2024-02-15 00:04:39:824:824238  ef7bc4cf]:info2:Finished. Total time: 0.038s
+[2024-02-15 00:04:39:827:827387  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash ablbak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\abl.elf   || 
+[2024-02-15 00:04:39:861:861400  ef7bc4cf]:info2:Sending 'ablbak' (216 KB)                          OKAY [  0.007s]
+[2024-02-15 00:04:39:864:864404  ef7bc4cf]:info2:Writing 'ablbak'                                   OKAY [  0.002s]
+[2024-02-15 00:04:39:864:864404  ef7bc4cf]:info2:Finished. Total time: 0.015s
+[2024-02-15 00:04:39:867:867401  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash dtbo C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\dtbo.img   || 
+[2024-02-15 00:04:40:100:100908  ef7bc4cf]:info2:Sending 'dtbo' (8192 KB)                           OKAY [  0.211s]
+[2024-02-15 00:04:40:172:172909  ef7bc4cf]:info2:Writing 'dtbo'                                     OKAY [  0.072s]
+[2024-02-15 00:04:40:172:172909  ef7bc4cf]:info2:Finished. Total time: 0.288s
+[2024-02-15 00:04:40:176:176121  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash vbmeta C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\vbmeta.img   || 
+[2024-02-15 00:04:40:211:211518  ef7bc4cf]:info2:Sending 'vbmeta' (4 KB)                            OKAY [  0.011s]
+[2024-02-15 00:04:40:212:212527  ef7bc4cf]:info2:Writing 'vbmeta'                                   OKAY [  0.001s]
+[2024-02-15 00:04:40:212:212527  ef7bc4cf]:info2:Finished. Total time: 0.018s
+[2024-02-15 00:04:40:215:215524  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash vbmetabak C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\vbmeta.img   || 
+[2024-02-15 00:04:40:251:251519  ef7bc4cf]:info2:Sending 'vbmetabak' (4 KB)                         OKAY [  0.009s]
+[2024-02-15 00:04:40:252:252520  ef7bc4cf]:info2:Writing 'vbmetabak'                                OKAY [  0.000s]
+[2024-02-15 00:04:40:252:252520  ef7bc4cf]:info2:Finished. Total time: 0.017s
+[2024-02-15 00:04:40:255:255524  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash boot C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\boot.img   || 
+[2024-02-15 00:04:41:912:912625  ef7bc4cf]:info2:Sending 'boot' (65536 KB)                          OKAY [  1.631s]
+[2024-02-15 00:04:42:434:434442  ef7bc4cf]:info2:Writing 'boot'                                     OKAY [  0.522s]
+[2024-02-15 00:04:42:434:434442  ef7bc4cf]:info2:Finished. Total time: 2.159s
+[2024-02-15 00:04:42:436:436513  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash recovery C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\recovery.img   || 
+[2024-02-15 00:04:44:112:112585  ef7bc4cf]:info2:Sending 'recovery' (65536 KB)                      OKAY [  1.645s]
+[2024-02-15 00:04:44:636:636687  ef7bc4cf]:info2:Writing 'recovery'                                 OKAY [  0.524s]
+[2024-02-15 00:04:44:636:636687  ef7bc4cf]:info2:Finished. Total time: 2.179s
+[2024-02-15 00:04:44:638:638691  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash system C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\system.img   || 
+[2024-02-15 00:05:09:507:507952  ef7bc4cf]:info2:Sending sparse 'system' 1/6 (775972 KB)            OKAY [ 20.599s]
+[2024-02-15 00:05:09:508:508952  ef7bc4cf]:info2:Writing 'system'                                   OKAY [  0.001s]
+[2024-02-15 00:05:30:393:393147  ef7bc4cf]:info2:Sending sparse 'system' 2/6 (774312 KB)            OKAY [ 20.884s]
+[2024-02-15 00:05:30:394:394149  ef7bc4cf]:info2:Writing 'system'                                   OKAY [  0.000s]
+[2024-02-15 00:05:51:237:237592  ef7bc4cf]:info2:Sending sparse 'system' 3/6 (774312 KB)            OKAY [ 20.843s]
+[2024-02-15 00:05:51:237:237592  ef7bc4cf]:info2:Writing 'system'                                   OKAY [  0.000s]
+[2024-02-15 00:06:12:062:062649  ef7bc4cf]:info2:Sending sparse 'system' 4/6 (774312 KB)            OKAY [ 20.824s]
+[2024-02-15 00:06:12:062:062649  ef7bc4cf]:info2:Writing 'system'                                   OKAY [  0.001s]
+[2024-02-15 00:06:32:646:646539  ef7bc4cf]:info2:Sending sparse 'system' 5/6 (774312 KB)            OKAY [ 20.584s]
+[2024-02-15 00:06:32:647:647544  ef7bc4cf]:info2:Writing 'system'                                   OKAY [  0.001s]
+[2024-02-15 00:06:39:018:018375  ef7bc4cf]:info2:Sending sparse 'system' 6/6 (133264 KB)            OKAY [  6.370s]
+[2024-02-15 00:06:39:018:018375  ef7bc4cf]:info2:Writing 'system'                                   OKAY [  0.000s]
+[2024-02-15 00:06:39:019:019378  ef7bc4cf]:info2:Finished. Total time: 114.362s
+[2024-02-15 00:06:39:022:022750  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash vendor C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\vendor.img   || 
+[2024-02-15 00:07:01:623:623302  ef7bc4cf]:info2:Sending sparse 'vendor' 1/2 (775292 KB)            OKAY [ 20.231s]
+[2024-02-15 00:07:01:624:624306  ef7bc4cf]:info2:Writing 'vendor'                                   OKAY [  0.001s]
+[2024-02-15 00:07:08:185:185105  ef7bc4cf]:info2:Sending sparse 'vendor' 2/2 (234904 KB)            OKAY [  6.559s]
+[2024-02-15 00:07:08:185:185105  ef7bc4cf]:info2:Writing 'vendor'                                   OKAY [  0.002s]
+[2024-02-15 00:07:08:185:185105  ef7bc4cf]:info2:Finished. Total time: 29.053s
+[2024-02-15 00:07:08:188:188297  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash userdata C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\userdata.img   || 
+[2024-02-15 00:07:30:940:940019  ef7bc4cf]:info2:Sending sparse 'userdata' 1/2 (740196 KB)          OKAY [ 18.853s]
+[2024-02-15 00:07:30:941:941030  ef7bc4cf]:info2:Writing 'userdata'                                 OKAY [  0.001s]
+[2024-02-15 00:07:48:533:533579  ef7bc4cf]:info2:Sending sparse 'userdata' 2/2 (641576 KB)          OKAY [ 17.593s]
+[2024-02-15 00:07:48:534:534577  ef7bc4cf]:info2:Writing 'userdata'                                 OKAY [  0.001s]
+[2024-02-15 00:07:48:536:536575  ef7bc4cf]:info2:Finished. Total time: 40.237s
+[2024-02-15 00:07:48:537:537576  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash cache C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\cache.img   || 
+[2024-02-15 00:07:53:644:644263  ef7bc4cf]:info2:Sending 'cache' (56 KB)                            OKAY [  0.004s]
+[2024-02-15 00:07:53:648:648270  ef7bc4cf]:info2:Writing 'cache'                                    OKAY [  0.004s]
+[2024-02-15 00:07:53:649:649270  ef7bc4cf]:info2:Finished. Total time: 5.004s
+[2024-02-15 00:07:53:651:651270  ef7bc4cf]:info1:$fastboot -s ef7bc4cf erase ddr 
+[2024-02-15 00:07:53:681:681265  ef7bc4cf]:info2:Erasing 'ddr'                                      OKAY [  0.006s]
+[2024-02-15 00:07:53:682:682264  ef7bc4cf]:info2:Finished. Total time: 0.011s
+[2024-02-15 00:07:53:684:684267  ef7bc4cf]:info1:$fastboot -s ef7bc4cf erase misc 
+[2024-02-15 00:07:53:711:711146  ef7bc4cf]:info2:Erasing 'misc'                                     OKAY [  0.004s]
+[2024-02-15 00:07:53:711:711146  ef7bc4cf]:info2:Finished. Total time: 0.007s
+[2024-02-15 00:07:53:714:714147  ef7bc4cf]:info1:$fastboot -s ef7bc4cf erase apdp 
+[2024-02-15 00:07:53:747:747836  ef7bc4cf]:info2:Erasing 'apdp'                                     OKAY [  0.004s]
+[2024-02-15 00:07:53:747:747836  ef7bc4cf]:info2:Finished. Total time: 0.012s
+[2024-02-15 00:07:53:750:750837  ef7bc4cf]:info1:$fastboot -s ef7bc4cf flash cust C:\Users\mavis\Downloads\ginkgo_global_images_V12.5.2.0.RCOMIXM\ginkgo_global_images_V12.5.2.0.RCOMIXM_20220216.0000.00_11.0_global\images\cust.img 
+[2024-02-15 00:08:14:680:680043  ef7bc4cf]:info2:Sending sparse 'cust' 1/2 (742004 KB)              OKAY [ 19.801s]
+[2024-02-15 00:08:14:680:680043  ef7bc4cf]:info2:Writing 'cust'                                     OKAY [  0.000s]
+[2024-02-15 00:08:20:740:740499  ef7bc4cf]:info2:Sending sparse 'cust' 2/2 (60876 KB)               OKAY [  6.060s]
+[2024-02-15 00:08:20:741:741497  ef7bc4cf]:info2:Writing 'cust'                                     OKAY [  0.001s]
+[2024-02-15 00:08:20:741:741497  ef7bc4cf]:info2:Finished. Total time: 26.971s
+[2024-02-15 00:08:20:744:744586  ef7bc4cf]:info1:$fastboot -s ef7bc4cf reboot 
+[2024-02-15 00:08:21:271:271282  ef7bc4cf]:info2:Rebooting                                          OKAY [  0.416s]
+[2024-02-15 00:08:21:271:271282  ef7bc4cf]:info2:Finished. Total time: 0.416s
+[2024-02-15 00:08:21:274:274282  ef7bc4cf]:info1:$pause

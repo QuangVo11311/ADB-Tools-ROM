@@ -1,0 +1,17 @@
+[2024-02-15 00:01:19:806:806267]:lsusb path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2024-02-15 00:01:20:473:473234]:add device ef7bc4cf index 1
+[2024-02-15 00:01:52:872:872565]:lsusb path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2024-02-15 00:01:53:164:164908]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[2024-02-15 00:01:53:169:169909]:add device ef7bc4cf index 1
+[2024-02-15 00:02:02:702:702556]:lsusb path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2024-02-15 00:02:03:005:005678]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[2024-02-15 00:02:03:007:007687]:add device ef7bc4cf index 1
+[12:03:12 AM]:open RegistryKey Software\XiaoMi\MiFlash\
+[2024-02-15 00:04:12:629:629317]:lsusb path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2024-02-15 00:04:12:974:974946]:add device ef7bc4cf index 1
+[2024-02-15 00:04:31:425:425945]:lsusb path:"C:\Users\mavis\Downloads\ADB-Tools-ROM\MiFlash20220507\Source\ThirdParty\Qualcomm\fh_loader\lsusb.exe"
+[2024-02-15 00:04:31:735:735729]:FlashingDevice.flashDeviceList.Remove ef7bc4cf
+[2024-02-15 00:04:31:742:742775]:add device ef7bc4cf index 1
+[2024-02-15 00:04:31:754:754136]:dl not exit ffufilelist
+[2024-02-15 00:04:31:757:757134]:Thread start,thread id 10,thread name ef7bc4cf
+[2024-02-15 00:04:31:777:777134]:start process id 17108 name cmd
