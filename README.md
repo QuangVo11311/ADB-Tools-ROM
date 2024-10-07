@@ -6,8 +6,8 @@
 - **Minimal ADB and Fastboot** (Đã có sẵn)
 - **MiSetup3.2.1.3111_2717** (Đã có sẵn)
 - **MiFlash20220507** (Đã có sẵn)
-- **Xiaomi Community** [Tải về tại đây](https://drive.google.com/file/d/1Db7ujnbLjGoGMpBtK-1C97aLgjdTt5Zr/view?usp=sharing)
-- **Miflash Unlock** [Tải về tại đây](https://drive.google.com/file/d/1iau6Wcr16BPFj5EJ-JyfI1UzEu0wmawl/view?usp=sharing)
+- **Xiaomi Community** [Tải về tại đây](https://mega.nz/file/Uy1lnLLR#-goNhAYeUs_IIF8btMt56ZV17IFAbXXqft1An2zKsBY)
+- **miflash_unlock_en_7.6.727.43** [Tải về tại đây](https://mega.nz/file/xjFwnT5J#Vnebo3lRrgD4BDzfeTNT9jv1Uwy9rkJBYutQuCC5VGo)
 - **File TWRP** (.img) [Tải về tại đây](https://twrp.me/Devices/)
 - **File ROM** 
   - [Xiaomi EU ROM](https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/)
