@@ -34,7 +34,7 @@
 <br> Bước 2: Cài đặt Xiaomi Community, chọn vùng Global (Link tải app ở trên)
 <br> Bước 3: Đăng nhập vào ứng dụng Xiaomi Community
 <br> Bước 4: Chọn vào mục ME -> Unlock Bootloader -> Ấn vào Yêu cầu mở khóa
- Khi app báo "Bạn đã được cấp quyền mở khóa ....." là xong
+#### Khi app báo "Bạn đã được cấp quyền mở khóa ....." là xong
 <br> Bước 5: Vào cài đặt máy đăng xuất tài khoản Xiaomi
 <br> Bước 6: Vào Cài đặt -> Tuỳ chọn nhà phát triển bật OEM Unlock
 <br> Bước 7: vào Mi unlock status -> Add xiaomi account -> ok -> nhấn Add xiaomi account lần nữa  
