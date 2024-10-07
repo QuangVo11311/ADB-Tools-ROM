@@ -31,6 +31,7 @@
 
 ## 3. Unlock Bootloader:
 ### 3.1. Đối với thiết bị xuất xưởng chạy HyperOS
+**Thực hiện lúc 23h00 hằng ngày**
 1. Chuẩn bị tài khoản Xiaomi.
 2. Cài và mở ứng dụng **Xiaomi Community**. Chọn vùng Global.
 3. Đăng nhập vào Xiaomi Community, vào **ME** → **Unlock Bootloader** → Yêu cầu mở khóa.
