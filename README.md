@@ -4,6 +4,8 @@
 * Minimal ADB and Fastboot (đã có sẵn)
 * MiSetup3.2.1.3111_2717 (đã có sẵn)
 * MiFlash20220507 (đã có sẵn)
+* Xiaomi Community
+<br> https://drive.google.com/file/d/1Db7ujnbLjGoGMpBtK-1C97aLgjdTt5Zr/view?usp=sharing
 * Miflash unlock
 <br> https://drive.google.com/file/d/1iau6Wcr16BPFj5EJ-JyfI1UzEu0wmawl/view?usp=sharing
 * File T.W.R.P có đuôi là <b>.img</b>
@@ -47,7 +49,7 @@
 <br> Bước 4: Sau khi ROM chạy xong => Chọn <b>Wipe Cache/Dalvik</b> => Chờ quá trình này chạy xong
 <br> Bước 5: Chọn <b>Reboot System</b>
 
-### 4.3. Flash ROM dùng Hybrid để cài ROM EU hoặc cập nhật ROM EU(Áp dụng cho thiết bị sản xuất từ cuối năm 2022 trở đi)
+### 4.3. Flash ROM dùng Hybrid để cài ROM EU hoặc cập nhật ROM EU (Áp dụng cho thiết bị sản xuất từ cuối năm 2022 trở đi)
 <br> Bước 1: Đưa thiết bị vào chế độ fastboot (Giữ phím giảm âm lượng + phím nguồn cho tới khi nào xuất hiện logo <b>fastboot</b>)
 <br> Bước 2: Kết nối thiết bị với máy tính
 <br> Bước 3: Giải nén ROM EU
