@@ -1,4 +1,4 @@
-# Dưới đây là hướng dẫn cài ROM cho Xiaomi/Redmi/Poco được sắp xếp gọn gàng và dễ theo dõi:
+# Hướng dẫn cài ROM cho Xiaomi/Redmi/Poco:
 
 ---
 
