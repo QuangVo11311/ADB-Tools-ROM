@@ -38,7 +38,7 @@
 <br> Bước 5: Vào cài đặt máy đăng xuất tài khoản Xiaomi
 <br> Bước 6: Vào Cài đặt -> Tuỳ chọn nhà phát triển bật OEM Unlock
 <br> Bước 7: vào Mi unlock status -> Add xiaomi account -> ok -> nhấn Add xiaomi account lần nữa  
-### Nếu ai không Add được account vì số điện thoại bị đầu +86 thì nhấn vào " Add tài khoản cách khác" gồm( email, số điện thoại, ID) > nhấn next vào add số điện thoại +84. Nếu cách này không được nữa thì các bạn tải Mi flash hoặc Mi PC suite về và sign in bằng tải khoản số điện thoại với đầu số +84 được ( Cách add +84 bằng Mi PC suite có vẻ ok nhất).
+#### Nếu ai không Add được account vì số điện thoại bị đầu +86 thì nhấn vào " Add tài khoản cách khác" gồm( email, số điện thoại, ID) > nhấn next vào add số điện thoại +84. Nếu cách này không được nữa thì các bạn tải Mi flash hoặc Mi PC suite về và sign in bằng tải khoản số điện thoại với đầu số +84 được ( Cách add +84 bằng Mi PC suite có vẻ ok nhất).
 <br> Bước 9: Vào Mi unlock tool PC kiểm tra thời gian unlock
 
 ## 4. Cài ROM
