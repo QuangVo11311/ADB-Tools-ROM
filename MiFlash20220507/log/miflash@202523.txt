@@ -1,0 +1,2 @@
+[12:37:18 PM]:open RegistryKey Software\XiaoMi\MiFlash\
+[12:37:18 PM]:create RegistryKey Software\XiaoMi\MiFlash\
