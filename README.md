@@ -1,4 +1,5 @@
 # Hướng dẫn cài ROM cho Xiaomi/Redmi/Poco:
+# Xiaomi đã chặn hết các cách unlock bootloader!!!
 
 ---
 
